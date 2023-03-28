@@ -6,7 +6,7 @@ namespace BYTF.Models
     public class Video
     {
         [Key]
-        public int Id { get; set; }
+        public int VideoId { get; set; }
 
         [Required]
         public string? Title { get; set; }
@@ -15,7 +15,5 @@ namespace BYTF.Models
 
         public string? UploadDate { get; set; }
         public string? DownloadDate { get; set; }
-
-        public Channel Channel { get; set; } = null!;
     }
 }

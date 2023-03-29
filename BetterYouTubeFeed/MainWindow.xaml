@@ -56,6 +56,23 @@
                              Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="RadioButton_Checked_1" Width="200"/>
             </StackPanel>
 
+            <TextBox Width="250"
+                     Height="40"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="5"
+                     Grid.Column="1"
+                     Style="{StaticResource ModernTextbox}"
+                     />
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10"/>
+
+
+
+
+
         </Grid>
 
 

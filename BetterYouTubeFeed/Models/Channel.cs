@@ -1,8 +1,8 @@
-﻿using Microsoft.Identity.Client;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace BYTF.Models;
+namespace BetterYouTubeFeed.Models;
 
 
 public class Channel
@@ -15,6 +15,8 @@ public class Channel
     public string? Link { get; set; }
 
     public string Description { get; set; } = null!;
-    
+
+    public ICollection<CommunityPost> ComunityPosts { get; set; } = null!;
+
     public ICollection<Video> Videos { get; set; } = null!;
 }

@@ -1,11 +1,15 @@
-﻿using BYTF.Models;
-
+﻿using BetterYouTubeFeed.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BYTF.Data;
+namespace BetterYouTubeFeed.Data;
 
 public class BYTFContext : DbContext
 {
+
+
+    public DbSet<CommunityPost> CommunityPost { get; set; } = null!;
+    public DbSet<Comment> Comments { get; set; } = null!;
+
     public DbSet<Video> Videos { get; set; } = null!;
     public DbSet<Channel> Channels { get; set; } = null!;
 

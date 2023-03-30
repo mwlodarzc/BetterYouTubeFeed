@@ -4,13 +4,15 @@ using System.Runtime.CompilerServices;
 
 namespace BetterYouTubeFeed.Core
 {
-    class ObservableObject : INotifyPropertyChanged
+    internal class ObservableObject : INotifyPropertyChanged // klasa używana do handlowania zmian interfejsu
+
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        protected void OnPropertyChanged([CallerMemberName] string callMemberName = null)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            //invoke if its not null
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(callMemberName));
         }
     }
 };

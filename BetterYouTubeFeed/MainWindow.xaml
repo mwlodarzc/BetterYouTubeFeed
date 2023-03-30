@@ -38,11 +38,11 @@
 
 
             <StackPanel Grid.Row="1">
-                <RadioButton Content="T1"
+                <RadioButton Content="Dodaj film"
                              Height="35"
-                             Foreground="White"
+                             Foreground="red"
                              FontSize="14"
-                             Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="RadioButton_Checked_1" Width="200"/>
+                             Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="AddVideoButton" Width="200"/>
                 <RadioButton Content="T2"
                              Height="35"
                              Foreground="White"

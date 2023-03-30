@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BetterYouTubeFeed.Data;
+using BetterYouTubeFeed.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +35,11 @@ namespace byt
         private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
         {
 
+        }
+        private void AddVideoButton(object sender, RoutedEventArgs e)
+        {
+            AddVideoPopup infowindow = new AddVideoPopup();
+            infowindow.Show();
         }
     }
 }

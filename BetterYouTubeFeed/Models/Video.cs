@@ -12,8 +12,17 @@ namespace BetterYouTubeFeed.Models
         public string? Title { get; set; }
         [Required]
         public string? Link { get; set; }
-
+        [Required]
         public string? UploadDate { get; set; }
+        [Required]
         public string? DownloadDate { get; set; }
+
+        public Video(int id, string? title, string? link, string? uploadDate, string? downloadDate)
+        {
+            Title = title;
+            Link = link;
+            UploadDate = uploadDate;
+            DownloadDate = downloadDate;
+        }
     }
 }

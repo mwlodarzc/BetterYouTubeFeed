@@ -14,6 +14,6 @@ public class BYTFContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
-        optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=TestDatabaseApp;Trusted_Connection=True;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"G:\\My Drive\\Semestr 6\\PlatformyProg.NetiJava\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf\";Integrated Security=True");
     }
 }

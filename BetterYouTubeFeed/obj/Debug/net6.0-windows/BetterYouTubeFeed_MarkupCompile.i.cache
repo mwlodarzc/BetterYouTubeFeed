@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\My\source\repos\BetterYouTubeFeed\BetterYouTubeFeed\obj\Debug\net6.0-windows\
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\
 BetterYouTubeFeed
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\My\source\repos\BetterYouTubeFeed\BetterYouTubeFeed\App.xaml
-41945229601
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\App.xaml
+6737414366
 
-16-1021898636
-2222000837445
-AddVideoPopup.xaml;MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
+24-1037544491
+229-1014948831
+AddVideoPopup.xaml;MainWindow.xaml;MVVM\View\ChannelListView.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-True
+False
 

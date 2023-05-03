@@ -1,6 +1,6 @@
 ﻿using BetterYouTubeFeed.Models;
 using Microsoft.EntityFrameworkCore;
-
+using System.Linq;
 namespace BetterYouTubeFeed.Data;
 
 public class BYTFContext : DbContext
@@ -14,6 +14,17 @@ public class BYTFContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
-        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"G:\\My Drive\\Semestr 6\\PlatformyProg.NetiJava\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf\";Integrated Security=True");
+        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Michał\\Desktop\\BetterYouTubeFeed\\BetterYouTubeFeed-main\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True");
+    }
+    public void UpdateChannels()
+    {
+        YouTubeDataAPI.Authenticate().Wait();
+        foreach (var id in YouTubeDataAPI.GetSubsctiptionsID())
+        {
+            var channelCheck = from entry in this.Channels where entry.ChannelId == id select entry;
+            if (channelCheck != null)
+                continue;
+            this.Channels.Add(YouTubeDataAPI.GetChannelInfo(id));
+        }
     }
 }

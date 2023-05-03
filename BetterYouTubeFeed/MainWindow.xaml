@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:byt"
+        xmlns:viewModel="clr-namespace:BetterYouTubeFeed.MVVM.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow"
         Height="600"
@@ -13,6 +14,10 @@
         Background="Transparent"
         AllowsTransparency="True"
         >
+
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
     <Border Background="#272537"
             CornerRadius="20">
         <Grid>
@@ -38,22 +43,9 @@
 
 
             <StackPanel Grid.Row="1">
-                <RadioButton Content="Dodaj film"
-                             Height="35"
-                             Foreground="red"
-                             FontSize="14"
-                             Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="AddVideoButton" Width="200"/>
-                <RadioButton Content="T2"
-                             Height="35"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="RadioButton_Checked_1" Width="200"/>
-
-                <RadioButton Content="T3"
-                             Height="35"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource ResourceKey=MenuButtonTheme}" Checked="RadioButton_Checked_1" Width="200"/>
+                <TextBox x:Name="Channels_TextBox" TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="@AddChannel" Width="200" Height="40" TextChanged="Channels_TextBox_TextChanged"/>
+                <Button x:Name="Channels_Button" Content="Button" Height="35" Click="Channels_Button_Click"/>
+                <ListBox x:Name="Channels_ListBox" Height="430" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListBox_SelectionChanged"/>
             </StackPanel>
 
             <TextBox Width="250"
@@ -62,12 +54,15 @@
                      HorizontalAlignment="Left"
                      Margin="5"
                      Grid.Column="1"
-                     Style="{StaticResource ModernTextbox}"
+                     Style="{StaticResource ModernTextbox}" TextChanged="TextBox_TextChanged"
                      />
+
+
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10"/>
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
 
 
 

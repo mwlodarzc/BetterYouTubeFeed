@@ -3,17 +3,8 @@ using BetterYouTubeFeed.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace byt
 {
@@ -22,6 +13,9 @@ namespace byt
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string>? ch;
+        BYTFContext db = new BYTFContext();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -40,6 +34,38 @@ namespace byt
         {
             AddVideoPopup infowindow = new AddVideoPopup();
             infowindow.Show();
+        }
+
+
+        private void AddChannel_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void AddChannel_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void Channels_TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Channels_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            db.UpdateChannels();
+            db.SaveChanges();
+            Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

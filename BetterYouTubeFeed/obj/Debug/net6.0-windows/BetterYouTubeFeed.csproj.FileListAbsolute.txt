@@ -68,3 +68,249 @@ C:\Users\My\Source\Repos\BetterYouTubeFeed\BetterYouTubeFeed\obj\Debug\net6.0-wi
 C:\Users\My\Source\Repos\BetterYouTubeFeed\BetterYouTubeFeed\obj\Debug\net6.0-windows\ref\BetterYouTubeFeed.dll
 C:\Users\My\source\repos\BetterYouTubeFeed\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.g.cs
 C:\Users\My\source\repos\BetterYouTubeFeed\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.exe
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.deps.json
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.runtimeconfig.json
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Azure.Core.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Azure.Identity.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Humanizer.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Memory.Data.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Text.Json.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.AssemblyReference.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\App.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.lref
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\App.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MainWindow.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.g.resources
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfoInputs.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfo.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CoreCompileInputs.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CopyComplete
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\refint\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.genruntimeconfig.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\ref\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Oauth2.v2.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.YouTube.v3.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\BetterYouTubeFeed.exe
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\BetterYouTubeFeed.deps.json
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\BetterYouTubeFeed.runtimeconfig.json
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Azure.Core.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Azure.Identity.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.Oauth2.v2.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Google.Apis.YouTube.v3.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Humanizer.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\System.Memory.Data.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\System.Text.Json.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.AssemblyReference.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\AddVideoPopup.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\App.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.lref
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\App.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\AddVideoPopup.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MainWindow.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.g.resources
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfoInputs.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfo.cs
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CoreCompileInputs.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CopyComplete
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\refint\BetterYouTubeFeed.dll
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\BetterYouTubeFeed.genruntimeconfig.cache
+G:\My Drive\Semestr 6\PlatformyProg.NetiJava\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed (2)\obj\Debug\net6.0-windows\ref\BetterYouTubeFeed.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.exe
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.deps.json
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.runtimeconfig.json
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.Oauth2.v2.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Google.Apis.YouTube.v3.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.AssemblyReference.cache
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\Theme\TextBoxTheme.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.cache
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed_MarkupCompile.lref
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\App.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\AddVideoPopup.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\ChannelListView.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.g.resources
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfoInputs.cache
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.AssemblyInfo.cs
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.csproj.CopyComplete
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\refint\BetterYouTubeFeed.dll
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.pdb
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\BetterYouTubeFeed.genruntimeconfig.cache
+C:\Users\Michał\Desktop\BetterYouTubeFeed\BetterYouTubeFeed-main\BetterYouTubeFeed\obj\Debug\net6.0-windows\ref\BetterYouTubeFeed.dll

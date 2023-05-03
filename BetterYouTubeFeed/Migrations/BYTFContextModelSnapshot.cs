@@ -30,7 +30,7 @@ namespace BetterYouTubeFeed.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Description")
+                    b.Property<string>("ChannelId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -125,6 +125,7 @@ namespace BetterYouTubeFeed.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("DownloadDate")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Link")
@@ -136,6 +137,7 @@ namespace BetterYouTubeFeed.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UploadDate")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

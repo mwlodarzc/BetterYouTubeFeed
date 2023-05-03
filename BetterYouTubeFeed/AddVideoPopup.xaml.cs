@@ -32,7 +32,7 @@ namespace byt
             string DownloadDate = VideoDownloadDate.Text;
             using (var context = new BYTFContext())
                  {
-                var video = new Video(1, title, link, UploadDate, DownloadDate); ;
+                var video = new Video(title, link, UploadDate, DownloadDate); ;
                     context.Videos.Add(video);
                     context.SaveChanges();
                     VideoTitle.Text = string.Empty;

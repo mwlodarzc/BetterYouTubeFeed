@@ -77,6 +77,44 @@ namespace BetterYouTubeFeed
 
         }
 
+        public static ICollection<Video> GetVideos(string id)
+        {
+            var youtubeService = new YouTubeService(new BaseClientService.Initializer()
+            {
+                HttpClientInitializer = credential,
+                ApplicationName = "BetterYouTubeFeed",
+            });
+            var request = youtubeService.Search.List("Snippet");
+            request.ChannelId = id;
+            request.Order = SearchResource.ListRequest.OrderEnum.Date;
+            request.Type = "video";
+            request.MaxResults = 20;
+            var response = request.Execute();
+            ICollection<Video> result = new List<Video>();
+            foreach (var item in response.Items)
+                result.Add(new Video(item.Snippet.Title, item.Id.VideoId, item.Snippet.PublishedAtRaw, DateTime.Now.ToString()));
+            return result;
+        }
+        /*
+        public static ICollection<Video> GetComunityPosts(string id)
+        {
+            var youtubeService = new YouTubeService(new BaseClientService.Initializer()
+            {
+                HttpClientInitializer = credential,
+                ApplicationName = "BetterYouTubeFeed",
+            });
+            var request = youtubeService.Search.List("Snippet");
+            request.ChannelId = id;
+            request.Order = SearchResource.ListRequest.OrderEnum.Date;
+            request.Type = "video";
+            request.MaxResults = 20;
+            var response = request.Execute();
+            ICollection<Video> result = new List<Video>();
+            foreach (var item in response.Items)
+                result.Add(new Video(item.Snippet.Title, item.Id.VideoId, item.Snippet.PublishedAtRaw, DateTime.Now.ToString()));
+            return result;
+        }*/
+
         /*
       [GoogleScopedAuthorize]
       [GoogleScopedAuthorize(DriveService.ScopeConstants.DriveReadonly)]

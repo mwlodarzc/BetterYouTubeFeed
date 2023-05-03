@@ -10,19 +10,19 @@ public class Channel
     [Key]
     public int Id { get; set; }
     [Required]
-    public string? ChannelId { get; set; }
+    public string ChannelId { get; set; }
     [Required]
-    public string? Name
+    public string Name
     {
         get; set;
     }
     [Required]
-    public string? Link
+    public string CustomUrl
     {
         get; set;
     }
 
-    public string Description { get; } = null!;
+    public string? Description { get; set; }
 
     public ICollection<CommunityPost> ComunityPosts { get; set; } = null!;
 
@@ -31,11 +31,11 @@ public class Channel
     public Channel()
     { }
 
-    public Channel(string channelId, string name, string link, string description)
+    public Channel(string channelId, string name, string customUrl, string description)
     {
         this.ChannelId = channelId;
         this.Name = name;
-        this.Link = link;
+        this.CustomUrl = customUrl;
         this.Description = description;
     }
 }

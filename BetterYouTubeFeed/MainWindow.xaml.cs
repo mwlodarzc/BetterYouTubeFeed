@@ -59,6 +59,7 @@ namespace byt
         {
 
             db.UpdateChannels();
+            db.UpdateVideos();
             db.SaveChanges();
             Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
         }

@@ -21,6 +21,7 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using System.IO;
 using Microsoft.IdentityModel.Tokens;
 using BetterYouTubeFeed.Models;
+using System.Runtime.CompilerServices;
 
 namespace BetterYouTubeFeed
 {
@@ -84,7 +85,7 @@ namespace BetterYouTubeFeed
                 HttpClientInitializer = credential,
                 ApplicationName = "BetterYouTubeFeed",
             });
-            var request = youtubeService.Search.List("Snippet");
+            var request = youtubeService.Search.List("snippet");
             request.ChannelId = id;
             request.Order = SearchResource.ListRequest.OrderEnum.Date;
             request.Type = "video";
@@ -92,9 +93,12 @@ namespace BetterYouTubeFeed
             var response = request.Execute();
             ICollection<Video> result = new List<Video>();
             foreach (var item in response.Items)
-                result.Add(new Video(item.Snippet.Title, item.Id.VideoId, item.Snippet.PublishedAtRaw, DateTime.Now.ToString()));
+                result.Add(new Video(item.Id.VideoId, item.Snippet.Title,DateTime.Parse(item.Snippet.PublishedAtRaw).ToString(), DateTime.Now.ToString(),item.Snippet.Thumbnails.Medium.Url,id));
+                
             return result;
+
         }
+
         /*
         public static ICollection<Video> GetComunityPosts(string id)
         {

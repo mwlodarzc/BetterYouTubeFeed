@@ -8,6 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\play-button_32.png" />
+    <None Remove="Images\play-button_64.png" />
+    <None Remove="Images\play-button_r.png" />
+    <None Remove="Images\play-button_w.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\play-button_r.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\play-button.png" />
+    <Resource Include="Images\play-button_w.png" />
+    <Resource Include="Images\play-button_32.png" />
+    <Resource Include="Images\play-button_64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
     <PackageReference Include="Google.Apis.Oauth2.v2" Version="1.60.0.1869" />
     <PackageReference Include="Google.Apis.YouTube.v3" Version="1.60.0.2945" />
@@ -23,7 +41,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Fonts\" />
     <Folder Include="Migrations\" />
     <Folder Include="MVVM\Model\" />

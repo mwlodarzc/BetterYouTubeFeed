@@ -5,8 +5,6 @@ namespace BetterYouTubeFeed.Models
 {
     public class Video
     {
-        [Key]
-        public int Id { get; set; }
         [Required]
         public string VideoId { get; set; }
         [Required]
@@ -15,14 +13,19 @@ namespace BetterYouTubeFeed.Models
         public string UploadDate { get; set; }
         [Required]
         public string DownloadDate { get; set; }
-
+        [Required]
+        public string ThumbnailLink { get; set; }
+        public string? ChannelId { get; set; }
         public Video(){}
-        public Video(string title, string videoId, string uploadDate, string downloadDate)
+        public Video(string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)
         {
-            Title = title;
             VideoId = videoId;
+            Title = title;
             UploadDate = uploadDate;
             DownloadDate = downloadDate;
+            ThumbnailLink = thumbnailLink;
+            ChannelId = channelId;
+
         }
     }
 }

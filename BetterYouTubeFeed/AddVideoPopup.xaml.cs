@@ -23,7 +23,7 @@ namespace byt
         {
             InitializeComponent();
         }
-
+        
         private void AddVideoButton(object sender, RoutedEventArgs e)
         {
             string title = VideoTitle.Text;
@@ -32,7 +32,7 @@ namespace byt
             string DownloadDate = VideoDownloadDate.Text;
             using (var context = new BYTFContext())
                  {
-                var video = new Video(title, link, UploadDate, DownloadDate); ;
+                var video = new Video(link, title, UploadDate, DownloadDate,"str","1000"); ;
                     context.Videos.Add(video);
                     context.SaveChanges();
                     VideoTitle.Text = string.Empty;

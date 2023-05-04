@@ -13,12 +13,12 @@ namespace byt
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<string>? ch;
         BYTFContext db = new BYTFContext();
 
         public MainWindow()
         {
             InitializeComponent();
+            this.Update_Displayed();
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
@@ -54,17 +54,44 @@ namespace byt
         {
 
         }
+        private void Update_Displayed()
+        {
+            Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
+            Videos_List.ItemsSource = db.Videos.ToList();
 
+
+        }
         private void Channels_Button_Click(object sender, RoutedEventArgs e)
         {
 
             db.UpdateChannels();
             db.UpdateVideos();
-            db.SaveChanges();
-            Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
+            this.Update_Displayed();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void DropDatabase_Click(object sender, RoutedEventArgs e)
+        {
+            db.Drop();
+            this.Update_Displayed();
+
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void AddAccount_Click(object sender, RoutedEventArgs e)
         {
 
         }

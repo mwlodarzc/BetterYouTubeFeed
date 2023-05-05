@@ -20,9 +20,8 @@ public class Account
     [Required]
     public string Email { get; set; }
     [Required]
-    public string CustomUrl { get; set; }
-    [Required]
     public string ImageUrl { get; set; }
+    public string? CustomUrl { get; set; }
 
     public ICollection<Channel>? Channels { get; set; }
 

@@ -16,7 +16,7 @@ public class BYTFContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
-        optionsBuilder.UseSqlServer("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Michał\\Desktop\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf; Integrated Security = True; MultipleActiveResultSets = true");
+        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Michał\\Desktop\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True; MultipleActiveResultSets = true");
     }
 
     public bool DropAccount(string accountId)
@@ -57,7 +57,7 @@ public class BYTFContext : DbContext
         foreach (var account in Accounts)
             foreach (var channel in this.Channels)
                 foreach (var video in YouTubeDataAPI.GetVideos(account, channel.ChannelId))
-                    if (this.Videos.Where(v => v.VideoId.Equals(video.VideoId)).IsNullOrEmpty())
+                    if (this.Videos.Select(v => v.VideoId.Equals(video.VideoId)).IsNullOrEmpty())
                         this.Videos.Add(video);
         this.SaveChanges();
 

@@ -21,7 +21,7 @@ public class BYTFContext : DbContext
 
     public bool DropAccount(string accountId)
     {
-        var account = this.Accounts.Where(c => c.AccountId == accountId);
+        var account = this.Accounts.Where(c => c.AccountId.Equals(accountId));
         if (account.IsNullOrEmpty())
             return false;
         this.Accounts.Remove(account.First());
@@ -42,29 +42,23 @@ public class BYTFContext : DbContext
     }
     public void AddAccount()
     {
-        Accounts.Add(YouTubeDataAPI.GetAccountInfo(YouTubeDataAPI.Authenticate().Result));
+        Accounts.Add(YouTubeDataAPI.GetAccountInfo());
     }
     public void UpdateChannels()
     {
         foreach (var account in Accounts)
-        {
-            YouTubeDataAPI.Authenticate(account.AuthId).Wait();
             foreach (var id in YouTubeDataAPI.GetSubsctiptionsID(account))
-                if (this.Channels.Where(s => s.ChannelId == id).IsNullOrEmpty())
+                if (this.Channels.Where(s => s.ChannelId.Equals(id)).IsNullOrEmpty())
                     this.Channels.Add(YouTubeDataAPI.GetChannelInfo(account, id));
-        }
         this.SaveChanges();
     }
     public void UpdateVideos()
     {
         foreach (var account in Accounts)
-        {
-            YouTubeDataAPI.Authenticate(account.AuthId).Wait();
             foreach (var channel in this.Channels)
                 foreach (var video in YouTubeDataAPI.GetVideos(account, channel.ChannelId))
-                    if (this.Videos.Where(v => v.VideoId == video.VideoId).IsNullOrEmpty())
+                    if (this.Videos.Where(v => v.VideoId.Equals(video.VideoId)).IsNullOrEmpty())
                         this.Videos.Add(video);
-        }
         this.SaveChanges();
 
     }

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace byt
 {
@@ -107,12 +108,19 @@ namespace byt
 
         private void Minimize_Click(object sender, RoutedEventArgs e)
         {
+            this.WindowState = WindowState.Minimized;
 
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
 
+        }
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
         }
     }
 }

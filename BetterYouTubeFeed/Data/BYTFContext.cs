@@ -16,7 +16,7 @@ public class BYTFContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
-        optionsBuilder.UseSqlServer("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Michał\\Desktop\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf; Integrated Security = True; MultipleActiveResultSets = true");
+        optionsBuilder.UseSqlServer("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\My\\Desktop\\6 SEM\\PROGRAMOWANIE Z ANETKĄ\\BetterYT2\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf; Integrated Security = True; MultipleActiveResultSets = true");
     }
 
     public bool DropAccount(string accountId)

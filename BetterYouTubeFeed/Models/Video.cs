@@ -19,12 +19,12 @@ namespace BetterYouTubeFeed.Models
         public Video(){}
         public Video(string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)
         {
-            VideoId = videoId;
-            Title = title;
-            UploadDate = uploadDate;
-            DownloadDate = downloadDate;
-            ThumbnailLink = thumbnailLink;
-            ChannelId = channelId;
+            this.VideoId = videoId;
+            this.Title = title;
+            this.UploadDate = uploadDate;
+            this.DownloadDate = downloadDate;
+            this.ThumbnailLink = thumbnailLink;
+            this.ChannelId = channelId;
 
         }
     }

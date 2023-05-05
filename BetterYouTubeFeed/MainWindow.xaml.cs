@@ -57,9 +57,8 @@ namespace byt
         private void Update_Displayed()
         {
             Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
+            Accounts_ListBox.ItemsSource = db.Accounts.Select(x=> x.Name).ToList();
             Videos_List.ItemsSource = db.Videos.ToList();
-
-
         }
         private void Channels_Button_Click(object sender, RoutedEventArgs e)
         {
@@ -92,6 +91,26 @@ namespace byt
         }
 
         private void AddAccount_Click(object sender, RoutedEventArgs e)
+        {
+            db.AddAccount();
+            db.UpdateChannels();
+            db.UpdateVideos();
+            this.Update_Displayed();
+        }
+
+        private void Refresh_Click(object sender, RoutedEventArgs e)
+        {
+            db.UpdateChannels();
+            db.UpdateVideos();
+            this.Update_Displayed();
+        }
+
+        private void Minimize_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
         {
 
         }

@@ -12,17 +12,21 @@ public class Channel
     [Required]
     public string Name{ get; set;}
     [Required]
-    public string CustomUrl{  get; set;}
+    public string CustomUrl {  get; set;}
+    [Required]
+    public string ImageUrl { get; set;}
     public string? Description { get; set; }
-    public ICollection<CommunityPost>? ComunityPosts { get; set; }
+    public string? YouTubeAccountId { get; set;}
     public ICollection<Video>? Videos { get; set; }
     public Channel()
     { }
-    public Channel(string channelId, string name, string customUrl, string description)
+    public Channel(string channelId, string name, string customUrl,string imageUrl, string description, string ytaccountId)
     {
         this.ChannelId  = channelId;
         this.Name = name;
         this.CustomUrl = customUrl;
+        this.ImageUrl = imageUrl;
         this.Description = description;
+        this.YouTubeAccountId = ytaccountId;
     }
 }

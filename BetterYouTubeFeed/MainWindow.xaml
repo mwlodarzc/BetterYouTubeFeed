@@ -24,7 +24,7 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="182"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="310*"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
@@ -42,34 +42,27 @@
                    Foreground="White"
                    Margin="0,0,0,3"
                    FontSize="22"/>
-
             </StackPanel>
 
 
 
             <StackPanel Grid.Row="1">
-                
-                
-                <StackPanel Orientation="Horizontal" >
-                    <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,62,10" VerticalAlignment="Center" />
-                    <Button x:Name="AddAccount_Button" Content="+" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="AddAccount_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                </StackPanel>
-                
-                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="150" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
-                
-                
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Subscriptions" FontSize="16" Foreground="White" Margin="20,10,30,10" VerticalAlignment="Center"/>
-                    <Button x:Name="AddChannel_Button" Content="+" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="AddChannel_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                </StackPanel>
-                
-                
+                <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,30,10" VerticalAlignment="Center" />
+                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
+                <TextBlock Text="Subscriptions" FontSize="16" Foreground="White" Margin="20,10,0,10" VerticalAlignment="Center"/>
                 <ListBox x:Name="Channels_ListBox" Foreground="White" Height="306" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
             </StackPanel>
 
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,10,20,10" Grid.ColumnSpan="2">
+                <Button x:Name="AddAccount_Button" Margin="10,0,5,0" Content="+" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="AddAccount_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
+                <Button x:Name="Refresh_Button"  Margin="10,0,5,0" Content="R" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="Refresh_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
+                <Button x:Name="Drop_Button"  Margin="10,0,5,0" Content="D" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="DropDatabase_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
+                <Button x:Name="Minimize_Button"  Margin="510,0,5,0" Content="-" Padding="0,0,0.2,3" HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Minimize_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
+                <Button x:Name="Close_Button"  Margin="5,0,10,0" Content="x" Padding="0,0,0.2,3" HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Close_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
 
+            </StackPanel>
 
-            <ListView Grid.Column="1" Grid.Row="1" x:Name="Videos_List" Background="#0F0F0F" BorderBrush="#0F0F0F" Margin="11,0,11,0">
+            <ListView Grid.Column="1" Grid.Row="1" x:Name="Videos_List" Background="#0F0F0F" BorderBrush="#0F0F0F" Margin="11,0,11,0" Grid.ColumnSpan="2">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Width="660" Background="#0F0F0F" >
@@ -80,7 +73,6 @@
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>
-
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>

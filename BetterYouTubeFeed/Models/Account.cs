@@ -10,6 +10,8 @@ public class Account
     [Required]
     public string AccountId { get; set; }
     [Required]
+    public string Type { get; set; }
+    [Required]
     public string AuthId { get; set; }
     [Required]
     public string Name { get; set; }
@@ -26,9 +28,10 @@ public class Account
     public ICollection<Channel>? Channels { get; set; }
 
     public Account() { }
-    public Account(string accountId, string authId, string name, string familyName,string givenName, string email, string customUrl, string imageUrl)
+    public Account(string accountId,string type, string authId, string name, string familyName,string givenName, string email, string customUrl, string imageUrl)
     {
         this.AccountId = accountId;
+        this.Type = type;
         this.AuthId = authId;
         this.Name = name;
         this.FamilyName = familyName;

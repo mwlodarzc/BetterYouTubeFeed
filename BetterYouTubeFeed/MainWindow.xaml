@@ -49,9 +49,9 @@
 
             <StackPanel Grid.Row="1">
                 <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,30,10" VerticalAlignment="Center" />
-                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
+                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="Accounts_ListBoxSelection_Changed" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
                 <TextBlock Text="Subscriptions" FontSize="16" Foreground="White" Margin="20,10,0,10" VerticalAlignment="Center"/>
-                <ListBox x:Name="Channels_ListBox" Foreground="White" Height="306" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
+                <ListBox x:Name="Channels_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
             </StackPanel>
 
             <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,10,20,10" Grid.ColumnSpan="2">
@@ -70,7 +70,7 @@
                             <Image Width="200" Source="{Binding ThumbnailLink}"/>
                             <StackPanel Orientation="Vertical">
                                 <TextBlock FontSize="16" Foreground="White" Width="460" Margin="10,0,0,10" Text="{Binding Title}" TextWrapping="Wrap" />
-                                <TextBlock FontSize="12" Margin="10,0,0,0" Text="{Binding UploadDate}"/>
+                                <TextBlock FontSize="12" Foreground="White" Margin="10,0,0,0" Text="{Binding UploadDate}"/>
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>

@@ -22,25 +22,10 @@ namespace byt
             this.Update_Displayed();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
-        {
-
-        }
         private void AddVideoButton(object sender, RoutedEventArgs e)
         {
             AddVideoPopup infowindow = new AddVideoPopup();
             infowindow.Show();
-        }
-
-
-        private void AddChannel_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -122,5 +107,7 @@ namespace byt
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
         }
+
+
     }
 }

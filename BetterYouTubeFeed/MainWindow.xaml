@@ -48,10 +48,36 @@
 
 
             <StackPanel Grid.Row="1">
-                <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,30,10" VerticalAlignment="Center" />
-                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="Accounts_ListBoxSelection_Changed" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
+                <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,0,10" VerticalAlignment="Center"/>
+                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" MouseDoubleClick="Accounts_ListBox_MouseDoubleClick" Background="#0F0F0F" BorderBrush="#0F0F0F">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="10,3,0,3">
+                                <Ellipse Width="30" Height="30">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="{Binding ImageUrl}"/>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <TextBlock  Text="{Binding Name}" FontSize="12" VerticalAlignment="Center" TextAlignment="Center" Foreground="White" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
                 <TextBlock Text="Subscriptions" FontSize="16" Foreground="White" Margin="20,10,0,10" VerticalAlignment="Center"/>
-                <ListBox x:Name="Channels_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F"/>
+                <ListBox x:Name="Channels_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" Background="#0F0F0F" BorderBrush="#0F0F0F">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="10,3,0,3">
+                                <Ellipse Width="30" Height="30">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="{Binding ImageUrl}" />
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <TextBlock  Text="{Binding Name}" FontSize="12" VerticalAlignment="Center" TextAlignment="Center" Foreground="White" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
             </StackPanel>
 
             <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,10,20,10" Grid.ColumnSpan="2">
@@ -66,10 +92,10 @@
             <ListView Grid.Column="1" Grid.Row="1" x:Name="Videos_List" Background="#0F0F0F" BorderBrush="#0F0F0F" Margin="11,0,11,0" Grid.ColumnSpan="2">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Orientation="Horizontal" Width="660" Background="#0F0F0F" >
+                        <StackPanel Orientation="Horizontal" Width="702" Background="#0F0F0F" >
                             <Image Width="200" Source="{Binding ThumbnailLink}"/>
                             <StackPanel Orientation="Vertical">
-                                <TextBlock FontSize="16" Foreground="White" Width="460" Margin="10,0,0,10" Text="{Binding Title}" TextWrapping="Wrap" />
+                                <TextBlock FontSize="16" Foreground="White" Width="460" Margin="10,5,0,10" Text="{Binding Title}" TextWrapping="Wrap" />
                                 <TextBlock FontSize="12" Foreground="White" Margin="10,0,0,0" Text="{Binding UploadDate}"/>
                             </StackPanel>
                         </StackPanel>

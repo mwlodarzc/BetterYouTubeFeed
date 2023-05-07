@@ -35,8 +35,8 @@
 
 
 
-            <StackPanel Orientation="Horizontal" Margin="10,10,10,0">
-                <Image Source="Images/play-button_r.png" Width="29" Margin="2,0,3,0" Height="39"/>
+            <StackPanel Orientation="Horizontal" Margin="13,0,5,0">
+                <Image Source="Images/play-button_64_R.png" Width="30" Margin="2,0,3,0" Height="39"/>
                 <TextBlock Text="BetterYTFeed"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
@@ -80,12 +80,22 @@
                 </ListBox>
             </StackPanel>
 
-            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,10,20,10" Grid.ColumnSpan="2">
-                <Button x:Name="AddAccount_Button" Margin="10,0,5,0" Content="+" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="AddAccount_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                <Button x:Name="Refresh_Button"  Margin="10,0,5,0" Content="R" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="Refresh_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                <Button x:Name="Drop_Button"  Margin="10,0,5,0" Content="D" Padding="0,0,0.2,3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="25" Click="DropDatabase_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                <Button x:Name="Minimize_Button"  Margin="510,0,5,0" Content="-" Padding="0,0,0.2,3" HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Minimize_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
-                <Button x:Name="Close_Button"  Margin="5,0,10,0" Content="x" Padding="0,0,0.2,3" HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Close_Click" Width="25" Background="#0f0f0f" Foreground="White" BorderThickness="3" BorderBrush="White"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,8,18,10">
+                <Button x:Name="AddAccount_Button"  Margin="10,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Click="AddAccount_Click" Background="#0f0f0f">
+                    <Image Source="Images/icons8-add-cropped.png" />
+                </Button>
+                <Button x:Name="Refresh_Button"  Margin="10,0,5,0"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Click="Refresh_Click" Background="#0f0f0f">
+                    <Image Source="Images/icons8-sync-64.png" />
+                </Button>
+                <Button x:Name="Drop_Button"  Margin="10,0,5,0"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Click="DropDatabase_Click" Background="#0f0f0f">
+                    <Image Source="Images/icons8-remove-50.png" />
+                </Button>
+                <Button x:Name="Minimize_Button"  Margin="490,0,5,0"  HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Minimize_Click" Background="#0f0f0f">
+                    <Image Source="Images/icons8-subtract-64.png" />
+                </Button>
+                <Button x:Name="Close_Button"  Margin="5,0,10,0"  HorizontalAlignment="Right" VerticalAlignment="Center" Height="25" Click="Close_Click" Background="#0f0f0f">
+                    <Image Source="Images/icons8-close-60.png" />
+                </Button>
 
             </StackPanel>
 

@@ -45,10 +45,7 @@ namespace byt
         }
         private void Channels_Button_Click(object sender, RoutedEventArgs e)
         {
-
-            db.UpdateChannels();
-            db.UpdateVideos();
-            this.Update_Displayed();
+            this.Refresh_Click(sender, e);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -60,7 +57,7 @@ namespace byt
         {
             db.Drop();
             this.Update_Displayed();
-
+            this.Refresh_Click(sender, e);
         }
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -76,9 +73,7 @@ namespace byt
         private void AddAccount_Click(object sender, RoutedEventArgs e)
         {
             db.AddAccount();
-            db.UpdateChannels();
-            db.UpdateVideos();
-            this.Update_Displayed();
+            this.Refresh_Click(sender, e);
         }
 
         private void Refresh_Click(object sender, RoutedEventArgs e)

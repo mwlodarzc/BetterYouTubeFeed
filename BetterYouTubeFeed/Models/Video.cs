@@ -16,6 +16,7 @@ namespace BetterYouTubeFeed.Models
         [Required]
         public string ThumbnailLink { get; set; }
         public string? ChannelId { get; set; }
+        public bool watched { get; set; }
         public Video(){}
         public Video(string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)
         {
@@ -25,7 +26,7 @@ namespace BetterYouTubeFeed.Models
             this.DownloadDate = downloadDate;
             this.ThumbnailLink = thumbnailLink;
             this.ChannelId = channelId;
-
+            this.watched = false;
         }
     }
 }

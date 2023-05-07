@@ -48,8 +48,8 @@ namespace BetterYouTubeFeed
         {
            // GoogleCredential cred = GoogleCredential.FromFile(new StreamReader("betteryoutubefeed-service-key.json").ReadToEnd());
             UserCredential cred;
-            string clientId = "993512608093-bds7qep5g83dbo5kldq1npnel8nluvqo.apps.googleusercontent.com";
-            string clientSecret = "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";
+            string clientId = "893351996823-hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com";
+            string clientSecret = "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";
             string[] scopes = {  YouTubeService.Scope.YoutubeReadonly };
             cred = GoogleWebAuthorizationBroker.AuthorizeAsync(
                 new ClientSecrets
@@ -67,8 +67,8 @@ namespace BetterYouTubeFeed
         private static (UserCredential,string) Authenticate()
         {
             UserCredential cred;
-            string clientId = "993512608093-bds7qep5g83dbo5kldq1npnel8nluvqo.apps.googleusercontent.com";
-            string clientSecret = "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";
+            string clientId = "893351996823-hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com";
+            string clientSecret = "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";
             string[] scopes = { Oauth2Service.ScopeConstants.UserinfoEmail, Oauth2Service.ScopeConstants.UserinfoProfile, Oauth2Service.ScopeConstants.Openid, Oauth2Service.Scope.UserinfoEmail, Oauth2Service.Scope.UserinfoProfile, Oauth2Service.Scope.Openid, YouTubeService.Scope.YoutubeReadonly};
             string userId = StringKey();
             cred = GoogleWebAuthorizationBroker.AuthorizeAsync(
@@ -93,6 +93,7 @@ namespace BetterYouTubeFeed
             });
             var request = youtubeService.Subscriptions.List("snippet");
             request.Mine = true;
+            request.MaxResults = 3;
             var response = request.Execute();
             List<string> result = new List<string>();
             foreach (var item in response.Items)
@@ -129,7 +130,7 @@ namespace BetterYouTubeFeed
             request.ChannelId = id;
             request.Order = SearchResource.ListRequest.OrderEnum.Date;
             request.Type = "video";
-            request.MaxResults = 20;
+            request.MaxResults = 1;
             var response = request.Execute();
             ICollection<Video> result = new List<Video>();
             foreach (var item in response.Items)

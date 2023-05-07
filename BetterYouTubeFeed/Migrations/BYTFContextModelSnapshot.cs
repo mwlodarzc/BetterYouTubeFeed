@@ -115,6 +115,9 @@ namespace BetterYouTubeFeed.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("watched")
+                        .HasColumnType("bit");
+
                     b.HasKey("VideoId");
 
                     b.HasIndex("ChannelId");

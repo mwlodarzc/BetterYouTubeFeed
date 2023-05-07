@@ -1,6 +1,8 @@
 ﻿using BetterYouTubeFeed.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
@@ -16,7 +18,8 @@ public class BYTFContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
-        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Michał\\Desktop\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True; MultipleActiveResultSets = true");
+        string path = System.IO.Directory.GetParent(System.IO.Directory.GetParent(System.IO.Directory.GetParent(Environment.CurrentDirectory).ToString()).ToString()).ToString();
+        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\My\\Desktop\\6SEM\\PROGRAMOWANIE_Z_ANETKA\\BetterYT4\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True; MultipleActiveResultSets = true");
     }
 
     public bool DropAccount(string accountId)

@@ -2,10 +2,17 @@
 using BetterYouTubeFeed.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Net.WebRequestMethods;
 
 namespace byt
 {
@@ -47,6 +54,21 @@ namespace byt
         {
 
         }
+
+        private void ListBox_SelectionChanged_Channels(object sender, SelectionChangedEventArgs e)
+        {
+            string name = (sender as ListBox).SelectedItem.ToString();
+            string CustomUrl = db.Channels.Where(x => x.Name == name).Select(x => x.CustomUrl).SingleOrDefault();
+            string URL = "https://www.youtube.com/" + CustomUrl;
+            var defaultWebBrowser = new ProcessStartInfo
+            {
+                FileName = URL,
+                UseShellExecute = true
+            };
+            Process.Start(defaultWebBrowser);
+
+        }
+
         private void AddChannel_Click(object sender, RoutedEventArgs e)
         {
         }
@@ -55,6 +77,7 @@ namespace byt
         {
 
         }
+
         private void Update_Displayed()
         {
             Channels_ListBox.ItemsSource = db.Channels.Select(x => x.Name).ToList();
@@ -72,6 +95,18 @@ namespace byt
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void OpenWebYt_Click(object sender, RoutedEventArgs e)
+        {
+            string VideoId = (e.Source as Button).Content.ToString();
+            string URL = "https://www.youtube.com/watch?v=" + VideoId;
+            var defaultWebBrowser = new ProcessStartInfo
+            {
+                FileName = URL,
+                UseShellExecute = true
+            };
+            Process.Start(defaultWebBrowser);
         }
 
         private void DropDatabase_Click(object sender, RoutedEventArgs e)
@@ -104,6 +139,7 @@ namespace byt
             db.UpdateChannels();
             db.UpdateVideos();
             this.Update_Displayed();
+            var image = new BitmapImage(new Uri("/Application;Images\\watched.png", UriKind.Relative));
         }
 
         private void Minimize_Click(object sender, RoutedEventArgs e)

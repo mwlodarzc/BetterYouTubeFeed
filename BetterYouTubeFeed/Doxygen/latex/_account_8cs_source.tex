@@ -1,0 +1,50 @@
+\hypertarget{_account_8cs_source}{}\doxysection{Account.\+cs}
+\label{_account_8cs_source}\index{Models/Account.cs@{Models/Account.cs}}
+\mbox{\hyperlink{_account_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.ComponentModel.DataAnnotations;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }Google.Apis.Auth.OAuth2;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }Google.Apis.YouTube.v3;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00007}\mbox{\hyperlink{namespace_better_you_tube_feed_1_1_models}{00007}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_better_you_tube_feed_1_1_models}{BetterYouTubeFeed.Models}};}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00012}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{00012}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00013}00013\ \{}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00014}00014\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00015}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a716bc1cecbf509a3cc52ef6d73db2286}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a716bc1cecbf509a3cc52ef6d73db2286}{AccountId}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00016}00016\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00017}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_ae32a6cd80e6d79123f26a3dd989bcb7d}{00017}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_ae32a6cd80e6d79123f26a3dd989bcb7d}{Type}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00018}00018\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00019}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_aad1c19e613c38ef78d209c6a5da04f58}{00019}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_aad1c19e613c38ef78d209c6a5da04f58}{AuthId}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00020}00020\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00021}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_accdd8c67ee1cdd7d832c6f93c8dd7dbb}{00021}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_accdd8c67ee1cdd7d832c6f93c8dd7dbb}{Name}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00022}00022\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00023}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a9fe09b73e3c52230d07b5d2cfdd0be57}{00023}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a9fe09b73e3c52230d07b5d2cfdd0be57}{FamilyName}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00024}00024\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00025}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_af8f420d1b044943b98c93516ad8a0b14}{00025}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_af8f420d1b044943b98c93516ad8a0b14}{GivenName}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00026}00026\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00027}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_ab8677c2256295d54827225a8dd076493}{00027}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_ab8677c2256295d54827225a8dd076493}{Email}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00028}00028\ \ \ \ \ [Required]}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00029}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_afcc79af7b3b24b4be257fb004593b23d}{00029}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_afcc79af7b3b24b4be257fb004593b23d}{ImageUrl}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00030}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a546afcaa46611d403781780c1d1f54ba}{00030}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}?\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a546afcaa46611d403781780c1d1f54ba}{CustomUrl}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00032}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a54cd7b5cde490d3e2fc5990cadb329b9}{00032}}\ \ \ \ \ \textcolor{keyword}{public}\ ICollection<Channel>?\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a54cd7b5cde490d3e2fc5990cadb329b9}{Channels}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00034}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_afbc4eb72c376dfc8c859eaa6a2a689a1}{00034}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_afbc4eb72c376dfc8c859eaa6a2a689a1}{Account}}()\ \{\ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00035}\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a63fdd016b7af37c492de0640a309acd2}{00035}}\ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a63fdd016b7af37c492de0640a309acd2}{Account}}(\textcolor{keywordtype}{string}\ accountId,\textcolor{keywordtype}{string}\ type,\ \textcolor{keywordtype}{string}\ authId,\ \textcolor{keywordtype}{string}\ name,\ \textcolor{keywordtype}{string}\ familyName,\textcolor{keywordtype}{string}\ givenName,\ \textcolor{keywordtype}{string}\ email,\ \textcolor{keywordtype}{string}\ customUrl,\ \textcolor{keywordtype}{string}\ imageUrl)}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00036}00036\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ this.AccountId\ =\ accountId;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ this.Type\ =\ type;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ this.AuthId\ =\ authId;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ this.Name\ =\ name;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ this.FamilyName\ =\ familyName;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ this.GivenName\ =\ givenName;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ this.Email\ =\ email;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ this.CustomUrl\ =\ customUrl;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ this.ImageUrl\ =\ imageUrl;}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00046}00046\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{_account_8cs_source_l00048}00048\ \}}
+
+\end{DoxyCode}

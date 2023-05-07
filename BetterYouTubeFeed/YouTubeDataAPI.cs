@@ -27,11 +27,26 @@ using Google.Apis.Util.Store;
 
 namespace BetterYouTubeFeed
 {
-    class YouTubeDataAPI
+    /// <summary>
+    /// Class that abstracts communication with YouTube Data API
+    /// </summary>
+    public class YouTubeDataAPI
     {
+        /// <summary>
+        /// ClientId from API
+        /// </summary>
         static string clientId = "32650836834-tvvdl85dgdo9jdk51q4bg82a8ou6ev3k.apps.googleusercontent.com";
+        /// <summary>
+        /// Client secret key from API
+        /// </summary>
         static string clientSecret = "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";
-        private static string StringKey()
+
+        /// <summary>
+        /// Allows aplication keys generation.
+        /// Keys are used to differenciate accounts and requests sent from them.
+        /// </summary>
+        /// <returns>Generated string</returns>
+        public static string StringKey()
         {
             int length = 7;
             StringBuilder str_build = new StringBuilder();
@@ -46,7 +61,14 @@ namespace BetterYouTubeFeed
             }
             return str_build.ToString();
         }
-        private static UserCredential Authenticate(string userId)
+        /// <summary>
+        /// Allows Google OAuth 2 authentification
+        /// Starts browser authentification process
+        /// Instance of Authenticate function used for authentification of alreade established accounts.
+        /// </summary>
+        /// <param name="userId">Id of account that is going to be authentificated</param>
+        /// <returns>UserCredentials object</returns>
+        public static UserCredential Authenticate(string userId)
         {
             UserCredential cred;
             string clientId = "893351996823-hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com";
@@ -64,8 +86,13 @@ namespace BetterYouTubeFeed
             return cred;
             
         }
-
-        private static (UserCredential,string) Authenticate()
+        /// <summary>
+        /// Allows Google OAuth 2 authentification
+        /// Starts browser authentification process
+        /// Instance of Authenticate function used for establishing new Account connection
+        /// </summary>
+        /// <returns>UserCredentials object</returns>
+        public static (UserCredential,string) Authenticate()
         {
             UserCredential cred;
             string[] scopes = { Oauth2Service.Scope.UserinfoEmail, Oauth2Service.Scope.UserinfoProfile, Oauth2Service.Scope.Openid, YouTubeService.Scope.YoutubeReadonly};
@@ -81,7 +108,14 @@ namespace BetterYouTubeFeed
                 cred.RefreshTokenAsync(CancellationToken.None).Wait();
             return (cred, userId);
         }
-
+        /// <summary>
+        /// Handles API youtube channel subscription list request
+        /// Retrieves the list of subscription for specified account
+        /// WARNING
+        /// the number of subscription channels has been restricted because API is used in non-commercial mode
+        /// </summary>
+        /// <param name="account">Account from which the request is made</param
+        /// <returns>List of subscriptions</returns>
         public static List<string> GetSubsctiptionsID(Account account)
         {
             UserCredential credential = Authenticate(account.AuthId);
@@ -99,7 +133,13 @@ namespace BetterYouTubeFeed
                 result.Add(item.Snippet.ResourceId.ChannelId);
             return result;
         }
-
+        /// <summary>
+        /// Handles API channel info request
+        /// Retrieves information abount a channel from the API
+        /// </summary>
+        /// <param name="account">Account from which the request is made</param>
+        /// <param name="id">hannel id</param>
+        /// <returns>Channel object</returns>
         public static Channel GetChannelInfo(Account account, string id)
         {
             UserCredential credential = Authenticate(account.AuthId);
@@ -115,7 +155,15 @@ namespace BetterYouTubeFeed
             return new Channel(data.Id,data.Snippet.Title,data.Snippet.CustomUrl,data.Snippet.Thumbnails.Medium.Url,data.Snippet.Description,account.AccountId);
 
         }
-
+        /// <summary>
+        /// Handles API video list request
+        /// Retrieves list of videos for specified channel
+        /// WARNING
+        /// the number of videos has been restricted because API is used in non-commercial mode
+        /// </summary>
+        /// <param name="account"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static ICollection<Video> GetVideos(Account account, string id)
         {
             UserCredential credential = Authenticate(account.AuthId);
@@ -139,7 +187,14 @@ namespace BetterYouTubeFeed
 
         }
 
-
+        /// <summary>
+        /// Handles API account information request
+        /// This function determines wheater or not the account has a youtube channel
+        /// Uses two different method because of that
+        /// First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account.
+        /// It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request.
+        /// </summary>
+        /// <returns>Account object</returns>
         public static Account GetAccountInfo()
         {
             (UserCredential credential, string userId) = Authenticate();

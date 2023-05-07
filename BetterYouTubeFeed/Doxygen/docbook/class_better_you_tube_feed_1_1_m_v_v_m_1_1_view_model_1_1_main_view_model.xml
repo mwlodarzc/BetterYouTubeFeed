@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model" xml:lang="en-US">
+<title>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</primary></indexterm>
+<para>
+Inherits BetterYouTubeFeed.Core.ObservableObject.</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a33e9cc44a8c3b871b998b3758dbcdcdc">MainViewModel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_home_view_model">HomeViewModel</link> <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1aff0093b4fda7e4a2049d363ac0a86452">HomeVM</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>object <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1ab886eb92109c5d8fe0799cfd53c283f2">CurrentView</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__main_view_model_8cs_source_1l00010">10</link> of file <link linkend="__main_view_model_8cs_source">MainViewModel.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a33e9cc44a8c3b871b998b3758dbcdcdc"/><section>
+    <title>MainViewModel()</title>
+<indexterm><primary>MainViewModel</primary><secondary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</primary><secondary>MainViewModel</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.MainViewModel ( )</computeroutput></para><para>
+Definition at line <link linkend="__main_view_model_8cs_source_1l00027">27</link> of file <link linkend="__main_view_model_8cs_source">MainViewModel.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1ab886eb92109c5d8fe0799cfd53c283f2"/><section>
+    <title>CurrentView</title>
+<indexterm><primary>CurrentView</primary><secondary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</primary><secondary>CurrentView</secondary></indexterm>
+<para><computeroutput>object BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.CurrentView<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__main_view_model_8cs_source_1l00016">16</link> of file <link linkend="__main_view_model_8cs_source">MainViewModel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1aff0093b4fda7e4a2049d363ac0a86452"/><section>
+    <title>HomeVM</title>
+<indexterm><primary>HomeVM</primary><secondary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</primary><secondary>HomeVM</secondary></indexterm>
+<para><computeroutput><link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_home_view_model">HomeViewModel</link> BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.HomeVM<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__main_view_model_8cs_source_1l00012">12</link> of file <link linkend="__main_view_model_8cs_source">MainViewModel.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+MVVM/ViewModel/<link linkend="__main_view_model_8cs">MainViewModel.cs</link></section>
+</section>

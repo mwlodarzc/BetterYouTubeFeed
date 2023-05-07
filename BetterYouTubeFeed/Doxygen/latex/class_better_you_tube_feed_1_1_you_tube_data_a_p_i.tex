@@ -1,0 +1,120 @@
+\hypertarget{class_better_you_tube_feed_1_1_you_tube_data_a_p_i}{}\doxysection{Better\+You\+Tube\+Feed.\+You\+Tube\+Data\+API Class Reference}
+\label{class_better_you_tube_feed_1_1_you_tube_data_a_p_i}\index{BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}}
+
+
+Class that abstracts communication with You\+Tube Data API.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ string $>$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ac1ebaa0b9edbdadfa87004f1367d2f6d}{Get\+Subsctiptions\+ID}} (\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} account)
+\begin{DoxyCompactList}\small\item\em Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-\/commercial mode. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}} \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_abc5134491f99e9f2df0c58fb0f05c0f0}{Get\+Channel\+Info}} (\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} account, string id)
+\begin{DoxyCompactList}\small\item\em Handles API channel info request Retrieves information abount a channel from the API. \end{DoxyCompactList}\item 
+static ICollection$<$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_video}{Video}} $>$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_a5e1e0c000e639de426c49456530c7a41}{Get\+Videos}} (\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} account, string id)
+\begin{DoxyCompactList}\small\item\em Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-\/commercial mode. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ae45ec28c4813f78089382c26cf6572b8}{Get\+Account\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account. It uses Oauth2\+Service insted of You\+Tube\+Service used elsewhere and executes Userinfo request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that abstracts communication with You\+Tube Data API. 
+
+Definition at line \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source}{You\+Tube\+Data\+API.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ae45ec28c4813f78089382c26cf6572b8}\label{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ae45ec28c4813f78089382c26cf6572b8}} 
+\index{BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}!GetAccountInfo@{GetAccountInfo}}
+\index{GetAccountInfo@{GetAccountInfo}!BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}}
+\doxysubsubsection{\texorpdfstring{GetAccountInfo()}{GetAccountInfo()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} Better\+You\+Tube\+Feed.\+You\+Tube\+Data\+API.\+Get\+Account\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account. It uses Oauth2\+Service insted of You\+Tube\+Service used elsewhere and executes Userinfo request. 
+
+\begin{DoxyReturn}{Returns}
+Account object
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source_l00198}{198}} of file \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source}{You\+Tube\+Data\+API.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_abc5134491f99e9f2df0c58fb0f05c0f0}\label{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_abc5134491f99e9f2df0c58fb0f05c0f0}} 
+\index{BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}!GetChannelInfo@{GetChannelInfo}}
+\index{GetChannelInfo@{GetChannelInfo}!BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}}
+\doxysubsubsection{\texorpdfstring{GetChannelInfo()}{GetChannelInfo()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}} Better\+You\+Tube\+Feed.\+You\+Tube\+Data\+API.\+Get\+Channel\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}}]{account,  }\item[{string}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handles API channel info request Retrieves information abount a channel from the API. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account} & Account from which the request is made\\
+\hline
+{\em id} & hannel id\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Channel object
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source_l00143}{143}} of file \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source}{You\+Tube\+Data\+API.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ac1ebaa0b9edbdadfa87004f1367d2f6d}\label{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ac1ebaa0b9edbdadfa87004f1367d2f6d}} 
+\index{BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}!GetSubsctiptionsID@{GetSubsctiptionsID}}
+\index{GetSubsctiptionsID@{GetSubsctiptionsID}!BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}}
+\doxysubsubsection{\texorpdfstring{GetSubsctiptionsID()}{GetSubsctiptionsID()}}
+{\footnotesize\ttfamily static List$<$ string $>$ Better\+You\+Tube\+Feed.\+You\+Tube\+Data\+API.\+Get\+Subsctiptions\+ID (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}}]{account }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-\/commercial mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account} & Account from which the request is made\texorpdfstring{$<$}{<}/param \begin{DoxyReturn}{Returns}
+List of subscriptions
+\end{DoxyReturn}
+\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source_l00119}{119}} of file \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source}{You\+Tube\+Data\+API.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_a5e1e0c000e639de426c49456530c7a41}\label{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_a5e1e0c000e639de426c49456530c7a41}} 
+\index{BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}!GetVideos@{GetVideos}}
+\index{GetVideos@{GetVideos}!BetterYouTubeFeed.YouTubeDataAPI@{BetterYouTubeFeed.YouTubeDataAPI}}
+\doxysubsubsection{\texorpdfstring{GetVideos()}{GetVideos()}}
+{\footnotesize\ttfamily static ICollection$<$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_video}{Video}} $>$ Better\+You\+Tube\+Feed.\+You\+Tube\+Data\+API.\+Get\+Videos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}}]{account,  }\item[{string}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-\/commercial mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source_l00167}{167}} of file \mbox{\hyperlink{_you_tube_data_a_p_i_8cs_source}{You\+Tube\+Data\+API.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_you_tube_data_a_p_i_8cs}{You\+Tube\+Data\+API.\+cs}}\end{DoxyCompactItemize}

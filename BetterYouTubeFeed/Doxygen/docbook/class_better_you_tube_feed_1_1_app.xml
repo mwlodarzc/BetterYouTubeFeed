@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_app" xml:lang="en-US">
+<title>BetterYouTubeFeed.App Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.App</primary></indexterm>
+<para>
+
+<para>Interaction logic for App.xaml. </para>
+ 
+</para>
+<para>Inheritance diagram for BetterYouTubeFeed.App:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_better_you_tube_feed_1_1_app.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para>Interaction logic for App.xaml. </para>
+<para>
+Definition at line <link linkend="__app_8xaml_8cs_source_1l00016">16</link> of file <link linkend="__app_8xaml_8cs_source">App.xaml.cs</link>.</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__app_8xaml_8cs">App.xaml.cs</link></section>
+</section>

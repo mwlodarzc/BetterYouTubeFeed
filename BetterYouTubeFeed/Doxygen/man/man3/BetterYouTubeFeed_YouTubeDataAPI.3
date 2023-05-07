@@ -1,0 +1,111 @@
+.TH "BetterYouTubeFeed.YouTubeDataAPI" 3 "Sun May 7 2023" "BetterYouTubeFeed" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BetterYouTubeFeed.YouTubeDataAPI \- Class that abstracts communication with YouTube Data API\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static List< string > \fBGetSubsctiptionsID\fP (\fBAccount\fP account)"
+.br
+.RI "Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-commercial mode\&. "
+.ti -1c
+.RI "static \fBChannel\fP \fBGetChannelInfo\fP (\fBAccount\fP account, string id)"
+.br
+.RI "Handles API channel info request Retrieves information abount a channel from the API\&. "
+.ti -1c
+.RI "static ICollection< \fBVideo\fP > \fBGetVideos\fP (\fBAccount\fP account, string id)"
+.br
+.RI "Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-commercial mode\&. "
+.ti -1c
+.RI "static \fBAccount\fP \fBGetAccountInfo\fP ()"
+.br
+.RI "Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account\&. It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class that abstracts communication with YouTube Data API\&. 
+.PP
+Definition at line \fB33\fP of file \fBYouTubeDataAPI\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBAccount\fP BetterYouTubeFeed\&.YouTubeDataAPI\&.GetAccountInfo ()\fC [static]\fP"
+
+.PP
+Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account\&. It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request\&. 
+.PP
+\fBReturns\fP
+.RS 4
+Account object
+.RE
+.PP
+
+.PP
+Definition at line \fB198\fP of file \fBYouTubeDataAPI\&.cs\fP\&.
+.SS "static \fBChannel\fP BetterYouTubeFeed\&.YouTubeDataAPI\&.GetChannelInfo (\fBAccount\fP account, string id)\fC [static]\fP"
+
+.PP
+Handles API channel info request Retrieves information abount a channel from the API\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaccount\fP Account from which the request is made
+.br
+\fIid\fP hannel id
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Channel object
+.RE
+.PP
+
+.PP
+Definition at line \fB143\fP of file \fBYouTubeDataAPI\&.cs\fP\&.
+.SS "static List< string > BetterYouTubeFeed\&.YouTubeDataAPI\&.GetSubsctiptionsID (\fBAccount\fP account)\fC [static]\fP"
+
+.PP
+Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-commercial mode\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaccount\fP Account from which the request is made</param 
+.PP
+\fBReturns\fP
+.RS 4
+List of subscriptions
+.RE
+.PP
+.RE
+.PP
+
+.PP
+Definition at line \fB119\fP of file \fBYouTubeDataAPI\&.cs\fP\&.
+.SS "static ICollection< \fBVideo\fP > BetterYouTubeFeed\&.YouTubeDataAPI\&.GetVideos (\fBAccount\fP account, string id)\fC [static]\fP"
+
+.PP
+Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-commercial mode\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaccount\fP 
+.br
+\fIid\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line \fB167\fP of file \fBYouTubeDataAPI\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BetterYouTubeFeed from the source code\&.

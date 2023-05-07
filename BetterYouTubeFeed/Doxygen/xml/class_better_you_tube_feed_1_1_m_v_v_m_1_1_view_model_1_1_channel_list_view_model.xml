@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BetterYouTubeFeed.Core.ObservableObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel.ChannelListViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>ChannelListViewModel</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel.ChannelListViewModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/ViewModel/ChannelListViewModel.cs" line="8" column="16" bodyfile="MVVM/ViewModel/ChannelListViewModel.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MVVM/ViewModel/ChannelListViewModel.cs" line="6" column="5" bodyfile="MVVM/ViewModel/ChannelListViewModel.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</scope><name>ChannelListViewModel</name></member>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a332c7800d93a109b9bb4bd2b92dbb9b0" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a520716074c575f75ae33868f43556e85" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

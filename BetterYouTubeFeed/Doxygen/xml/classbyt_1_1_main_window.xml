@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbyt_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>byt::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IStyleConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a2a50d825f78c1a85a5efc438bb4ccdb6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context" kindref="compound">BYTFContext</ref></type>
+        <definition>BYTFContext byt.MainWindow.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <qualifiedname>byt.MainWindow.db</qualifiedname>
+        <initializer>= new <ref refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context" kindref="compound">BYTFContext</ref>()</initializer>
+        <briefdescription>
+<para>Database context for aplication window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="28" column="21" bodyfile="MainWindow.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a6bcca8f6af54358831d5fdb5598ef95a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool byt.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>byt.MainWindow._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="109" column="22" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1ad7c70c46cbe87c36ca0fefe7d060368d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ListBox</type>
+        <definition>System Windows Controls ListBox byt.MainWindow::Accounts_ListBox</definition>
+        <argsstring></argsstring>
+        <name>Accounts_ListBox</name>
+        <qualifiedname>byt.MainWindow.Accounts_ListBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="48" column="47" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a4df032352c63b9c1bf2c2c9811ec52b3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ListBox</type>
+        <definition>System Windows Controls ListBox byt.MainWindow::Channels_ListBox</definition>
+        <argsstring></argsstring>
+        <name>Channels_ListBox</name>
+        <qualifiedname>byt.MainWindow.Channels_ListBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="56" column="47" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a71ec18b942a8fee657915f977b93a39c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button byt.MainWindow::AddAccount_Button</definition>
+        <argsstring></argsstring>
+        <name>AddAccount_Button</name>
+        <qualifiedname>byt.MainWindow.AddAccount_Button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="64" column="46" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1aa7a1994cc61ba50a70cf5131a5367dbc" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button byt.MainWindow::Refresh_Button</definition>
+        <argsstring></argsstring>
+        <name>Refresh_Button</name>
+        <qualifiedname>byt.MainWindow.Refresh_Button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="72" column="46" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a8c6d1cb49762d4eddb61b32c206cb3ca" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button byt.MainWindow::Drop_Button</definition>
+        <argsstring></argsstring>
+        <name>Drop_Button</name>
+        <qualifiedname>byt.MainWindow.Drop_Button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="80" column="46" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1a088f5e0ae76713a1654d477a14529e30" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button byt.MainWindow::Minimize_Button</definition>
+        <argsstring></argsstring>
+        <name>Minimize_Button</name>
+        <qualifiedname>byt.MainWindow.Minimize_Button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="88" column="46" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1ab17117fb836a35b72108cb29dc7b2488" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button byt.MainWindow::Close_Button</definition>
+        <argsstring></argsstring>
+        <name>Close_Button</name>
+        <qualifiedname>byt.MainWindow.Close_Button</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="96" column="46" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_main_window_1aeaf8760f1be7a0d9ac79f8f6ab715919" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ListView</type>
+        <definition>System Windows Controls ListView byt.MainWindow::Videos_List</definition>
+        <argsstring></argsstring>
+        <name>Videos_List</name>
+        <qualifiedname>byt.MainWindow.Videos_List</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="104" column="48" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>byt.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <qualifiedname>byt.MainWindow.MainWindow</qualifiedname>
+        <briefdescription>
+<para>Constructor for MainWindow class objects. Initializes application window and updates listbox and listview displays. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="35" column="16" bodyfile="MainWindow.xaml.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>byt.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="116" column="21" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="116" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>byt.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.i.cs" line="116" column="21" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.i.cs" bodystart="116" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbyt_1_1_main_window_1afa5f9ba9d33e19eeb90841fde83c1955" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.ListBox_SelectionChanged_Channels</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>ListBox_SelectionChanged_Channels</name>
+        <qualifiedname>byt.MainWindow.ListBox_SelectionChanged_Channels</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Logic for selecting a specific channel. Function opens youtube.com with URL ending specific for selected Channel customURL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected channel</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="47" column="22" bodyfile="MainWindow.xaml.cs" bodystart="47" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1acfcc8d31a349f68348ae9c43f86efc6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Update_Displayed</definition>
+        <argsstring>()</argsstring>
+        <name>Update_Displayed</name>
+        <qualifiedname>byt.MainWindow.Update_Displayed</qualifiedname>
+        <briefdescription>
+<para>Function that handles updates from database to UI. Connects Accounts, Channels and Videos lists to their database counterparts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="67" column="22" bodyfile="MainWindow.xaml.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a44c474b32be8212e5cc7f28ce719a829" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.OpenWebYt_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>OpenWebYt_Click</name>
+        <qualifiedname>byt.MainWindow.OpenWebYt_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Function that handles oppening links to youtube video. After sellecting specifc video in video listview the function starts a browser process and directs it to the videos id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected video</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="80" column="22" bodyfile="MainWindow.xaml.cs" bodystart="80" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a5ab85178f3b4e15711a44c1948c6ee83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.DropDatabase_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>DropDatabase_Click</name>
+        <qualifiedname>byt.MainWindow.DropDatabase_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Deleting all entries in database for all tables and updating displays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="97" column="22" bodyfile="MainWindow.xaml.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a06dfdb4678abfff701b45035ff7f6019" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.AddAccount_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>AddAccount_Click</name>
+        <qualifiedname>byt.MainWindow.AddAccount_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Adding an account to database. Function calls db.AddAccount and refreshes displays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="110" column="22" bodyfile="MainWindow.xaml.cs" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1ab407e2207892d49cc45439be72c31cf6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Refresh_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Refresh_Click</name>
+        <qualifiedname>byt.MainWindow.Refresh_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Updates all listviews and listboxes from database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="121" column="22" bodyfile="MainWindow.xaml.cs" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a19a0be8cd877a082fd241a8a02530dd0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Minimize_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Minimize_Click</name>
+        <qualifiedname>byt.MainWindow.Minimize_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Minimizes aplication window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="134" column="22" bodyfile="MainWindow.xaml.cs" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1aaf9e2dce2fcb7ad12a9d1bec45540513" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Close_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Close_Click</name>
+        <qualifiedname>byt.MainWindow.Close_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Closes aplication window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="145" column="22" bodyfile="MainWindow.xaml.cs" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a618a86d4d0c8ab12542c1edaaffde6df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Window_MouseDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>Window_MouseDown</name>
+        <qualifiedname>byt.MainWindow.Window_MouseDown</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles aplication window moving. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="156" column="22" bodyfile="MainWindow.xaml.cs" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a7bf69b72cc1998109fc89edf383d2b46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.MainWindow.Accounts_ListBox_MouseDoubleClick</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>Accounts_ListBox_MouseDoubleClick</name>
+        <qualifiedname>byt.MainWindow.Accounts_ListBox_MouseDoubleClick</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles removal of specified account from Accounts Listbox. Removes the account from database with all related Channels and Videos. Updates displays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Selected button</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event information</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="169" column="22" bodyfile="MainWindow.xaml.cs" bodystart="169" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. byt.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>byt.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="136" column="52" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="136" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IStyleConnector.</type>
+        <definition>void System.Windows.Markup.IStyleConnector. byt.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>byt.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.cs" line="223" column="48" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.cs" bodystart="223" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. byt.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>byt.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.i.cs" line="136" column="52" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.i.cs" bodystart="136" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IStyleConnector.</type>
+        <definition>void System.Windows.Markup.IStyleConnector. byt.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>byt.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MainWindow.g.i.cs" line="223" column="48" bodyfile="obj/Debug/net6.0-windows/MainWindow.g.i.cs" bodystart="223" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MainWindow.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>MainWindow. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IStyleConnector</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>byt.MainWindow</label>
+        <link refid="classbyt_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IStyleConnector</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>byt.MainWindow</label>
+        <link refid="classbyt_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Accounts_ListBox</edgelabel>
+          <edgelabel>AddAccount_Button</edgelabel>
+          <edgelabel>Channels_ListBox</edgelabel>
+          <edgelabel>Close_Button</edgelabel>
+          <edgelabel>Drop_Button</edgelabel>
+          <edgelabel>Minimize_Button</edgelabel>
+          <edgelabel>Refresh_Button</edgelabel>
+          <edgelabel>Videos_List</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MainWindow.xaml.cs" line="23" column="19" bodyfile="MainWindow.xaml.cs" bodystart="24" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classbyt_1_1_main_window_1a6bcca8f6af54358831d5fdb5598ef95a" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="classbyt_1_1_main_window_1ad7c70c46cbe87c36ca0fefe7d060368d" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Accounts_ListBox</name></member>
+      <member refid="classbyt_1_1_main_window_1a7bf69b72cc1998109fc89edf383d2b46" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Accounts_ListBox_MouseDoubleClick</name></member>
+      <member refid="classbyt_1_1_main_window_1a71ec18b942a8fee657915f977b93a39c" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>AddAccount_Button</name></member>
+      <member refid="classbyt_1_1_main_window_1a06dfdb4678abfff701b45035ff7f6019" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>AddAccount_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1a4df032352c63b9c1bf2c2c9811ec52b3" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Channels_ListBox</name></member>
+      <member refid="classbyt_1_1_main_window_1ab17117fb836a35b72108cb29dc7b2488" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Close_Button</name></member>
+      <member refid="classbyt_1_1_main_window_1aaf9e2dce2fcb7ad12a9d1bec45540513" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Close_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Connect</name></member>
+      <member refid="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Connect</name></member>
+      <member refid="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Connect</name></member>
+      <member refid="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Connect</name></member>
+      <member refid="classbyt_1_1_main_window_1a2a50d825f78c1a85a5efc438bb4ccdb6" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>db</name></member>
+      <member refid="classbyt_1_1_main_window_1a8c6d1cb49762d4eddb61b32c206cb3ca" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Drop_Button</name></member>
+      <member refid="classbyt_1_1_main_window_1a5ab85178f3b4e15711a44c1948c6ee83" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>DropDatabase_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" prot="public" virt="non-virtual"><scope>byt::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" prot="public" virt="non-virtual"><scope>byt::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="classbyt_1_1_main_window_1afa5f9ba9d33e19eeb90841fde83c1955" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>ListBox_SelectionChanged_Channels</name></member>
+      <member refid="classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f" prot="public" virt="non-virtual"><scope>byt::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="classbyt_1_1_main_window_1a088f5e0ae76713a1654d477a14529e30" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Minimize_Button</name></member>
+      <member refid="classbyt_1_1_main_window_1a19a0be8cd877a082fd241a8a02530dd0" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Minimize_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1a44c474b32be8212e5cc7f28ce719a829" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>OpenWebYt_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1aa7a1994cc61ba50a70cf5131a5367dbc" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Refresh_Button</name></member>
+      <member refid="classbyt_1_1_main_window_1ab407e2207892d49cc45439be72c31cf6" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Refresh_Click</name></member>
+      <member refid="classbyt_1_1_main_window_1acfcc8d31a349f68348ae9c43f86efc6a" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Update_Displayed</name></member>
+      <member refid="classbyt_1_1_main_window_1aeaf8760f1be7a0d9ac79f8f6ab715919" prot="package" virt="non-virtual"><scope>byt::MainWindow</scope><name>Videos_List</name></member>
+      <member refid="classbyt_1_1_main_window_1a618a86d4d0c8ab12542c1edaaffde6df" prot="private" virt="non-virtual"><scope>byt::MainWindow</scope><name>Window_MouseDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

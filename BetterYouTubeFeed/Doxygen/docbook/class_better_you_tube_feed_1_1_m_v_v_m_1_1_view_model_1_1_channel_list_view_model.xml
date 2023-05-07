@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" xml:lang="en-US">
+<title>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</primary></indexterm>
+<para>
+Inherits BetterYouTubeFeed.Core.ObservableObject.</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866">ChannelListViewModel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__channel_list_view_model_8cs_source_1l00006">6</link> of file <link linkend="__channel_list_view_model_8cs_source">ChannelListViewModel.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866"/><section>
+    <title>ChannelListViewModel()</title>
+<indexterm><primary>ChannelListViewModel</primary><secondary>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</primary><secondary>ChannelListViewModel</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel.ChannelListViewModel ( )</computeroutput></para><para>
+Definition at line <link linkend="__channel_list_view_model_8cs_source_1l00008">8</link> of file <link linkend="__channel_list_view_model_8cs_source">ChannelListViewModel.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+MVVM/ViewModel/<link linkend="__channel_list_view_model_8cs">ChannelListViewModel.cs</link></section>
+</section>

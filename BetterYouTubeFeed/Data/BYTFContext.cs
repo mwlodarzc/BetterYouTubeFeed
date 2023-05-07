@@ -7,7 +7,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 
 namespace BetterYouTubeFeed.Data;
-
+/// <summary>
+/// Database context class definition.
+/// </summary>
 public class BYTFContext : DbContext
 {
     public DbSet<Account> Accounts { get; set; } = null!;
@@ -15,13 +17,21 @@ public class BYTFContext : DbContext
     public DbSet<Video> Videos { get; set; } = null!;
     public DbSet<Channel> Channels { get; set; } = null!;
 
+    /// <summary>
+    /// Handles database connection
+    /// </summary>
+    /// <param name="optionsBuilder">Builder</param>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // unsafe
         string path = System.IO.Directory.GetParent(System.IO.Directory.GetParent(System.IO.Directory.GetParent(Environment.CurrentDirectory).ToString()).ToString()).ToString();
-        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\My\\Desktop\\6SEM\\PROGRAMOWANIE_Z_ANETKA\\BetterYT4\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True; MultipleActiveResultSets = true");
+        optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Michał\\Desktop\\tmp\\BetterYouTubeFeed\\BetterYouTubeFeed\\YouTubeDatabase.mdf;Integrated Security=True; MultipleActiveResultSets = true");
     }
-
+    /// <summary>
+    /// Handles database account table entry drop
+    /// </summary>
+    /// <param name="accountId">Dropped account</param>
+    /// <returns>Execution boolean</returns>
     public bool DropAccount(string accountId)
     {
         var account = this.Accounts.Where(c => c.AccountId.Equals(accountId));
@@ -30,6 +40,10 @@ public class BYTFContext : DbContext
         this.Accounts.Remove(account.First());
         return true;
     }
+    /// <summary>
+    /// Handles database table cleaning.
+    /// Removes all entries in all tables.
+    /// </summary>
     public void Drop()
     {
         var accounts = from o in this.Accounts select o;
@@ -43,10 +57,17 @@ public class BYTFContext : DbContext
             this.Videos.Remove(video);
         this.SaveChanges();
     }
+    /// <summary>
+    /// Adds an account taken from YouTubeDataAPI class account info request.
+    /// </summary>
     public void AddAccount()
     {
         Accounts.Add(YouTubeDataAPI.GetAccountInfo());
     }
+
+    /// <summary>
+    /// Updates Channels table with subscription of all accounts.
+    /// </summary>
     public void UpdateChannels()
     {
         foreach (var account in Accounts)
@@ -55,6 +76,10 @@ public class BYTFContext : DbContext
                     this.Channels.Add(YouTubeDataAPI.GetChannelInfo(account, id));
         this.SaveChanges();
     }
+
+    /// <summary>
+    /// Updates Videos table for all subscriptions of all accounts.
+    /// </summary>
     public void UpdateVideos()
     {
         if (!this.Accounts.IsNullOrEmpty())

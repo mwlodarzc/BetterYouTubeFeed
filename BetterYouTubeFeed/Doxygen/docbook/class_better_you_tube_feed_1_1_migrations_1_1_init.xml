@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_init" xml:lang="en-US">
+<title>BetterYouTubeFeed.Migrations.Init Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Migrations.Init</primary></indexterm>
+<para>
+ 
+</para>
+<para>Inheritance diagram for BetterYouTubeFeed.Migrations.Init:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_better_you_tube_feed_1_1_migrations_1_1_init.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_better_you_tube_feed_1_1_migrations_1_1_init_1ad73eeb63a6496b5475bb349b27f7575d">Up</link> (MigrationBuilder migrationBuilder)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_better_you_tube_feed_1_1_migrations_1_1_init_1a83ae6235a177ecdd9bb457260e7bb8c7">Down</link> (MigrationBuilder migrationBuilder)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_better_you_tube_feed_1_1_migrations_1_1_init_1aa52482dc40ea972138fc2e77b3c1788f">BuildTargetModel</link> (ModelBuilder modelBuilder)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="_20230507195553___init_8cs_source_1l00008">8</link> of file <link linkend="_20230507195553___init_8cs_source">20230507195553_Init.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_init_1aa52482dc40ea972138fc2e77b3c1788f"/><section>
+    <title>BuildTargetModel()</title>
+<indexterm><primary>BuildTargetModel</primary><secondary>BetterYouTubeFeed.Migrations.Init</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Migrations.Init</primary><secondary>BuildTargetModel</secondary></indexterm>
+<para><computeroutput>override void BetterYouTubeFeed.Migrations.Init.BuildTargetModel (ModelBuilder modelBuilder)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+</para>
+<para>
+Definition at line <link linkend="_20230507195553___init_8_designer_8cs_source_1l00018">18</link> of file <link linkend="_20230507195553___init_8_designer_8cs_source">20230507195553_Init.Designer.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_init_1a83ae6235a177ecdd9bb457260e7bb8c7"/><section>
+    <title>Down()</title>
+<indexterm><primary>Down</primary><secondary>BetterYouTubeFeed.Migrations.Init</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Migrations.Init</primary><secondary>Down</secondary></indexterm>
+<para><computeroutput>override void BetterYouTubeFeed.Migrations.Init.Down (MigrationBuilder migrationBuilder)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+</para>
+<para>
+Definition at line <link linkend="_20230507195553___init_8cs_source_1l00087">87</link> of file <link linkend="_20230507195553___init_8cs_source">20230507195553_Init.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_init_1ad73eeb63a6496b5475bb349b27f7575d"/><section>
+    <title>Up()</title>
+<indexterm><primary>Up</primary><secondary>BetterYouTubeFeed.Migrations.Init</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Migrations.Init</primary><secondary>Up</secondary></indexterm>
+<para><computeroutput>override void BetterYouTubeFeed.Migrations.Init.Up (MigrationBuilder migrationBuilder)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+</para>
+<para>
+Definition at line <link linkend="_20230507195553___init_8cs_source_1l00011">11</link> of file <link linkend="_20230507195553___init_8cs_source">20230507195553_Init.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+Migrations/<link linkend="_20230507195553___init_8cs">20230507195553_Init.cs</link>Migrations/<link linkend="_20230507195553___init_8_designer_8cs">20230507195553_Init.Designer.cs</link></section>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_e3d743d0ec9b4013b28b5d69101bc7fb" kind="dir">
+    <compoundname>Data</compoundname>
+    <innerfile refid="_b_y_t_f_context_8cs">BYTFContext.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Data/"/>
+  </compounddef>
+</doxygen>

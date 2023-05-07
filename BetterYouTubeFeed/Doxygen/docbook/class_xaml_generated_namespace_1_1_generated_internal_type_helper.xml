@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper" xml:lang="en-US">
+<title>XamlGeneratedNamespace.GeneratedInternalTypeHelper Class Reference</title>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary></indexterm>
+<para>
+
+<para>GeneratedInternalTypeHelper. </para>
+ 
+</para>
+<para>Inheritance diagram for XamlGeneratedNamespace.GeneratedInternalTypeHelper:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_xaml_generated_namespace_1_1_generated_internal_type_helper.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override object <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1">CreateInstance</link> (System.Type type, System.Globalization.CultureInfo culture)</para>
+
+<para>CreateInstance. </para>
+</listitem>
+            <listitem><para>override object <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6">GetPropertyValue</link> (System.Reflection.PropertyInfo propertyInfo, object target, System.Globalization.CultureInfo culture)</para>
+
+<para>GetPropertyValue. </para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38">SetPropertyValue</link> (System.Reflection.PropertyInfo propertyInfo, object target, object value, System.Globalization.CultureInfo culture)</para>
+
+<para>SetPropertyValue. </para>
+</listitem>
+            <listitem><para>override System.Delegate <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78">CreateDelegate</link> (System.Type delegateType, object target, string handler)</para>
+
+<para>CreateDelegate. </para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8">AddEventHandler</link> (System.Reflection.EventInfo eventInfo, object target, System.Delegate handler)</para>
+
+<para>AddEventHandler. </para>
+</listitem>
+            <listitem><para>override object <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1">CreateInstance</link> (System.Type type, System.Globalization.CultureInfo culture)</para>
+
+<para>CreateInstance. </para>
+</listitem>
+            <listitem><para>override object <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6">GetPropertyValue</link> (System.Reflection.PropertyInfo propertyInfo, object target, System.Globalization.CultureInfo culture)</para>
+
+<para>GetPropertyValue. </para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38">SetPropertyValue</link> (System.Reflection.PropertyInfo propertyInfo, object target, object value, System.Globalization.CultureInfo culture)</para>
+
+<para>SetPropertyValue. </para>
+</listitem>
+            <listitem><para>override System.Delegate <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78">CreateDelegate</link> (System.Type delegateType, object target, string handler)</para>
+
+<para>CreateDelegate. </para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8">AddEventHandler</link> (System.Reflection.EventInfo eventInfo, object target, System.Delegate handler)</para>
+
+<para>AddEventHandler. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>GeneratedInternalTypeHelper. </para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00020">20</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8"/><section>
+    <title>AddEventHandler()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>AddEventHandler</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>AddEventHandler</secondary></indexterm>
+<para><computeroutput>override void XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler (System::Reflection::EventInfo eventInfo, object target, System::Delegate handler)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>AddEventHandler. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00057">57</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8"/><section>
+    <title>AddEventHandler()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>AddEventHandler</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>AddEventHandler</secondary></indexterm>
+<para><computeroutput>override void XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler (System::Reflection::EventInfo eventInfo, object target, System::Delegate handler)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>AddEventHandler. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8i_8cs_source_1l00057">57</link> of file <link linkend="__generated_internal_type_helper_8g_8i_8cs_source">GeneratedInternalTypeHelper.g.i.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78"/><section>
+    <title>CreateDelegate()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>CreateDelegate</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>CreateDelegate</secondary></indexterm>
+<para><computeroutput>override System.Delegate XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate (System::Type delegateType, object target, string handler)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>CreateDelegate. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00047">47</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78"/><section>
+    <title>CreateDelegate()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>CreateDelegate</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>CreateDelegate</secondary></indexterm>
+<para><computeroutput>override System.Delegate XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate (System::Type delegateType, object target, string handler)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>CreateDelegate. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8i_8cs_source_1l00047">47</link> of file <link linkend="__generated_internal_type_helper_8g_8i_8cs_source">GeneratedInternalTypeHelper.g.i.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1"/><section>
+    <title>CreateInstance()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>CreateInstance</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>CreateInstance</secondary></indexterm>
+<para><computeroutput>override object XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance (System::Type type, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>CreateInstance. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00025">25</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1"/><section>
+    <title>CreateInstance()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>CreateInstance</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>CreateInstance</secondary></indexterm>
+<para><computeroutput>override object XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance (System::Type type, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>CreateInstance. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8i_8cs_source_1l00025">25</link> of file <link linkend="__generated_internal_type_helper_8g_8i_8cs_source">GeneratedInternalTypeHelper.g.i.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6"/><section>
+    <title>GetPropertyValue()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>GetPropertyValue</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>GetPropertyValue</secondary></indexterm>
+<para><computeroutput>override object XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue (System::Reflection::PropertyInfo propertyInfo, object target, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>GetPropertyValue. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00033">33</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6"/><section>
+    <title>GetPropertyValue()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>GetPropertyValue</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>GetPropertyValue</secondary></indexterm>
+<para><computeroutput>override object XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue (System::Reflection::PropertyInfo propertyInfo, object target, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>GetPropertyValue. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8i_8cs_source_1l00033">33</link> of file <link linkend="__generated_internal_type_helper_8g_8i_8cs_source">GeneratedInternalTypeHelper.g.i.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38"/><section>
+    <title>SetPropertyValue()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>SetPropertyValue</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>SetPropertyValue</secondary></indexterm>
+<para><computeroutput>override void XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue (System::Reflection::PropertyInfo propertyInfo, object target, object value, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>SetPropertyValue. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8cs_source_1l00040">40</link> of file <link linkend="__generated_internal_type_helper_8g_8cs_source">GeneratedInternalTypeHelper.g.cs</link>.</para>
+</section>
+<anchor xml:id="_class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38"/><section>
+    <title>SetPropertyValue()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>SetPropertyValue</primary><secondary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</secondary></indexterm>
+<indexterm><primary>XamlGeneratedNamespace.GeneratedInternalTypeHelper</primary><secondary>SetPropertyValue</secondary></indexterm>
+<para><computeroutput>override void XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue (System::Reflection::PropertyInfo propertyInfo, object target, object value, System::Globalization::CultureInfo culture)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>SetPropertyValue. </para>
+</para>
+<para>
+Definition at line <link linkend="__generated_internal_type_helper_8g_8i_8cs_source_1l00040">40</link> of file <link linkend="__generated_internal_type_helper_8g_8i_8cs_source">GeneratedInternalTypeHelper.g.i.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+obj/Debug/net6.0-windows/<link linkend="__generated_internal_type_helper_8g_8cs">GeneratedInternalTypeHelper.g.cs</link>obj/Debug/net6.0-windows/<link linkend="__generated_internal_type_helper_8g_8i_8cs">GeneratedInternalTypeHelper.g.i.cs</link></section>
+</section>

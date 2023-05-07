@@ -1,0 +1,102 @@
+\hypertarget{20230507195553___init_8cs_source}{}\doxysection{20230507195553\+\_\+\+Init.\+cs}
+\label{20230507195553___init_8cs_source}\index{Migrations/20230507195553\_Init.cs@{Migrations/20230507195553\_Init.cs}}
+\mbox{\hyperlink{20230507195553___init_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }Microsoft.EntityFrameworkCore.Migrations;}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00003}00003\ \textcolor{preprocessor}{\#nullable\ disable}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00005}\mbox{\hyperlink{namespace_better_you_tube_feed_1_1_migrations}{00005}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_better_you_tube_feed_1_1_migrations}{BetterYouTubeFeed.Migrations}}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00008}\mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init}{00008}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }\mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init}{Init}}\ :\ Migration}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00009}00009\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00011}\mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init_ad73eeb63a6496b5475bb349b27f7575d}{00011}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{protected}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init_ad73eeb63a6496b5475bb349b27f7575d}{Up}}(MigrationBuilder\ migrationBuilder)}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.CreateTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Accounts"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ columns:\ table\ =>\ \textcolor{keyword}{new}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ AccountId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(450)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Type\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ AuthId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Name\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ FamilyName\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GivenName\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Email\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ImageUrl\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CustomUrl\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{true})}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ constraints:\ table\ =>}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.PrimaryKey(\textcolor{stringliteral}{"{}PK\_Accounts"{}},\ x\ =>\ x.AccountId);}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.CreateTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Channels"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ columns:\ table\ =>\ \textcolor{keyword}{new}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ChannelId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(450)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Name\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ CustomUrl\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ImageUrl\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Description\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{true}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ AccountId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(450)"{}},\ nullable:\ \textcolor{keyword}{true})}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ constraints:\ table\ =>}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.PrimaryKey(\textcolor{stringliteral}{"{}PK\_Channels"{}},\ x\ =>\ x.ChannelId);}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.ForeignKey(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}FK\_Channels\_Accounts\_AccountId"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ column:\ x\ =>\ x.AccountId,}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ principalTable:\ \textcolor{stringliteral}{"{}Accounts"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ principalColumn:\ \textcolor{stringliteral}{"{}AccountId"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.CreateTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Videos"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ columns:\ table\ =>\ \textcolor{keyword}{new}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ VideoId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(450)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Title\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ UploadDate\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DownloadDate\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ThumbnailLink\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(max)"{}},\ nullable:\ \textcolor{keyword}{false}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ChannelId\ =\ table.Column<\textcolor{keywordtype}{string}>(type:\ \textcolor{stringliteral}{"{}nvarchar(450)"{}},\ nullable:\ \textcolor{keyword}{true}),}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ watched\ =\ table.Column<\textcolor{keywordtype}{bool}>(type:\ \textcolor{stringliteral}{"{}bit"{}},\ nullable:\ \textcolor{keyword}{false})}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00064}00064\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ constraints:\ table\ =>}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00067}00067\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.PrimaryKey(\textcolor{stringliteral}{"{}PK\_Videos"{}},\ x\ =>\ x.VideoId);}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.ForeignKey(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}FK\_Videos\_Channels\_ChannelId"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ column:\ x\ =>\ x.ChannelId,}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ principalTable:\ \textcolor{stringliteral}{"{}Channels"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ principalColumn:\ \textcolor{stringliteral}{"{}ChannelId"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.CreateIndex(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}IX\_Channels\_AccountId"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table:\ \textcolor{stringliteral}{"{}Channels"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ column:\ \textcolor{stringliteral}{"{}AccountId"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00079}00079\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.CreateIndex(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}IX\_Videos\_ChannelId"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table:\ \textcolor{stringliteral}{"{}Videos"{}},}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ column:\ \textcolor{stringliteral}{"{}ChannelId"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00085}00085\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00087}\mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init_a83ae6235a177ecdd9bb457260e7bb8c7}{00087}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{protected}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_migrations_1_1_init_a83ae6235a177ecdd9bb457260e7bb8c7}{Down}}(MigrationBuilder\ migrationBuilder)}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.DropTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Videos"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00092}00092\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.DropTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00093}00093\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Channels"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00094}00094\ }
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00095}00095\ \ \ \ \ \ \ \ \ \ \ \ \ migrationBuilder.DropTable(}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00096}00096\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ name:\ \textcolor{stringliteral}{"{}Accounts"{}});}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00097}00097\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00098}00098\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{20230507195553___init_8cs_source_l00099}00099\ \}}
+
+\end{DoxyCode}

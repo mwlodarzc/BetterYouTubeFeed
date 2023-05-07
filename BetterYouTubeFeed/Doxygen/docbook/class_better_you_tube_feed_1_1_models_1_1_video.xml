@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_models_1_1_video" xml:lang="en-US">
+<title>BetterYouTubeFeed.Models.Video Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1af079f7c00c523fa63ef31655cb33de53">Video</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a7930be227d01d365b5473b0bfdc78253">Video</link> (string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a2f36497a4f7106cca2315a4bdb71bc12">VideoId</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a973238275f455bfdca6004462b5ddfc6">Title</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a42ea62ae55322daef36b5942a1240118">UploadDate</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a06d8e9e8a5964f7fbb27679bdc000cc1">DownloadDate</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a1a0f96d5876e4027cc2cfd992fa21488">ThumbnailLink</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string? <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1a7be85144ce0a8ccff60deaaf3d3211e7">ChannelId</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video_1ae30fe249f69dec414e6774428413ef55">watched</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__video_8cs_source_1l00006">6</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1af079f7c00c523fa63ef31655cb33de53"/><section>
+    <title>Video()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Video</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>Video</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.Models.Video.Video ( )</computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00020">20</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a7930be227d01d365b5473b0bfdc78253"/><section>
+    <title>Video()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Video</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>Video</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.Models.Video.Video (string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)</computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00021">21</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a7be85144ce0a8ccff60deaaf3d3211e7"/><section>
+    <title>ChannelId</title>
+<indexterm><primary>ChannelId</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>ChannelId</secondary></indexterm>
+<para><computeroutput>string? BetterYouTubeFeed.Models.Video.ChannelId<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00018">18</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a06d8e9e8a5964f7fbb27679bdc000cc1"/><section>
+    <title>DownloadDate</title>
+<indexterm><primary>DownloadDate</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>DownloadDate</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Video.DownloadDate<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00015">15</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a1a0f96d5876e4027cc2cfd992fa21488"/><section>
+    <title>ThumbnailLink</title>
+<indexterm><primary>ThumbnailLink</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>ThumbnailLink</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Video.ThumbnailLink<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00017">17</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a973238275f455bfdca6004462b5ddfc6"/><section>
+    <title>Title</title>
+<indexterm><primary>Title</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>Title</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Video.Title<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00011">11</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a42ea62ae55322daef36b5942a1240118"/><section>
+    <title>UploadDate</title>
+<indexterm><primary>UploadDate</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>UploadDate</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Video.UploadDate<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00013">13</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1a2f36497a4f7106cca2315a4bdb71bc12"/><section>
+    <title>VideoId</title>
+<indexterm><primary>VideoId</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>VideoId</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Video.VideoId<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00009">9</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_video_1ae30fe249f69dec414e6774428413ef55"/><section>
+    <title>watched</title>
+<indexterm><primary>watched</primary><secondary>BetterYouTubeFeed.Models.Video</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Video</primary><secondary>watched</secondary></indexterm>
+<para><computeroutput>bool BetterYouTubeFeed.Models.Video.watched<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__video_8cs_source_1l00019">19</link> of file <link linkend="__video_8cs_source">Video.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Models/<link linkend="__video_8cs">Video.cs</link></section>
+</section>

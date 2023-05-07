@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classbyt_1_1_main_window" xml:lang="en-US">
+<title>byt.MainWindow Class Reference</title>
+<indexterm><primary>byt.MainWindow</primary></indexterm>
+<para>
+
+<para>Interaction logic for MainWindow.xaml. </para>
+ 
+</para>
+<para>Inheritance diagram for byt.MainWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classbyt_1_1_main_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f">MainWindow</link> ()</para>
+
+<para>Constructor for MainWindow class objects. Initializes application window and updates listbox and listview displays. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Interaction logic for MainWindow.xaml. </para>
+
+
+
+<para>MainWindow. </para>
+<para>
+Definition at line <link linkend="__main_window_8xaml_8cs_source_1l00023">23</link> of file <link linkend="__main_window_8xaml_8cs_source">MainWindow.xaml.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f"/><section>
+    <title>MainWindow()</title>
+<indexterm><primary>MainWindow</primary><secondary>byt.MainWindow</secondary></indexterm>
+<indexterm><primary>byt.MainWindow</primary><secondary>MainWindow</secondary></indexterm>
+<para><computeroutput>byt.MainWindow.MainWindow ( )</computeroutput></para><para>
+
+<para>Constructor for MainWindow class objects. Initializes application window and updates listbox and listview displays. </para>
+</para>
+<para>
+Definition at line <link linkend="__main_window_8xaml_8cs_source_1l00035">35</link> of file <link linkend="__main_window_8xaml_8cs_source">MainWindow.xaml.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b"/><section>
+    <title>InitializeComponent()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>byt.MainWindow</secondary></indexterm>
+<indexterm><primary>byt.MainWindow</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void byt.MainWindow.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+Definition at line <link linkend="__main_window_8g_8cs_source_1l00116">116</link> of file <link linkend="__main_window_8g_8cs_source">MainWindow.g.cs</link>.</para>
+</section>
+<anchor xml:id="_classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b"/><section>
+    <title>InitializeComponent()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>byt.MainWindow</secondary></indexterm>
+<indexterm><primary>byt.MainWindow</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void byt.MainWindow.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+Definition at line <link linkend="__main_window_8g_8i_8cs_source_1l00116">116</link> of file <link linkend="__main_window_8g_8i_8cs_source">MainWindow.g.i.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__main_window_8xaml_8cs">MainWindow.xaml.cs</link>obj/Debug/net6.0-windows/<link linkend="__main_window_8g_8cs">MainWindow.g.cs</link>obj/Debug/net6.0-windows/<link linkend="__main_window_8g_8i_8cs">MainWindow.g.i.cs</link></section>
+</section>

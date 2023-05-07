@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_google_1_1_apis_1_1_auth_1_1_o_auth2" kind="namespace" language="C#">
+    <compoundname>Google::Apis::Auth::OAuth2</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Account.cs" line="4" column="30"/>
+  </compounddef>
+</doxygen>

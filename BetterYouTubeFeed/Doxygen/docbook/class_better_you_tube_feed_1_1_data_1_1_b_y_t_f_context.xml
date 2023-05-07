@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context" xml:lang="en-US">
+<title>BetterYouTubeFeed.Data.BYTFContext Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary></indexterm>
+<para>
+
+<para>Database context class definition. </para>
+ 
+</para>
+<para>Inheritance diagram for BetterYouTubeFeed.Data.BYTFContext:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a34d39f4397892e9fad267b794a5919cb">DropAccount</link> (string accountId)</para>
+
+<para>Handles database account table entry drop. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23">Drop</link> ()</para>
+
+<para>Handles database table cleaning. Removes all entries in all tables. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158">AddAccount</link> ()</para>
+
+<para>Adds an account taken from YouTubeDataAPI class account info request. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629">UpdateChannels</link> ()</para>
+
+<para>Updates Channels table with subscription of all accounts. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185">UpdateVideos</link> ()</para>
+
+<para>Updates Videos table for all subscriptions of all accounts. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1ab3e3cd98449dc6c4cdb1bfa61e25c8d2">OnConfiguring</link> (DbContextOptionsBuilder optionsBuilder)</para>
+
+<para>Handles database connection. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>DbSet&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> &gt; <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f">Accounts</link> = null!<computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>DbSet&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link> &gt; <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726">Videos</link> = null!<computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>DbSet&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link> &gt; <link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c">Channels</link> = null!<computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Database context class definition. </para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00013">13</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158"/><section>
+    <title>AddAccount()</title>
+<indexterm><primary>AddAccount</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>AddAccount</secondary></indexterm>
+<para><computeroutput>void BetterYouTubeFeed.Data.BYTFContext.AddAccount ( )</computeroutput></para><para>
+
+<para>Adds an account taken from YouTubeDataAPI class account info request. </para>
+</para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00063">63</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23"/><section>
+    <title>Drop()</title>
+<indexterm><primary>Drop</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>Drop</secondary></indexterm>
+<para><computeroutput>void BetterYouTubeFeed.Data.BYTFContext.Drop ( )</computeroutput></para><para>
+
+<para>Handles database table cleaning. Removes all entries in all tables. </para>
+</para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00047">47</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a34d39f4397892e9fad267b794a5919cb"/><section>
+    <title>DropAccount()</title>
+<indexterm><primary>DropAccount</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>DropAccount</secondary></indexterm>
+<para><computeroutput>bool BetterYouTubeFeed.Data.BYTFContext.DropAccount (string accountId)</computeroutput></para><para>
+
+<para>Handles database account table entry drop. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>accountId</entry><entry>
+<para>Dropped account</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Execution boolean</para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00035">35</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1ab3e3cd98449dc6c4cdb1bfa61e25c8d2"/><section>
+    <title>OnConfiguring()</title>
+<indexterm><primary>OnConfiguring</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>OnConfiguring</secondary></indexterm>
+<para><computeroutput>override void BetterYouTubeFeed.Data.BYTFContext.OnConfiguring (DbContextOptionsBuilder optionsBuilder)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Handles database connection. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>optionsBuilder</entry><entry>
+<para>Builder</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00024">24</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629"/><section>
+    <title>UpdateChannels()</title>
+<indexterm><primary>UpdateChannels</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>UpdateChannels</secondary></indexterm>
+<para><computeroutput>void BetterYouTubeFeed.Data.BYTFContext.UpdateChannels ( )</computeroutput></para><para>
+
+<para>Updates Channels table with subscription of all accounts. </para>
+</para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00071">71</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185"/><section>
+    <title>UpdateVideos()</title>
+<indexterm><primary>UpdateVideos</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>UpdateVideos</secondary></indexterm>
+<para><computeroutput>void BetterYouTubeFeed.Data.BYTFContext.UpdateVideos ( )</computeroutput></para><para>
+
+<para>Updates Videos table for all subscriptions of all accounts. </para>
+</para>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00083">83</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f"/><section>
+    <title>Accounts</title>
+<indexterm><primary>Accounts</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>Accounts</secondary></indexterm>
+<para><computeroutput>DbSet&lt;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>&gt; BetterYouTubeFeed.Data.BYTFContext.Accounts = null!<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00015">15</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c"/><section>
+    <title>Channels</title>
+<indexterm><primary>Channels</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>Channels</secondary></indexterm>
+<para><computeroutput>DbSet&lt;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link>&gt; BetterYouTubeFeed.Data.BYTFContext.Channels = null!<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00018">18</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726"/><section>
+    <title>Videos</title>
+<indexterm><primary>Videos</primary><secondary>BetterYouTubeFeed.Data.BYTFContext</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Data.BYTFContext</primary><secondary>Videos</secondary></indexterm>
+<para><computeroutput>DbSet&lt;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link>&gt; BetterYouTubeFeed.Data.BYTFContext.Videos = null!<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__b_y_t_f_context_8cs_source_1l00017">17</link> of file <link linkend="__b_y_t_f_context_8cs_source">BYTFContext.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Data/<link linkend="__b_y_t_f_context_8cs">BYTFContext.cs</link></section>
+</section>

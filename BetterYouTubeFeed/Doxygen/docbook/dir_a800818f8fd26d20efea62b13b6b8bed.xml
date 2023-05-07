@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a800818f8fd26d20efea62b13b6b8bed" xml:lang="en-US">
+<title>MVVM Directory Reference</title>
+<indexterm><primary>MVVM Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_5b75c748dc2a5b05a78ed4ddc30b4a8e">View</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_f4e4fc4d92d369bb0ca392c969ba322e">ViewModel</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

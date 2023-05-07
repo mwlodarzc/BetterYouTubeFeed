@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view" xml:lang="en-US">
+<title>BetterYouTubeFeed.MVVM.View Namespace Reference</title>
+<indexterm><primary>BetterYouTubeFeed.MVVM.View</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view">ChannelListView</link></para>
+
+<para>Interaction logic for ChannelListView.xaml. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view">HomeView</link></para>
+
+<para>Interaction logic for HomeView.xaml. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

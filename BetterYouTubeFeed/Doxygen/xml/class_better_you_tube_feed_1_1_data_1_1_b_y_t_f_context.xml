@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::Data::BYTFContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_better_you_tube_feed_1_1_models_1_1_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>DbSet&lt;Account&gt; BetterYouTubeFeed.Data.BYTFContext.Accounts</definition>
+        <argsstring></argsstring>
+        <name>Accounts</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.Accounts</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="15" column="18" bodyfile="Data/BYTFContext.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_better_you_tube_feed_1_1_models_1_1_video" kindref="compound">Video</ref> &gt;</type>
+        <definition>DbSet&lt;Video&gt; BetterYouTubeFeed.Data.BYTFContext.Videos</definition>
+        <argsstring></argsstring>
+        <name>Videos</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.Videos</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="17" column="18" bodyfile="Data/BYTFContext.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_better_you_tube_feed_1_1_models_1_1_channel" kindref="compound">Channel</ref> &gt;</type>
+        <definition>DbSet&lt;Channel&gt; BetterYouTubeFeed.Data.BYTFContext.Channels</definition>
+        <argsstring></argsstring>
+        <name>Channels</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.Channels</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="18" column="18" bodyfile="Data/BYTFContext.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1ab3e3cd98449dc6c4cdb1bfa61e25c8d2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BetterYouTubeFeed.Data.BYTFContext.OnConfiguring</definition>
+        <argsstring>(DbContextOptionsBuilder optionsBuilder)</argsstring>
+        <name>OnConfiguring</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.OnConfiguring</qualifiedname>
+        <param>
+          <type>DbContextOptionsBuilder</type>
+          <declname>optionsBuilder</declname>
+        </param>
+        <briefdescription>
+<para>Handles database connection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>optionsBuilder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="24" column="29" bodyfile="Data/BYTFContext.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a34d39f4397892e9fad267b794a5919cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BetterYouTubeFeed.Data.BYTFContext.DropAccount</definition>
+        <argsstring>(string accountId)</argsstring>
+        <name>DropAccount</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.DropAccount</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>accountId</declname>
+        </param>
+        <briefdescription>
+<para>Handles database account table entry drop. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accountId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dropped account</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Execution boolean</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="35" column="17" bodyfile="Data/BYTFContext.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.Data.BYTFContext.Drop</definition>
+        <argsstring>()</argsstring>
+        <name>Drop</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.Drop</qualifiedname>
+        <briefdescription>
+<para>Handles database table cleaning. Removes all entries in all tables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="47" column="17" bodyfile="Data/BYTFContext.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.Data.BYTFContext.AddAccount</definition>
+        <argsstring>()</argsstring>
+        <name>AddAccount</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.AddAccount</qualifiedname>
+        <briefdescription>
+<para>Adds an account taken from YouTubeDataAPI class account info request. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="63" column="17" bodyfile="Data/BYTFContext.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.Data.BYTFContext.UpdateChannels</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateChannels</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.UpdateChannels</qualifiedname>
+        <briefdescription>
+<para>Updates Channels table with subscription of all accounts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="71" column="17" bodyfile="Data/BYTFContext.cs" bodystart="71" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.Data.BYTFContext.UpdateVideos</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateVideos</name>
+        <qualifiedname>BetterYouTubeFeed.Data.BYTFContext.UpdateVideos</qualifiedname>
+        <briefdescription>
+<para>Updates Videos table for all subscriptions of all accounts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Data/BYTFContext.cs" line="83" column="17" bodyfile="Data/BYTFContext.cs" bodystart="83" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Database context class definition. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Data.BYTFContext</label>
+        <link refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Data.BYTFContext</label>
+        <link refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+    </collaborationgraph>
+    <location file="Data/BYTFContext.cs" line="13" column="7" bodyfile="Data/BYTFContext.cs" bodystart="14" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>Accounts</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>AddAccount</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>Channels</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>Drop</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a34d39f4397892e9fad267b794a5919cb" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>DropAccount</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1ab3e3cd98449dc6c4cdb1bfa61e25c8d2" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>OnConfiguring</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>UpdateChannels</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>UpdateVideos</name></member>
+      <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Data::BYTFContext</scope><name>Videos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

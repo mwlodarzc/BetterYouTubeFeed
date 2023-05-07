@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::MVVM::View::ChannelListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a09fff027a2d023bffd5ac2d54f4d0164" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BetterYouTubeFeed.MVVM.View.ChannelListView::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" line="44" column="22" bodyfile="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a34096d4427e98a58ec8b8f1454756a80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.MVVM.View.ChannelListView.ChannelListView</definition>
+        <argsstring>()</argsstring>
+        <name>ChannelListView</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView.ChannelListView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/View/ChannelListView.xaml.cs" line="23" column="16" bodyfile="MVVM/View/ChannelListView.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.MVVM.View.ChannelListView.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" line="51" column="21" bodyfile="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.MVVM.View.ChannelListView.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.i.cs" line="51" column="21" bodyfile="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.i.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. BetterYouTubeFeed.MVVM.View.ChannelListView.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" line="71" column="52" bodyfile="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.cs" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. BetterYouTubeFeed.MVVM.View.ChannelListView.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.ChannelListView.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.i.cs" line="71" column="52" bodyfile="obj/Debug/net6.0-windows/MVVM/View/ChannelListView.g.i.cs" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for ChannelListView.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>ChannelListView. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.View.ChannelListView</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.View.ChannelListView</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="MVVM/View/ChannelListView.xaml.cs" line="21" column="19" bodyfile="MVVM/View/ChannelListView.xaml.cs" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a09fff027a2d023bffd5ac2d54f4d0164" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>_contentLoaded</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a34096d4427e98a58ec8b8f1454756a80" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>ChannelListView</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>Connect</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>Connect</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>InitializeComponent</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::ChannelListView</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

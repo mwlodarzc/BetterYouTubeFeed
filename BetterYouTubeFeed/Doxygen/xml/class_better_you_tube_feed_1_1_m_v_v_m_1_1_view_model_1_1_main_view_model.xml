@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BetterYouTubeFeed.Core.ObservableObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1aff0093b4fda7e4a2049d363ac0a86452" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_home_view_model" kindref="compound">HomeViewModel</ref></type>
+        <definition>HomeViewModel BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.HomeVM</definition>
+        <argsstring></argsstring>
+        <name>HomeVM</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.HomeVM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/ViewModel/MainViewModel.cs" line="12" column="30" bodyfile="MVVM/ViewModel/MainViewModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1ab886eb92109c5d8fe0799cfd53c283f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.CurrentView</definition>
+        <argsstring></argsstring>
+        <name>CurrentView</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.CurrentView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/ViewModel/MainViewModel.cs" line="16" column="15" bodyfile="MVVM/ViewModel/MainViewModel.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a85fd04cd726a020dbaffc45e884e644e" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object BetterYouTubeFeed.MVVM.ViewModel.MainViewModel._currentView</definition>
+        <argsstring></argsstring>
+        <name>_currentView</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel._currentView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/ViewModel/MainViewModel.cs" line="14" column="24" bodyfile="MVVM/ViewModel/MainViewModel.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a33e9cc44a8c3b871b998b3758dbcdcdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.MainViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainViewModel</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel.MainViewModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/ViewModel/MainViewModel.cs" line="27" column="8" bodyfile="MVVM/ViewModel/MainViewModel.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MVVM/ViewModel/MainViewModel.cs" line="10" column="5" bodyfile="MVVM/ViewModel/MainViewModel.cs" bodystart="11" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a85fd04cd726a020dbaffc45e884e644e" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>_currentView</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1ab886eb92109c5d8fe0799cfd53c283f2" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>CurrentView</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1aff0093b4fda7e4a2049d363ac0a86452" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>HomeVM</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a33e9cc44a8c3b871b998b3758dbcdcdc" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>MainViewModel</name></member>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a332c7800d93a109b9bb4bd2b92dbb9b0" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a520716074c575f75ae33868f43556e85" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

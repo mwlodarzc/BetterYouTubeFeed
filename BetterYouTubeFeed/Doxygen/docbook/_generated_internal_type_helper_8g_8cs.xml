@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__generated_internal_type_helper_8g_8cs" xml:lang="en-US">
+<title>obj/Debug/net6.0-windows/GeneratedInternalTypeHelper.g.cs File Reference</title>
+<indexterm><primary>obj/Debug/net6.0-windows/GeneratedInternalTypeHelper.g.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_xaml_generated_namespace_1_1_generated_internal_type_helper">XamlGeneratedNamespace.GeneratedInternalTypeHelper</link></para>
+
+<para>GeneratedInternalTypeHelper. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_xaml_generated_namespace">XamlGeneratedNamespace</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

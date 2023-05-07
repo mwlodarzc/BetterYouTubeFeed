@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbyt_1_1_add_video_popup" kind="class" language="C#" prot="public">
+    <compoundname>byt::AddVideoPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1a13a34ef76cb2f6aed96c75c73017bf2e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System.Windows.Controls.TextBox byt.AddVideoPopup.VideoTitle</definition>
+        <argsstring></argsstring>
+        <name>VideoTitle</name>
+        <qualifiedname>byt.AddVideoPopup.VideoTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="47" column="47" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1ae63c3e26073dad6d705f6db9728bdfd5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System.Windows.Controls.TextBox byt.AddVideoPopup.Link</definition>
+        <argsstring></argsstring>
+        <name>Link</name>
+        <qualifiedname>byt.AddVideoPopup.Link</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="55" column="47" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1a0fb0aa8123f8c3cf289f0785551b65af" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System.Windows.Controls.TextBox byt.AddVideoPopup.VideoUploadDate</definition>
+        <argsstring></argsstring>
+        <name>VideoUploadDate</name>
+        <qualifiedname>byt.AddVideoPopup.VideoUploadDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="63" column="47" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1a3db9ff3f0097d0728f16baf40166b761" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System.Windows.Controls.TextBox byt.AddVideoPopup.VideoDownloadDate</definition>
+        <argsstring></argsstring>
+        <name>VideoDownloadDate</name>
+        <qualifiedname>byt.AddVideoPopup.VideoDownloadDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="71" column="47" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1a135ebd80757c310476111eec86f421aa" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System.Windows.Controls.Button byt.AddVideoPopup.InsertButton</definition>
+        <argsstring></argsstring>
+        <name>InsertButton</name>
+        <qualifiedname>byt.AddVideoPopup.InsertButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="79" column="46" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbyt_1_1_add_video_popup_1aeb32b35ef8e89adfc6b5a4cb553b0cc9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool byt.AddVideoPopup._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>byt.AddVideoPopup._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="84" column="22" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbyt_1_1_add_video_popup_1abfcf9cfeb1a6ca1a2304ee22bb2f11c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.AddVideoPopup.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>byt.AddVideoPopup.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="91" column="21" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="91" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbyt_1_1_add_video_popup_1a5a16415be2b6b5d165e5f671a8c53bcb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. byt.AddVideoPopup.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>byt.AddVideoPopup.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="111" column="52" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="111" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>AddVideoPopup. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>byt.AddVideoPopup</label>
+        <link refid="classbyt_1_1_add_video_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>byt.AddVideoPopup</label>
+        <link refid="classbyt_1_1_add_video_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>InsertButton</edgelabel>
+          <edgelabel>Link</edgelabel>
+          <edgelabel>VideoDownloadDate</edgelabel>
+          <edgelabel>VideoTitle</edgelabel>
+          <edgelabel>VideoUploadDate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" line="42" column="19" bodyfile="obj/Debug/net6.0-windows/AddVideoPopup.g.i.cs" bodystart="42" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classbyt_1_1_add_video_popup_1aeb32b35ef8e89adfc6b5a4cb553b0cc9" prot="private" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>_contentLoaded</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1a5a16415be2b6b5d165e5f671a8c53bcb" prot="private" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>Connect</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1abfcf9cfeb1a6ca1a2304ee22bb2f11c9" prot="public" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>InitializeComponent</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1a135ebd80757c310476111eec86f421aa" prot="package" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>InsertButton</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1ae63c3e26073dad6d705f6db9728bdfd5" prot="package" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>Link</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1a3db9ff3f0097d0728f16baf40166b761" prot="package" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>VideoDownloadDate</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1a13a34ef76cb2f6aed96c75c73017bf2e" prot="package" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>VideoTitle</name></member>
+      <member refid="classbyt_1_1_add_video_popup_1a0fb0aa8123f8c3cf289f0785551b65af" prot="package" virt="non-virtual"><scope>byt::AddVideoPopup</scope><name>VideoUploadDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

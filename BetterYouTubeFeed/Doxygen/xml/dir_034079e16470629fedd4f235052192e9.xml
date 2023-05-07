@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_034079e16470629fedd4f235052192e9" kind="dir">
+    <compoundname>obj/Debug/net6.0-windows</compoundname>
+    <innerdir refid="dir_da07ea390b06ad7cded3a0b7ac982f26">obj/Debug/net6.0-windows/MVVM</innerdir>
+    <innerfile refid="_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_add_video_popup_8g_8i_8cs">AddVideoPopup.g.i.cs</innerfile>
+    <innerfile refid="_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed_8_assembly_info_8cs">BetterYouTubeFeed.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__1adeeh3h__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_1adeeh3h_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__1veurjzm__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_1veurjzm_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__k2ixrlvx__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_k2ixrlvx_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__lx5d1ibp__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_lx5d1ibp_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__scu2c0q4__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_scu2c0q4_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__ttnz0gxq__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_ttnz0gxq_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_better_you_tube_feed__tw1j03lz__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_tw1j03lz_wpftmp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_generated_internal_type_helper_8g_8cs">GeneratedInternalTypeHelper.g.cs</innerfile>
+    <innerfile refid="_generated_internal_type_helper_8g_8i_8cs">GeneratedInternalTypeHelper.g.i.cs</innerfile>
+    <innerfile refid="_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net6.0-windows/"/>
+  </compounddef>
+</doxygen>

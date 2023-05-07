@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classbyt_1_1_add_video_popup" xml:lang="en-US">
+<title>byt.AddVideoPopup Class Reference</title>
+<indexterm><primary>byt.AddVideoPopup</primary></indexterm>
+<para>
+
+<para>AddVideoPopup. </para>
+ 
+</para>
+<para>Inheritance diagram for byt.AddVideoPopup:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classbyt_1_1_add_video_popup.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classbyt_1_1_add_video_popup_1abfcf9cfeb1a6ca1a2304ee22bb2f11c9">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>AddVideoPopup. </para>
+<para>
+Definition at line <link linkend="__add_video_popup_8g_8i_8cs_source_1l00042">42</link> of file <link linkend="__add_video_popup_8g_8i_8cs_source">AddVideoPopup.g.i.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classbyt_1_1_add_video_popup_1abfcf9cfeb1a6ca1a2304ee22bb2f11c9"/><section>
+    <title>InitializeComponent()</title>
+<indexterm><primary>InitializeComponent</primary><secondary>byt.AddVideoPopup</secondary></indexterm>
+<indexterm><primary>byt.AddVideoPopup</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void byt.AddVideoPopup.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+Definition at line <link linkend="__add_video_popup_8g_8i_8cs_source_1l00091">91</link> of file <link linkend="__add_video_popup_8g_8i_8cs_source">AddVideoPopup.g.i.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+obj/Debug/net6.0-windows/<link linkend="__add_video_popup_8g_8i_8cs">AddVideoPopup.g.i.cs</link></section>
+</section>

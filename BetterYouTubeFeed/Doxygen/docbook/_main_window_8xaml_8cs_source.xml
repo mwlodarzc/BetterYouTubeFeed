@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__main_window_8xaml_8cs_source" xml:lang="en-US">
+<title>MainWindow.xaml.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__main_window_8xaml_8cs_source_1l00001"/>00001 <emphasis role="keyword">using&#32;</emphasis><link linkend="_namespace_better_you_tube_feed_1_1_data">BetterYouTubeFeed.Data</link>;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00002"/>00002 <emphasis role="keyword">using&#32;</emphasis><link linkend="_namespace_better_you_tube_feed_1_1_models">BetterYouTubeFeed.Models</link>;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00003"/>00003 <emphasis role="keyword">using&#32;</emphasis>System;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00004"/>00004 <emphasis role="keyword">using&#32;</emphasis>System.Collections.Generic;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00005"/>00005 <emphasis role="keyword">using&#32;</emphasis>System.Diagnostics;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00006"/>00006 <emphasis role="keyword">using&#32;</emphasis>System.Linq;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00007"/>00007 <emphasis role="keyword">using&#32;</emphasis>System.Windows;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00008"/>00008 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Controls;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00009"/>00009 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Input;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00010"/>00010 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00011"/>00011 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00012"/>00012 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Imaging;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00013"/>00013 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Shapes;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00014"/>00014 <emphasis role="keyword">using&#32;</emphasis>System.Xml.Linq;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00015"/>00015 <emphasis role="keyword">using&#32;</emphasis>static&#32;System.Net.Mime.MediaTypeNames;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00016"/>00016 <emphasis role="keyword">using&#32;</emphasis>static&#32;System.Net.WebRequestMethods;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00017"/>00017 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00018"/><link linkend="_namespacebyt">00018</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespacebyt">byt</link>
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00019"/>00019 {
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00023"/><link linkend="_classbyt_1_1_main_window">00023</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis><link linkend="_classbyt_1_1_main_window">MainWindow</link>&#32;:&#32;Window
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00024"/>00024 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context">BYTFContext</link>&#32;db&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context">BYTFContext</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00029"/>00029 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00035"/><link linkend="_classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f">00035</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f">MainWindow</link>()
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b">InitializeComponent</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Update_Displayed();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00040"/>00040 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;ListBox_SelectionChanged_Channels(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;SelectionChangedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(Channels_ListBox.Items.Count&gt;0)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;name&#32;=&#32;((sender&#32;as&#32;ListBox).SelectedItem&#32;as&#32;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link>).Name;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;CustomUrl&#32;=&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c">Channels</link>.Where(x&#32;=&gt;&#32;x.Name&#32;==&#32;name).Select(x&#32;=&gt;&#32;x.CustomUrl).SingleOrDefault();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;URL&#32;=&#32;<emphasis role="stringliteral">&quot;https://www.youtube.com/&quot;</emphasis>&#32;+&#32;CustomUrl;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00054"/>00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;var&#32;defaultWebBrowser&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;ProcessStartInfo
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00056"/>00056 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;FileName&#32;=&#32;URL,
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;UseShellExecute&#32;=&#32;<emphasis role="keyword">true</emphasis>
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;};
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Process.Start(defaultWebBrowser);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00062"/>00062 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Update_Displayed()
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Channels_ListBox.ItemsSource&#32;=&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c">Channels</link>.ToList();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Accounts_ListBox.ItemsSource&#32;=&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f">Accounts</link>.ToList();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00071"/>00071 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Videos_List.ItemsSource&#32;=&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726">Videos</link>.ToList();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00073"/>00073 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;OpenWebYt_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00081"/>00081 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00082"/>00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;VideoId&#32;=&#32;(e.Source&#32;as&#32;Button).Content.ToString();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00083"/>00083 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">string</emphasis>&#32;URL&#32;=&#32;<emphasis role="stringliteral">&quot;https://www.youtube.com/watch?v=&quot;</emphasis>&#32;+&#32;VideoId;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00084"/>00084 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;var&#32;defaultWebBrowser&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;ProcessStartInfo
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00085"/>00085 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00086"/>00086 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;FileName&#32;=&#32;URL,
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00087"/>00087 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;UseShellExecute&#32;=&#32;<emphasis role="keyword">true</emphasis>
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00088"/>00088 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;};
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00089"/>00089 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Process.Start(defaultWebBrowser);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00090"/>00090 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00091"/>00091 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00097"/>00097 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;DropDatabase_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00098"/>00098 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00099"/>00099 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23">Drop</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00100"/>00100 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Update_Displayed();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00101"/>00101 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Refresh_Click(sender,&#32;e);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00102"/>00102 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00103"/>00103 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00110"/>00110 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;AddAccount_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00111"/>00111 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00112"/>00112 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158">AddAccount</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00113"/>00113 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Refresh_Click(sender,&#32;e);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00114"/>00114 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00115"/>00115 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00121"/>00121 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Refresh_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00122"/>00122 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00123"/>00123 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629">UpdateChannels</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00124"/>00124 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185">UpdateVideos</link>();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00125"/>00125 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Update_Displayed();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00126"/>00126 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;var&#32;image&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;BitmapImage(<emphasis role="keyword">new</emphasis>&#32;Uri(<emphasis role="stringliteral">&quot;/Application;Images\\watched.png&quot;</emphasis>,&#32;UriKind.Relative));
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00127"/>00127 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00128"/>00128 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00134"/>00134 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Minimize_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00135"/>00135 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00136"/>00136 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.WindowState&#32;=&#32;WindowState.Minimized;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00137"/>00137 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00138"/>00138 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00139"/>00139 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00145"/>00145 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Close_Click(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;RoutedEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00146"/>00146 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00147"/>00147 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Close();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00148"/>00148 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00149"/>00149 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00150"/>00150 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00156"/>00156 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Window_MouseDown(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;MouseButtonEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00157"/>00157 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00158"/>00158 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(e.ChangedButton&#32;==&#32;MouseButton.Left)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00159"/>00159 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.DragMove();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00160"/>00160 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00161"/>00161 
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00169"/>00169 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;Accounts_ListBox_MouseDoubleClick(<emphasis role="keywordtype">object</emphasis>&#32;sender,&#32;MouseButtonEventArgs&#32;e)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00170"/>00170 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00171"/>00171 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;var&#32;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>&#32;=&#32;Accounts_ListBox.SelectedItem&#32;as&#32;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>;
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00172"/>00172 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>&#32;!=&#32;<emphasis role="keyword">null</emphasis>)
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00173"/>00173 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00174"/>00174 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f">Accounts</link>.Remove(<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00175"/>00175 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">foreach</emphasis>&#32;(var&#32;channel&#32;<emphasis role="keywordflow">in</emphasis>&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c">Channels</link>.Where(c&#32;=&gt;&#32;c.AccountId&#32;==&#32;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link>.<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account_1a716bc1cecbf509a3cc52ef6d73db2286">AccountId</link>))
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00176"/>00176 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00177"/>00177 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">foreach</emphasis>&#32;(var&#32;video&#32;<emphasis role="keywordflow">in</emphasis>&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726">Videos</link>.Where(v=&gt;v.ChannelId&#32;==&#32;channel.ChannelId))
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00178"/>00178 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726">Videos</link>.Remove(video);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00179"/>00179 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;db.<link linkend="_class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c">Channels</link>.Remove(channel);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00180"/>00180 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00181"/>00181 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00182"/>00182 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Update_Displayed();
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00183"/>00183 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Refresh_Click(sender,e);
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00184"/>00184 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00185"/>00185 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__main_window_8xaml_8cs_source_1l00186"/>00186 }&#32;&#32;&#32;
+</programlisting></section>

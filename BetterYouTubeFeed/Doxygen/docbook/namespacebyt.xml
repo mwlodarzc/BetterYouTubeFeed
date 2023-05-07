@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacebyt" xml:lang="en-US">
+<title>byt Namespace Reference</title>
+<indexterm><primary>byt</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classbyt_1_1_add_video_popup">AddVideoPopup</link></para>
+
+<para>AddVideoPopup. </para>
+</listitem>
+            <listitem><para>class <link linkend="_classbyt_1_1_app">App</link></para>
+
+<para>App. </para>
+</listitem>
+            <listitem><para>class <link linkend="_classbyt_1_1_main_window">MainWindow</link></para>
+
+<para>Interaction logic for MainWindow.xaml. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

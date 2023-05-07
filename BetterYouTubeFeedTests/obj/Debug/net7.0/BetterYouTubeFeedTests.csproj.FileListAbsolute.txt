@@ -1,0 +1,5 @@
+C:\Users\My\Desktop\6SEM\PROGRAMOWANIE_Z_ANETKA\BetterYT4\BetterYouTubeFeed\BetterYouTubeFeed\BetterYouTubeFeedTests\obj\Debug\net7.0\BetterYouTubeFeedTests.csproj.AssemblyReference.cache
+C:\Users\My\Desktop\6SEM\PROGRAMOWANIE_Z_ANETKA\BetterYT4\BetterYouTubeFeed\BetterYouTubeFeed\BetterYouTubeFeedTests\obj\Debug\net7.0\BetterYouTubeFeedTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My\Desktop\6SEM\PROGRAMOWANIE_Z_ANETKA\BetterYT4\BetterYouTubeFeed\BetterYouTubeFeed\BetterYouTubeFeedTests\obj\Debug\net7.0\BetterYouTubeFeedTests.AssemblyInfoInputs.cache
+C:\Users\My\Desktop\6SEM\PROGRAMOWANIE_Z_ANETKA\BetterYT4\BetterYouTubeFeed\BetterYouTubeFeed\BetterYouTubeFeedTests\obj\Debug\net7.0\BetterYouTubeFeedTests.AssemblyInfo.cs
+C:\Users\My\Desktop\6SEM\PROGRAMOWANIE_Z_ANETKA\BetterYT4\BetterYouTubeFeed\BetterYouTubeFeed\BetterYouTubeFeedTests\obj\Debug\net7.0\BetterYouTubeFeedTests.csproj.CoreCompileInputs.cache

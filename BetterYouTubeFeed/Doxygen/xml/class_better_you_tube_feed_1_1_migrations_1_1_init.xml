@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_migrations_1_1_init" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::Migrations::Init</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_migrations_1_1_init_1ad73eeb63a6496b5475bb349b27f7575d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BetterYouTubeFeed.Migrations.Init.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <qualifiedname>BetterYouTubeFeed.Migrations.Init.Up</qualifiedname>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20230507195553_Init.cs" line="11" column="33" bodyfile="Migrations/20230507195553_Init.cs" bodystart="11" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_migrations_1_1_init_1a83ae6235a177ecdd9bb457260e7bb8c7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BetterYouTubeFeed.Migrations.Init.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <qualifiedname>BetterYouTubeFeed.Migrations.Init.Down</qualifiedname>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20230507195553_Init.cs" line="87" column="33" bodyfile="Migrations/20230507195553_Init.cs" bodystart="87" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_migrations_1_1_init_1aa52482dc40ea972138fc2e77b3c1788f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BetterYouTubeFeed.Migrations.Init.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <qualifiedname>BetterYouTubeFeed.Migrations.Init.BuildTargetModel</qualifiedname>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20230507195553_Init.Designer.cs" line="18" column="33" bodyfile="Migrations/20230507195553_Init.Designer.cs" bodystart="18" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Migrations.Init</label>
+        <link refid="class_better_you_tube_feed_1_1_migrations_1_1_init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Migrations.Init</label>
+        <link refid="class_better_you_tube_feed_1_1_migrations_1_1_init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="Migrations/20230507195553_Init.cs" line="8" column="19" bodyfile="Migrations/20230507195553_Init.cs" bodystart="9" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1aa52482dc40ea972138fc2e77b3c1788f" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Migrations::Init</scope><name>BuildTargetModel</name></member>
+      <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1a83ae6235a177ecdd9bb457260e7bb8c7" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Migrations::Init</scope><name>Down</name></member>
+      <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1ad73eeb63a6496b5475bb349b27f7575d" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Migrations::Init</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

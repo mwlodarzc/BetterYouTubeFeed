@@ -4,7 +4,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BetterYouTubeFeed.Models;
 
-
+/// <summary>
+/// Entity Framework table definition
+/// defines Channel table class.
+/// </summary>
 public class Channel
 {
     [Required]

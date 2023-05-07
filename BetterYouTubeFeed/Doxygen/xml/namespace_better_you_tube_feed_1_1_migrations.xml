@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_better_you_tube_feed_1_1_migrations" kind="namespace" language="C#">
+    <compoundname>BetterYouTubeFeed::Migrations</compoundname>
+    <innerclass refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot" prot="public">BetterYouTubeFeed::Migrations::BYTFContextModelSnapshot</innerclass>
+    <innerclass refid="class_better_you_tube_feed_1_1_migrations_1_1_init" prot="public">BetterYouTubeFeed::Migrations::Init</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Migrations/20230507195553_Init.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

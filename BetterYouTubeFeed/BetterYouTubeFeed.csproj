@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Fonts\**" />
+    <EmbeddedResource Remove="Fonts\**" />
+    <None Remove="Fonts\**" />
+    <Page Remove="Fonts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Images\icons8-add-cropped.png" />
     <None Remove="Images\icons8-close-60.png" />
     <None Remove="Images\icons8-remove-50.png" />
@@ -47,9 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Fonts\" />
     <Folder Include="Migrations\" />
-    <Folder Include="MVVM\Model\" />
   </ItemGroup>
 
 </Project>

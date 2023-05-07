@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__assembly_info_8cs_source" xml:lang="en-US">
+<title>AssemblyInfo.cs</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__assembly_info_8cs_source_1l00001"/>00001 <emphasis role="keyword">using&#32;</emphasis>System.Windows;
+<anchor xml:id="__assembly_info_8cs_source_1l00002"/>00002 
+<anchor xml:id="__assembly_info_8cs_source_1l00003"/>00003 [assembly:&#32;ThemeInfo(
+<anchor xml:id="__assembly_info_8cs_source_1l00004"/>00004 &#32;&#32;&#32;&#32;ResourceDictionaryLocation.None,&#32;<emphasis role="comment">//where&#32;theme&#32;specific&#32;resource&#32;dictionaries&#32;are&#32;located</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00005"/>00005 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//(used&#32;if&#32;a&#32;resource&#32;is&#32;not&#32;found&#32;in&#32;the&#32;page,</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00006"/>00006 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;or&#32;application&#32;resource&#32;dictionaries)</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00007"/>00007 &#32;&#32;&#32;&#32;ResourceDictionaryLocation.SourceAssembly&#32;<emphasis role="comment">//where&#32;the&#32;generic&#32;resource&#32;dictionary&#32;is&#32;located</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00008"/>00008 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//(used&#32;if&#32;a&#32;resource&#32;is&#32;not&#32;found&#32;in&#32;the&#32;page,</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00009"/>00009 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;app,&#32;or&#32;any&#32;theme&#32;specific&#32;resource&#32;dictionaries)</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00010"/>00010 )]
+</programlisting></section>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::MVVM::View::HomeView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1ac4e458672f0ad06dffdc3894e196271f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool BetterYouTubeFeed.MVVM.View.HomeView::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" line="44" column="22" bodyfile="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a95697e5482f713fc02bf9af310c8a82b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.MVVM.View.HomeView.HomeView</definition>
+        <argsstring>()</argsstring>
+        <name>HomeView</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView.HomeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MVVM/View/HomeView.xaml.cs" line="23" column="16" bodyfile="MVVM/View/HomeView.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.MVVM.View.HomeView.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" line="51" column="21" bodyfile="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.MVVM.View.HomeView.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs" line="51" column="21" bodyfile="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. BetterYouTubeFeed.MVVM.View.HomeView.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" line="71" column="52" bodyfile="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.cs" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. BetterYouTubeFeed.MVVM.View.HomeView.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>BetterYouTubeFeed.MVVM.View.HomeView.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs" line="71" column="52" bodyfile="obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for HomeView.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>HomeView. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.View.HomeView</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.MVVM.View.HomeView</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="MVVM/View/HomeView.xaml.cs" line="21" column="19" bodyfile="MVVM/View/HomeView.xaml.cs" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1ac4e458672f0ad06dffdc3894e196271f" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>_contentLoaded</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>Connect</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>Connect</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a95697e5482f713fc02bf9af310c8a82b" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>HomeView</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>InitializeComponent</name></member>
+      <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::MVVM::View::HomeView</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

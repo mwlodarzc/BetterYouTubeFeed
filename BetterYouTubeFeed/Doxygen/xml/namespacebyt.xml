@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespacebyt" kind="namespace" language="C#">
+    <compoundname>byt</compoundname>
+    <innerclass refid="classbyt_1_1_add_video_popup" prot="public">byt::AddVideoPopup</innerclass>
+    <innerclass refid="classbyt_1_1_app" prot="public">byt::App</innerclass>
+    <innerclass refid="classbyt_1_1_main_window" prot="public">byt::MainWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MainWindow.xaml.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

@@ -3921,19 +3921,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\My\\.nuget\\packages\\": {}
+    "C:\\Users\\Michał\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\My\\Desktop\\6SEM\\PROGRAMOWANIE_Z_ANETKA\\BetterYT4\\BetterYouTubeFeed\\BetterYouTubeFeed\\BetterYouTubeFeed.csproj",
+      "projectUniqueName": "C:\\Users\\Michał\\Desktop\\tmp\\BetterYouTubeFeed\\BetterYouTubeFeed\\BetterYouTubeFeed.csproj",
       "projectName": "BetterYouTubeFeed",
-      "projectPath": "C:\\Users\\My\\Desktop\\6SEM\\PROGRAMOWANIE_Z_ANETKA\\BetterYT4\\BetterYouTubeFeed\\BetterYouTubeFeed\\BetterYouTubeFeed.csproj",
-      "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\My\\Desktop\\6SEM\\PROGRAMOWANIE_Z_ANETKA\\BetterYT4\\BetterYouTubeFeed\\BetterYouTubeFeed\\obj\\",
+      "projectPath": "C:\\Users\\Michał\\Desktop\\tmp\\BetterYouTubeFeed\\BetterYouTubeFeed\\BetterYouTubeFeed.csproj",
+      "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Michał\\Desktop\\tmp\\BetterYouTubeFeed\\BetterYouTubeFeed\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3941,6 +3946,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4031,7 +4037,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

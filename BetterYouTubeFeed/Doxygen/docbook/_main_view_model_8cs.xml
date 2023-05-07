@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__main_view_model_8cs" xml:lang="en-US">
+<title>MVVM/ViewModel/MainViewModel.cs File Reference</title>
+<indexterm><primary>MVVM/ViewModel/MainViewModel.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model">BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed">BetterYouTubeFeed</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_m_v_v_m">BetterYouTubeFeed.MVVM</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model">BetterYouTubeFeed.MVVM.ViewModel</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

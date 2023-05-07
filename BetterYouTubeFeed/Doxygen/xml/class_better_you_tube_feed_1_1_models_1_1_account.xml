@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_models_1_1_account" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::Models::Account</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1a716bc1cecbf509a3cc52ef6d73db2286" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.AccountId</definition>
+        <argsstring></argsstring>
+        <name>AccountId</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.AccountId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="15" column="19" bodyfile="Models/Account.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1ae32a6cd80e6d79123f26a3dd989bcb7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="17" column="19" bodyfile="Models/Account.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1aad1c19e613c38ef78d209c6a5da04f58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.AuthId</definition>
+        <argsstring></argsstring>
+        <name>AuthId</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.AuthId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="19" column="19" bodyfile="Models/Account.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1accdd8c67ee1cdd7d832c6f93c8dd7dbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="21" column="19" bodyfile="Models/Account.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1a9fe09b73e3c52230d07b5d2cfdd0be57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.FamilyName</definition>
+        <argsstring></argsstring>
+        <name>FamilyName</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.FamilyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="23" column="19" bodyfile="Models/Account.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1af8f420d1b044943b98c93516ad8a0b14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.GivenName</definition>
+        <argsstring></argsstring>
+        <name>GivenName</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.GivenName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="25" column="19" bodyfile="Models/Account.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1ab8677c2256295d54827225a8dd076493" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="27" column="19" bodyfile="Models/Account.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1afcc79af7b3b24b4be257fb004593b23d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Account.ImageUrl</definition>
+        <argsstring></argsstring>
+        <name>ImageUrl</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.ImageUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="29" column="19" bodyfile="Models/Account.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1a546afcaa46611d403781780c1d1f54ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BetterYouTubeFeed.Models.Account.CustomUrl</definition>
+        <argsstring></argsstring>
+        <name>CustomUrl</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.CustomUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="30" column="19" bodyfile="Models/Account.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_account_1a54cd7b5cde490d3e2fc5990cadb329b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_better_you_tube_feed_1_1_models_1_1_channel" kindref="compound">Channel</ref> &gt;?</type>
+        <definition>ICollection&lt;Channel&gt;? BetterYouTubeFeed.Models.Account.Channels</definition>
+        <argsstring></argsstring>
+        <name>Channels</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Channels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="32" column="24" bodyfile="Models/Account.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_models_1_1_account_1afbc4eb72c376dfc8c859eaa6a2a689a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.Models.Account.Account</definition>
+        <argsstring>()</argsstring>
+        <name>Account</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Account</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="34" column="12" bodyfile="Models/Account.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_models_1_1_account_1a63fdd016b7af37c492de0640a309acd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.Models.Account.Account</definition>
+        <argsstring>(string accountId, string type, string authId, string name, string familyName, string givenName, string email, string customUrl, string imageUrl)</argsstring>
+        <name>Account</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Account.Account</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>accountId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>authId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>familyName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>givenName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>customUrl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>imageUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Account.cs" line="35" column="12" bodyfile="Models/Account.cs" bodystart="35" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Entity Framework table definition defines Account table class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Account.cs" line="12" column="7" bodyfile="Models/Account.cs" bodystart="13" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1afbc4eb72c376dfc8c859eaa6a2a689a1" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Account</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a63fdd016b7af37c492de0640a309acd2" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Account</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a716bc1cecbf509a3cc52ef6d73db2286" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>AccountId</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1aad1c19e613c38ef78d209c6a5da04f58" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>AuthId</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a54cd7b5cde490d3e2fc5990cadb329b9" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Channels</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a546afcaa46611d403781780c1d1f54ba" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>CustomUrl</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1ab8677c2256295d54827225a8dd076493" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Email</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a9fe09b73e3c52230d07b5d2cfdd0be57" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>FamilyName</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1af8f420d1b044943b98c93516ad8a0b14" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>GivenName</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1afcc79af7b3b24b4be257fb004593b23d" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>ImageUrl</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1accdd8c67ee1cdd7d832c6f93c8dd7dbb" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Name</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1ae32a6cd80e6d79123f26a3dd989bcb7d" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Account</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

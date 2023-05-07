@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel" xml:lang="en-US">
+<title>BetterYouTubeFeed.Models.Channel Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary></indexterm>
+<para>
+
+<para>Entity Framework table definition defines Channel table class. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1ab9da834aba847a4db1dac4ac6a86ea43">Channel</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1a45aa41d37651a095bf0f05b0b5857b51">Channel</link> (string channelId, string name, string customUrl, string imageUrl, string description, string ytaccountId)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1afa29ef4ec663303d05ae5ef669271616">ChannelId</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1a956ddaa6f7f321612f55507b070628a5">Name</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1a8b5104eaa3eee023b065091f1139ee80">CustomUrl</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1a5c224225bb6bb953ceecb16192606587">ImageUrl</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string? <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1a757481443ab91e95f1707816dec60aff">Description</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string? <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1ac0206961d0b3d2f58c298104f54d8006">AccountId</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>ICollection&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link> &gt;? <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel_1afb9f5a1bf65aeccf1165502d129e47ca">Videos</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Entity Framework table definition defines Channel table class. </para>
+<para>
+Definition at line <link linkend="__channel_8cs_source_1l00011">11</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1ab9da834aba847a4db1dac4ac6a86ea43"/><section>
+    <title>Channel()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Channel</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>Channel</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.Models.Channel.Channel ( )</computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00024">24</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1a45aa41d37651a095bf0f05b0b5857b51"/><section>
+    <title>Channel()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Channel</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>Channel</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.Models.Channel.Channel (string channelId, string name, string customUrl, string imageUrl, string description, string ytaccountId)</computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00026">26</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1ac0206961d0b3d2f58c298104f54d8006"/><section>
+    <title>AccountId</title>
+<indexterm><primary>AccountId</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>AccountId</secondary></indexterm>
+<para><computeroutput>string? BetterYouTubeFeed.Models.Channel.AccountId<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00022">22</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1afa29ef4ec663303d05ae5ef669271616"/><section>
+    <title>ChannelId</title>
+<indexterm><primary>ChannelId</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>ChannelId</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Channel.ChannelId<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00014">14</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1a8b5104eaa3eee023b065091f1139ee80"/><section>
+    <title>CustomUrl</title>
+<indexterm><primary>CustomUrl</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>CustomUrl</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Channel.CustomUrl<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00018">18</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1a757481443ab91e95f1707816dec60aff"/><section>
+    <title>Description</title>
+<indexterm><primary>Description</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>Description</secondary></indexterm>
+<para><computeroutput>string? BetterYouTubeFeed.Models.Channel.Description<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00021">21</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1a5c224225bb6bb953ceecb16192606587"/><section>
+    <title>ImageUrl</title>
+<indexterm><primary>ImageUrl</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>ImageUrl</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Channel.ImageUrl<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00020">20</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1a956ddaa6f7f321612f55507b070628a5"/><section>
+    <title>Name</title>
+<indexterm><primary>Name</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>Name</secondary></indexterm>
+<para><computeroutput>string BetterYouTubeFeed.Models.Channel.Name<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00016">16</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_models_1_1_channel_1afb9f5a1bf65aeccf1165502d129e47ca"/><section>
+    <title>Videos</title>
+<indexterm><primary>Videos</primary><secondary>BetterYouTubeFeed.Models.Channel</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Models.Channel</primary><secondary>Videos</secondary></indexterm>
+<para><computeroutput>ICollection&lt;<link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link>&gt;? BetterYouTubeFeed.Models.Channel.Videos<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__channel_8cs_source_1l00023">23</link> of file <link linkend="__channel_8cs_source">Channel.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Models/<link linkend="__channel_8cs">Channel.cs</link></section>
+</section>

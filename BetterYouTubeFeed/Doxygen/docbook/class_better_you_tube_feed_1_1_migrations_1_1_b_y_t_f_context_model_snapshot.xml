@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot" xml:lang="en-US">
+<title>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot</primary></indexterm>
+<para>Inheritance diagram for BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot_1ace5aeb9622f9b0b76cee87c0752535de">BuildModel</link> (ModelBuilder modelBuilder)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__b_y_t_f_context_model_snapshot_8cs_source_1l00013">13</link> of file <link linkend="__b_y_t_f_context_model_snapshot_8cs_source">BYTFContextModelSnapshot.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot_1ace5aeb9622f9b0b76cee87c0752535de"/><section>
+    <title>BuildModel()</title>
+<indexterm><primary>BuildModel</primary><secondary>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot</primary><secondary>BuildModel</secondary></indexterm>
+<para><computeroutput>override void BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot.BuildModel (ModelBuilder modelBuilder)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__b_y_t_f_context_model_snapshot_8cs_source_1l00015">15</link> of file <link linkend="__b_y_t_f_context_model_snapshot_8cs_source">BYTFContextModelSnapshot.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Migrations/<link linkend="__b_y_t_f_context_model_snapshot_8cs">BYTFContextModelSnapshot.cs</link></section>
+</section>

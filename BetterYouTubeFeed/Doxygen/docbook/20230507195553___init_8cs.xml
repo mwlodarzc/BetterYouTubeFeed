@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_20230507195553___init_8cs" xml:lang="en-US">
+<title>Migrations/20230507195553_Init.cs File Reference</title>
+<indexterm><primary>Migrations/20230507195553_Init.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_migrations_1_1_init">BetterYouTubeFeed.Migrations.Init</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed">BetterYouTubeFeed</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_migrations">BetterYouTubeFeed.Migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

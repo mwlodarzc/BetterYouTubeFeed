@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_better_you_tube_feed_1_1_models_1_1_account" kind="class"><name>BetterYouTubeFeed::Models::Account</name>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a716bc1cecbf509a3cc52ef6d73db2286" kind="property"><name>AccountId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1ae32a6cd80e6d79123f26a3dd989bcb7d" kind="property"><name>Type</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1aad1c19e613c38ef78d209c6a5da04f58" kind="property"><name>AuthId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1accdd8c67ee1cdd7d832c6f93c8dd7dbb" kind="property"><name>Name</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a9fe09b73e3c52230d07b5d2cfdd0be57" kind="property"><name>FamilyName</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1af8f420d1b044943b98c93516ad8a0b14" kind="property"><name>GivenName</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1ab8677c2256295d54827225a8dd076493" kind="property"><name>Email</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1afcc79af7b3b24b4be257fb004593b23d" kind="property"><name>ImageUrl</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a546afcaa46611d403781780c1d1f54ba" kind="property"><name>CustomUrl</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a54cd7b5cde490d3e2fc5990cadb329b9" kind="property"><name>Channels</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1afbc4eb72c376dfc8c859eaa6a2a689a1" kind="function"><name>Account</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_account_1a63fdd016b7af37c492de0640a309acd2" kind="function"><name>Account</name></member>
+  </compound>
+  <compound refid="classbyt_1_1_add_video_popup" kind="class"><name>byt::AddVideoPopup</name>
+    <member refid="classbyt_1_1_add_video_popup_1a13a34ef76cb2f6aed96c75c73017bf2e" kind="variable"><name>VideoTitle</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1ae63c3e26073dad6d705f6db9728bdfd5" kind="variable"><name>Link</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1a0fb0aa8123f8c3cf289f0785551b65af" kind="variable"><name>VideoUploadDate</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1a3db9ff3f0097d0728f16baf40166b761" kind="variable"><name>VideoDownloadDate</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1a135ebd80757c310476111eec86f421aa" kind="variable"><name>InsertButton</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1aeb32b35ef8e89adfc6b5a4cb553b0cc9" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1abfcf9cfeb1a6ca1a2304ee22bb2f11c9" kind="function"><name>InitializeComponent</name></member>
+    <member refid="classbyt_1_1_add_video_popup_1a5a16415be2b6b5d165e5f671a8c53bcb" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_app" kind="class"><name>BetterYouTubeFeed::App</name>
+  </compound>
+  <compound refid="classbyt_1_1_app" kind="class"><name>byt::App</name>
+    <member refid="classbyt_1_1_app_1a0237bd5fff1379994e465c1f60638a7d" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" kind="function"><name>InitializeComponent</name></member>
+    <member refid="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" kind="function"><name>InitializeComponent</name></member>
+    <member refid="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" kind="function"><name>Main</name></member>
+    <member refid="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context" kind="class"><name>BetterYouTubeFeed::Data::BYTFContext</name>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1adeeb9334bff87bbe93b7a9a946d5874f" kind="property"><name>Accounts</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a80ddc96bef6a30663e08224d6c36d726" kind="property"><name>Videos</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0ca95b52157ac2bae83ee88dd1e2257c" kind="property"><name>Channels</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1ab3e3cd98449dc6c4cdb1bfa61e25c8d2" kind="function"><name>OnConfiguring</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a34d39f4397892e9fad267b794a5919cb" kind="function"><name>DropAccount</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a5f1c8d721940c0e1efd6fc0aaccd4b23" kind="function"><name>Drop</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a669ae31540d7ab8d0c6afece6cbc0158" kind="function"><name>AddAccount</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1af879eaad910aedf7600094c3f2702629" kind="function"><name>UpdateChannels</name></member>
+    <member refid="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_1a0868601dcedf61b4640ca0cc2c040185" kind="function"><name>UpdateVideos</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot" kind="class"><name>BetterYouTubeFeed::Migrations::BYTFContextModelSnapshot</name>
+    <member refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot_1ace5aeb9622f9b0b76cee87c0752535de" kind="function"><name>BuildModel</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_models_1_1_channel" kind="class"><name>BetterYouTubeFeed::Models::Channel</name>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1afa29ef4ec663303d05ae5ef669271616" kind="property"><name>ChannelId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1a956ddaa6f7f321612f55507b070628a5" kind="property"><name>Name</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1a8b5104eaa3eee023b065091f1139ee80" kind="property"><name>CustomUrl</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1a5c224225bb6bb953ceecb16192606587" kind="property"><name>ImageUrl</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1a757481443ab91e95f1707816dec60aff" kind="property"><name>Description</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1ac0206961d0b3d2f58c298104f54d8006" kind="property"><name>AccountId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1afb9f5a1bf65aeccf1165502d129e47ca" kind="property"><name>Videos</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1ab9da834aba847a4db1dac4ac6a86ea43" kind="function"><name>Channel</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_channel_1a45aa41d37651a095bf0f05b0b5857b51" kind="function"><name>Channel</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view" kind="class"><name>BetterYouTubeFeed::MVVM::View::ChannelListView</name>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a09fff027a2d023bffd5ac2d54f4d0164" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a34096d4427e98a58ec8b8f1454756a80" kind="function"><name>ChannelListView</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4538bc3134883ccd4e87b9b95ab602e8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" kind="function"><name>Connect</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view_1a4717c7b8356f307d9e8241583574183c" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" kind="class"><name>BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</name>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866" kind="function"><name>ChannelListViewModel</name></member>
+  </compound>
+  <compound refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper" kind="class"><name>XamlGeneratedNamespace::GeneratedInternalTypeHelper</name>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view" kind="class"><name>BetterYouTubeFeed::MVVM::View::HomeView</name>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1ac4e458672f0ad06dffdc3894e196271f" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a95697e5482f713fc02bf9af310c8a82b" kind="function"><name>HomeView</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a76e75405783c469a19e10ada1d6b0a0e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" kind="function"><name>Connect</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view_1a7d322a0e1382600913e03be6a42f0274" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_home_view_model" kind="class"><name>BetterYouTubeFeed::MVVM::ViewModel::HomeViewModel</name>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_migrations_1_1_init" kind="class"><name>BetterYouTubeFeed::Migrations::Init</name>
+    <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1ad73eeb63a6496b5475bb349b27f7575d" kind="function"><name>Up</name></member>
+    <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1a83ae6235a177ecdd9bb457260e7bb8c7" kind="function"><name>Down</name></member>
+    <member refid="class_better_you_tube_feed_1_1_migrations_1_1_init_1aa52482dc40ea972138fc2e77b3c1788f" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model" kind="class"><name>BetterYouTubeFeed::MVVM::ViewModel::MainViewModel</name>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1aff0093b4fda7e4a2049d363ac0a86452" kind="property"><name>HomeVM</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1ab886eb92109c5d8fe0799cfd53c283f2" kind="property"><name>CurrentView</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a85fd04cd726a020dbaffc45e884e644e" kind="variable"><name>_currentView</name></member>
+    <member refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model_1a33e9cc44a8c3b871b998b3758dbcdcdc" kind="function"><name>MainViewModel</name></member>
+  </compound>
+  <compound refid="classbyt_1_1_main_window" kind="class"><name>byt::MainWindow</name>
+    <member refid="classbyt_1_1_main_window_1a2a50d825f78c1a85a5efc438bb4ccdb6" kind="variable"><name>db</name></member>
+    <member refid="classbyt_1_1_main_window_1a6bcca8f6af54358831d5fdb5598ef95a" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="classbyt_1_1_main_window_1ad7c70c46cbe87c36ca0fefe7d060368d" kind="variable"><name>Accounts_ListBox</name></member>
+    <member refid="classbyt_1_1_main_window_1a4df032352c63b9c1bf2c2c9811ec52b3" kind="variable"><name>Channels_ListBox</name></member>
+    <member refid="classbyt_1_1_main_window_1a71ec18b942a8fee657915f977b93a39c" kind="variable"><name>AddAccount_Button</name></member>
+    <member refid="classbyt_1_1_main_window_1aa7a1994cc61ba50a70cf5131a5367dbc" kind="variable"><name>Refresh_Button</name></member>
+    <member refid="classbyt_1_1_main_window_1a8c6d1cb49762d4eddb61b32c206cb3ca" kind="variable"><name>Drop_Button</name></member>
+    <member refid="classbyt_1_1_main_window_1a088f5e0ae76713a1654d477a14529e30" kind="variable"><name>Minimize_Button</name></member>
+    <member refid="classbyt_1_1_main_window_1ab17117fb836a35b72108cb29dc7b2488" kind="variable"><name>Close_Button</name></member>
+    <member refid="classbyt_1_1_main_window_1aeaf8760f1be7a0d9ac79f8f6ab715919" kind="variable"><name>Videos_List</name></member>
+    <member refid="classbyt_1_1_main_window_1a8d0430ce5029abef97659ddd8bc7fd3f" kind="function"><name>MainWindow</name></member>
+    <member refid="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="classbyt_1_1_main_window_1a5ecec5925ae1d30f7778ede78c94a94b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="classbyt_1_1_main_window_1afa5f9ba9d33e19eeb90841fde83c1955" kind="function"><name>ListBox_SelectionChanged_Channels</name></member>
+    <member refid="classbyt_1_1_main_window_1acfcc8d31a349f68348ae9c43f86efc6a" kind="function"><name>Update_Displayed</name></member>
+    <member refid="classbyt_1_1_main_window_1a44c474b32be8212e5cc7f28ce719a829" kind="function"><name>OpenWebYt_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1a5ab85178f3b4e15711a44c1948c6ee83" kind="function"><name>DropDatabase_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1a06dfdb4678abfff701b45035ff7f6019" kind="function"><name>AddAccount_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1ab407e2207892d49cc45439be72c31cf6" kind="function"><name>Refresh_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1a19a0be8cd877a082fd241a8a02530dd0" kind="function"><name>Minimize_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1aaf9e2dce2fcb7ad12a9d1bec45540513" kind="function"><name>Close_Click</name></member>
+    <member refid="classbyt_1_1_main_window_1a618a86d4d0c8ab12542c1edaaffde6df" kind="function"><name>Window_MouseDown</name></member>
+    <member refid="classbyt_1_1_main_window_1a7bf69b72cc1998109fc89edf383d2b46" kind="function"><name>Accounts_ListBox_MouseDoubleClick</name></member>
+    <member refid="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" kind="function"><name>Connect</name></member>
+    <member refid="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" kind="function"><name>Connect</name></member>
+    <member refid="classbyt_1_1_main_window_1aed30545609d9f1f3941e8d68a5fb1df2" kind="function"><name>Connect</name></member>
+    <member refid="classbyt_1_1_main_window_1a5b1d96e40c4e519baf5763b7f567815d" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_core_1_1_observable_object" kind="class"><name>BetterYouTubeFeed::Core::ObservableObject</name>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a520716074c575f75ae33868f43556e85" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a332c7800d93a109b9bb4bd2b92dbb9b0" kind="function"><name>OnPropertyChanged</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_core_1_1_relay_command" kind="class"><name>BetterYouTubeFeed::Core::RelayCommand</name>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1a07a498b79b2e53b01c0d383fc0d7ad7a" kind="variable"><name>_execute</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1a2281be96196faa966c9cc0dcd382f071" kind="variable"><name>_canExecute</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1a5fec81ee121f939c145b0b83c3118ee1" kind="property"><name>CanExecuteChanged</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1af7f7993fb6fa5896de2ee9810666fa9d" kind="function"><name>RelayCommand</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1aa6e1c7abde52e224beb34c28e9afaacf" kind="function"><name>CanExecute</name></member>
+    <member refid="class_better_you_tube_feed_1_1_core_1_1_relay_command_1ad0c6c02806ea5cf6b47f69b55d5d3778" kind="function"><name>Execute</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_models_1_1_video" kind="class"><name>BetterYouTubeFeed::Models::Video</name>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a2f36497a4f7106cca2315a4bdb71bc12" kind="property"><name>VideoId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a973238275f455bfdca6004462b5ddfc6" kind="property"><name>Title</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a42ea62ae55322daef36b5942a1240118" kind="property"><name>UploadDate</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a06d8e9e8a5964f7fbb27679bdc000cc1" kind="property"><name>DownloadDate</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a1a0f96d5876e4027cc2cfd992fa21488" kind="property"><name>ThumbnailLink</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a7be85144ce0a8ccff60deaaf3d3211e7" kind="property"><name>ChannelId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1ae30fe249f69dec414e6774428413ef55" kind="property"><name>watched</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1af079f7c00c523fa63ef31655cb33de53" kind="function"><name>Video</name></member>
+    <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a7930be227d01d365b5473b0bfdc78253" kind="function"><name>Video</name></member>
+  </compound>
+  <compound refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i" kind="class"><name>BetterYouTubeFeed::YouTubeDataAPI</name>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a6efbe0498f3d332691b104aaa69fc5e6" kind="variable"><name>clientId</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae33d14e9933c338ec065d7b8f18b50d1" kind="variable"><name>clientSecret</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ab3287db105f69fffc91ca0258f836e3b" kind="variable"><name>UserCredential</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a390e3d8bcdde0a4bdb806d8fc5b60ec6" kind="function"><name>StringKey</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a232fa1f8b8aaccbc34fccaca7d99acf7" kind="function"><name>Authenticate</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac7aa43dd7833f43cb096369486f7e62a" kind="function"><name>Authenticate</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac1ebaa0b9edbdadfa87004f1367d2f6d" kind="function"><name>GetSubsctiptionsID</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1abc5134491f99e9f2df0c58fb0f05c0f0" kind="function"><name>GetChannelInfo</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a5e1e0c000e639de426c49456530c7a41" kind="function"><name>GetVideos</name></member>
+    <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae45ec28c4813f78089382c26cf6572b8" kind="function"><name>GetAccountInfo</name></member>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed" kind="namespace"><name>BetterYouTubeFeed</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_core" kind="namespace"><name>BetterYouTubeFeed::Core</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_data" kind="namespace"><name>BetterYouTubeFeed::Data</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_migrations" kind="namespace"><name>BetterYouTubeFeed::Migrations</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_models" kind="namespace"><name>BetterYouTubeFeed::Models</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_m_v_v_m" kind="namespace"><name>BetterYouTubeFeed::MVVM</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view" kind="namespace"><name>BetterYouTubeFeed::MVVM::View</name>
+  </compound>
+  <compound refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model" kind="namespace"><name>BetterYouTubeFeed::MVVM::ViewModel</name>
+  </compound>
+  <compound refid="namespacebyt" kind="namespace"><name>byt</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_auth" kind="namespace"><name>Google::Apis::Auth</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_auth_1_1_o_auth2" kind="namespace"><name>Google::Apis::Auth::OAuth2</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_oauth2_1_1v2" kind="namespace"><name>Google::Apis::Oauth2::v2</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_services" kind="namespace"><name>Google::Apis::Services</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_util" kind="namespace"><name>Google::Apis::Util</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_util_1_1_store" kind="namespace"><name>Google::Apis::Util::Store</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_you_tube" kind="namespace"><name>Google::Apis::YouTube</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_you_tube_1_1v3" kind="namespace"><name>Google::Apis::YouTube::v3</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core" kind="namespace"><name>Microsoft::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_infrastructure" kind="namespace"><name>Microsoft::EntityFrameworkCore::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_metadata" kind="namespace"><name>Microsoft::EntityFrameworkCore::Metadata</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_migrations" kind="namespace"><name>Microsoft::EntityFrameworkCore::Migrations</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_storage_1_1_value_conversion" kind="namespace"><name>Microsoft::EntityFrameworkCore::Storage::ValueConversion</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_identity_1_1_client" kind="namespace"><name>Microsoft::Identity::Client</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_identity_model_1_1_protocols_1_1_open_id_connect" kind="namespace"><name>Microsoft::IdentityModel::Protocols::OpenIdConnect</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_identity_model_1_1_tokens" kind="namespace"><name>Microsoft::IdentityModel::Tokens</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespacestatic" kind="namespace"><name>static</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations_1_1_schema" kind="namespace"><name>System::ComponentModel::DataAnnotations::Schema</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http" kind="namespace"><name>System::Net::Http</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_mime_1_1_media_type_names" kind="namespace"><name>System::Net::Mime::MediaTypeNames</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_web_request_methods" kind="namespace"><name>System::Net::WebRequestMethods</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json_1_1_serialization" kind="namespace"><name>System::Text::Json::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_ribbon" kind="namespace"><name>System::Windows::Controls::Ribbon</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_linq" kind="namespace"><name>System::Xml::Linq</name>
+  </compound>
+  <compound refid="namespace_xaml_generated_namespace" kind="namespace"><name>XamlGeneratedNamespace</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_observable_object_8cs" kind="file"><name>ObservableObject.cs</name>
+  </compound>
+  <compound refid="_relay_command_8cs" kind="file"><name>RelayCommand.cs</name>
+  </compound>
+  <compound refid="_b_y_t_f_context_8cs" kind="file"><name>BYTFContext.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="20230507195553___init_8cs" kind="file"><name>20230507195553_Init.cs</name>
+  </compound>
+  <compound refid="20230507195553___init_8_designer_8cs" kind="file"><name>20230507195553_Init.Designer.cs</name>
+  </compound>
+  <compound refid="_b_y_t_f_context_model_snapshot_8cs" kind="file"><name>BYTFContextModelSnapshot.cs</name>
+  </compound>
+  <compound refid="_account_8cs" kind="file"><name>Account.cs</name>
+  </compound>
+  <compound refid="_channel_8cs" kind="file"><name>Channel.cs</name>
+  </compound>
+  <compound refid="_video_8cs" kind="file"><name>Video.cs</name>
+  </compound>
+  <compound refid="_channel_list_view_8xaml_8cs" kind="file"><name>ChannelListView.xaml.cs</name>
+  </compound>
+  <compound refid="_home_view_8xaml_8cs" kind="file"><name>HomeView.xaml.cs</name>
+  </compound>
+  <compound refid="_channel_list_view_model_8cs" kind="file"><name>ChannelListViewModel.cs</name>
+  </compound>
+  <compound refid="_home_view_model_8cs" kind="file"><name>HomeViewModel.cs</name>
+  </compound>
+  <compound refid="_main_view_model_8cs" kind="file"><name>MainViewModel.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_add_video_popup_8g_8i_8cs" kind="file"><name>AddVideoPopup.g.i.cs</name>
+  </compound>
+  <compound refid="_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__1adeeh3h__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_1adeeh3h_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__1veurjzm__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_1veurjzm_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__k2ixrlvx__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_k2ixrlvx_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__lx5d1ibp__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_lx5d1ibp_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__scu2c0q4__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_scu2c0q4_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__ttnz0gxq__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_ttnz0gxq_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_better_you_tube_feed__tw1j03lz__wpftmp_8_assembly_info_8cs" kind="file"><name>BetterYouTubeFeed_tw1j03lz_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8i_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_channel_list_view_8g_8cs" kind="file"><name>ChannelListView.g.cs</name>
+  </compound>
+  <compound refid="_channel_list_view_8g_8i_8cs" kind="file"><name>ChannelListView.g.i.cs</name>
+  </compound>
+  <compound refid="_home_view_8g_8cs" kind="file"><name>HomeView.g.cs</name>
+  </compound>
+  <compound refid="_home_view_8g_8i_8cs" kind="file"><name>HomeView.g.i.cs</name>
+  </compound>
+  <compound refid="_you_tube_data_a_p_i_8cs" kind="file"><name>YouTubeDataAPI.cs</name>
+  </compound>
+  <compound refid="dir_c6310732a22f63c0c2fc5595561e68f1" kind="dir"><name>Core</name>
+  </compound>
+  <compound refid="dir_e3d743d0ec9b4013b28b5d69101bc7fb" kind="dir"><name>Data</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_8479cdc0036e18ebdf01c3bcd05b33d8" kind="dir"><name>Migrations</name>
+  </compound>
+  <compound refid="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir"><name>Models</name>
+  </compound>
+  <compound refid="dir_a800818f8fd26d20efea62b13b6b8bed" kind="dir"><name>MVVM</name>
+  </compound>
+  <compound refid="dir_da07ea390b06ad7cded3a0b7ac982f26" kind="dir"><name>obj/Debug/net6.0-windows/MVVM</name>
+  </compound>
+  <compound refid="dir_034079e16470629fedd4f235052192e9" kind="dir"><name>obj/Debug/net6.0-windows</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_5b75c748dc2a5b05a78ed4ddc30b4a8e" kind="dir"><name>MVVM/View</name>
+  </compound>
+  <compound refid="dir_034dbd661dca72e5ea064323d669a4ce" kind="dir"><name>obj/Debug/net6.0-windows/MVVM/View</name>
+  </compound>
+  <compound refid="dir_f4e4fc4d92d369bb0ca392c969ba322e" kind="dir"><name>MVVM/ViewModel</name>
+  </compound>
+</doxygenindex>

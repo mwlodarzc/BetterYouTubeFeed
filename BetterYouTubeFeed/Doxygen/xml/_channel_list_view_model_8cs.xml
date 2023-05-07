@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_channel_list_view_model_8cs" kind="file" language="C#">
+    <compoundname>ChannelListViewModel.cs</compoundname>
+    <innerclass refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" prot="public">BetterYouTubeFeed::MVVM::ViewModel::ChannelListViewModel</innerclass>
+    <innernamespace refid="namespace_better_you_tube_feed">BetterYouTubeFeed</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_m_v_v_m">BetterYouTubeFeed::MVVM</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model">BetterYouTubeFeed::MVVM::ViewModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_better_you_tube_feed_1_1_core" kindref="compound">BetterYouTubeFeed.Core</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model" kindref="compound">BetterYouTubeFeed.MVVM.ViewModel</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" kindref="compound">ChannelListViewModel</ref><sp/>:<sp/>ObservableObject</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model_1a0693eb63c970f4a6f4b4e4cbccdb9866" kindref="member">ChannelListViewModel</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MVVM/ViewModel/ChannelListViewModel.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__home_view_8g_8i_8cs" xml:lang="en-US">
+<title>obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs File Reference</title>
+<indexterm><primary>obj/Debug/net6.0-windows/MVVM/View/HomeView.g.i.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view">BetterYouTubeFeed.MVVM.View.HomeView</link></para>
+
+<para>Interaction logic for HomeView.xaml. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed">BetterYouTubeFeed</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_m_v_v_m">BetterYouTubeFeed.MVVM</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view">BetterYouTubeFeed.MVVM.View</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_models_1_1_video" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::Models::Video</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a2f36497a4f7106cca2315a4bdb71bc12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Video.VideoId</definition>
+        <argsstring></argsstring>
+        <name>VideoId</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.VideoId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="9" column="23" bodyfile="Models/Video.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a973238275f455bfdca6004462b5ddfc6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Video.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="11" column="23" bodyfile="Models/Video.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a42ea62ae55322daef36b5942a1240118" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Video.UploadDate</definition>
+        <argsstring></argsstring>
+        <name>UploadDate</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.UploadDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="13" column="23" bodyfile="Models/Video.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a06d8e9e8a5964f7fbb27679bdc000cc1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Video.DownloadDate</definition>
+        <argsstring></argsstring>
+        <name>DownloadDate</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.DownloadDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="15" column="23" bodyfile="Models/Video.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a1a0f96d5876e4027cc2cfd992fa21488" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.Models.Video.ThumbnailLink</definition>
+        <argsstring></argsstring>
+        <name>ThumbnailLink</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.ThumbnailLink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="17" column="23" bodyfile="Models/Video.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1a7be85144ce0a8ccff60deaaf3d3211e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BetterYouTubeFeed.Models.Video.ChannelId</definition>
+        <argsstring></argsstring>
+        <name>ChannelId</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.ChannelId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="18" column="23" bodyfile="Models/Video.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_better_you_tube_feed_1_1_models_1_1_video_1ae30fe249f69dec414e6774428413ef55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool BetterYouTubeFeed.Models.Video.watched</definition>
+        <argsstring></argsstring>
+        <name>watched</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.watched</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="19" column="21" bodyfile="Models/Video.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_models_1_1_video_1af079f7c00c523fa63ef31655cb33de53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.Models.Video.Video</definition>
+        <argsstring>()</argsstring>
+        <name>Video</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.Video</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="20" column="16" bodyfile="Models/Video.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_models_1_1_video_1a7930be227d01d365b5473b0bfdc78253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BetterYouTubeFeed.Models.Video.Video</definition>
+        <argsstring>(string videoId, string title, string uploadDate, string downloadDate, string thumbnailLink, string? channelId)</argsstring>
+        <name>Video</name>
+        <qualifiedname>BetterYouTubeFeed.Models.Video.Video</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>videoId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>uploadDate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>downloadDate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>thumbnailLink</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>channelId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Video.cs" line="21" column="16" bodyfile="Models/Video.cs" bodystart="21" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Video.cs" line="6" column="11" bodyfile="Models/Video.cs" bodystart="7" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a7be85144ce0a8ccff60deaaf3d3211e7" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>ChannelId</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a06d8e9e8a5964f7fbb27679bdc000cc1" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>DownloadDate</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a1a0f96d5876e4027cc2cfd992fa21488" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>ThumbnailLink</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a973238275f455bfdca6004462b5ddfc6" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>Title</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a42ea62ae55322daef36b5942a1240118" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>UploadDate</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1af079f7c00c523fa63ef31655cb33de53" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>Video</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a7930be227d01d365b5473b0bfdc78253" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>Video</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1a2f36497a4f7106cca2315a4bdb71bc12" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>VideoId</name></member>
+      <member refid="class_better_you_tube_feed_1_1_models_1_1_video_1ae30fe249f69dec414e6774428413ef55" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Models::Video</scope><name>watched</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

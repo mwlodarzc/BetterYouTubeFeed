@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__account_8cs" xml:lang="en-US">
+<title>Models/Account.cs File Reference</title>
+<indexterm><primary>Models/Account.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">BetterYouTubeFeed.Models.Account</link></para>
+
+<para>Entity Framework table definition defines Account table class. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed">BetterYouTubeFeed</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_better_you_tube_feed_1_1_models">BetterYouTubeFeed.Models</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

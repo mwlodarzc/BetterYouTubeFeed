@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::Migrations::BYTFContextModelSnapshot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelSnapshot</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot_1ace5aeb9622f9b0b76cee87c0752535de" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot.BuildModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildModel</name>
+        <qualifiedname>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot.BuildModel</qualifiedname>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/BYTFContextModelSnapshot.cs" line="15" column="33" bodyfile="Migrations/BYTFContextModelSnapshot.cs" bodystart="15" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot</label>
+        <link refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelSnapshot</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Migrations.BYTFContextModelSnapshot</label>
+        <link refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelSnapshot</label>
+      </node>
+    </collaborationgraph>
+    <location file="Migrations/BYTFContextModelSnapshot.cs" line="13" column="12" bodyfile="Migrations/BYTFContextModelSnapshot.cs" bodystart="14" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot_1ace5aeb9622f9b0b76cee87c0752535de" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Migrations::BYTFContextModelSnapshot</scope><name>BuildModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

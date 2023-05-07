@@ -1,0 +1,185 @@
+\hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context}{}\doxysection{Better\+You\+Tube\+Feed.\+Data.\+BYTFContext Class Reference}
+\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context}\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+
+
+Database context class definition.  
+
+
+Inheritance diagram for Better\+You\+Tube\+Feed.\+Data.\+BYTFContext\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a34d39f4397892e9fad267b794a5919cb}{Drop\+Account}} (string account\+Id)
+\begin{DoxyCompactList}\small\item\em Handles database account table entry drop. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a5f1c8d721940c0e1efd6fc0aaccd4b23}{Drop}} ()
+\begin{DoxyCompactList}\small\item\em Handles database table cleaning. Removes all entries in all tables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a669ae31540d7ab8d0c6afece6cbc0158}{Add\+Account}} ()
+\begin{DoxyCompactList}\small\item\em Adds an account taken from You\+Tube\+Data\+API class account info request. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_af879eaad910aedf7600094c3f2702629}{Update\+Channels}} ()
+\begin{DoxyCompactList}\small\item\em Updates Channels table with subscription of all accounts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0868601dcedf61b4640ca0cc2c040185}{Update\+Videos}} ()
+\begin{DoxyCompactList}\small\item\em Updates Videos table for all subscriptions of all accounts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_ab3e3cd98449dc6c4cdb1bfa61e25c8d2}{On\+Configuring}} (Db\+Context\+Options\+Builder options\+Builder)
+\begin{DoxyCompactList}\small\item\em Handles database connection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Db\+Set$<$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}} $>$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_adeeb9334bff87bbe93b7a9a946d5874f}{Accounts}} = null!\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Db\+Set$<$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_video}{Video}} $>$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a80ddc96bef6a30663e08224d6c36d726}{Videos}} = null!\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Db\+Set$<$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}} $>$ \mbox{\hyperlink{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0ca95b52157ac2bae83ee88dd1e2257c}{Channels}} = null!\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Database context class definition. 
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a669ae31540d7ab8d0c6afece6cbc0158}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a669ae31540d7ab8d0c6afece6cbc0158}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!AddAccount@{AddAccount}}
+\index{AddAccount@{AddAccount}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{AddAccount()}{AddAccount()}}
+{\footnotesize\ttfamily void Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Add\+Account (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Adds an account taken from You\+Tube\+Data\+API class account info request. 
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00063}{63}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a5f1c8d721940c0e1efd6fc0aaccd4b23}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a5f1c8d721940c0e1efd6fc0aaccd4b23}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!Drop@{Drop}}
+\index{Drop@{Drop}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{Drop()}{Drop()}}
+{\footnotesize\ttfamily void Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Drop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles database table cleaning. Removes all entries in all tables. 
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00047}{47}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a34d39f4397892e9fad267b794a5919cb}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a34d39f4397892e9fad267b794a5919cb}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!DropAccount@{DropAccount}}
+\index{DropAccount@{DropAccount}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{DropAccount()}{DropAccount()}}
+{\footnotesize\ttfamily bool Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Drop\+Account (\begin{DoxyParamCaption}\item[{string}]{account\+Id }\end{DoxyParamCaption})}
+
+
+
+Handles database account table entry drop. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em account\+Id} & Dropped account\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Execution boolean
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00035}{35}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_ab3e3cd98449dc6c4cdb1bfa61e25c8d2}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_ab3e3cd98449dc6c4cdb1bfa61e25c8d2}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!OnConfiguring@{OnConfiguring}}
+\index{OnConfiguring@{OnConfiguring}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{OnConfiguring()}{OnConfiguring()}}
+{\footnotesize\ttfamily override void Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+On\+Configuring (\begin{DoxyParamCaption}\item[{Db\+Context\+Options\+Builder}]{options\+Builder }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Handles database connection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em options\+Builder} & Builder\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00024}{24}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_af879eaad910aedf7600094c3f2702629}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_af879eaad910aedf7600094c3f2702629}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!UpdateChannels@{UpdateChannels}}
+\index{UpdateChannels@{UpdateChannels}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{UpdateChannels()}{UpdateChannels()}}
+{\footnotesize\ttfamily void Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Update\+Channels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates Channels table with subscription of all accounts. 
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00071}{71}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0868601dcedf61b4640ca0cc2c040185}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0868601dcedf61b4640ca0cc2c040185}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!UpdateVideos@{UpdateVideos}}
+\index{UpdateVideos@{UpdateVideos}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{UpdateVideos()}{UpdateVideos()}}
+{\footnotesize\ttfamily void Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Update\+Videos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Updates Videos table for all subscriptions of all accounts. 
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00083}{83}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_adeeb9334bff87bbe93b7a9a946d5874f}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_adeeb9334bff87bbe93b7a9a946d5874f}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!Accounts@{Accounts}}
+\index{Accounts@{Accounts}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{Accounts}{Accounts}}
+{\footnotesize\ttfamily Db\+Set$<$\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}$>$ Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Accounts = null!\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00015}{15}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0ca95b52157ac2bae83ee88dd1e2257c}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a0ca95b52157ac2bae83ee88dd1e2257c}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!Channels@{Channels}}
+\index{Channels@{Channels}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{Channels}{Channels}}
+{\footnotesize\ttfamily Db\+Set$<$\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}}$>$ Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Channels = null!\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+\mbox{\Hypertarget{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a80ddc96bef6a30663e08224d6c36d726}\label{class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context_a80ddc96bef6a30663e08224d6c36d726}} 
+\index{BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}!Videos@{Videos}}
+\index{Videos@{Videos}!BetterYouTubeFeed.Data.BYTFContext@{BetterYouTubeFeed.Data.BYTFContext}}
+\doxysubsubsection{\texorpdfstring{Videos}{Videos}}
+{\footnotesize\ttfamily Db\+Set$<$\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_video}{Video}}$>$ Better\+You\+Tube\+Feed.\+Data.\+BYTFContext.\+Videos = null!\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line \mbox{\hyperlink{_b_y_t_f_context_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_b_y_t_f_context_8cs_source}{BYTFContext.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data/\mbox{\hyperlink{_b_y_t_f_context_8cs}{BYTFContext.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,136 @@
+.TH "BetterYouTubeFeed.Data.BYTFContext" 3 "Sun May 7 2023" "BetterYouTubeFeed" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BetterYouTubeFeed.Data.BYTFContext \- Database context class definition\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits DbContext\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBDropAccount\fP (string accountId)"
+.br
+.RI "Handles database account table entry drop\&. "
+.ti -1c
+.RI "void \fBDrop\fP ()"
+.br
+.RI "Handles database table cleaning\&. Removes all entries in all tables\&. "
+.ti -1c
+.RI "void \fBAddAccount\fP ()"
+.br
+.RI "Adds an account taken from YouTubeDataAPI class account info request\&. "
+.ti -1c
+.RI "void \fBUpdateChannels\fP ()"
+.br
+.RI "Updates Channels table with subscription of all accounts\&. "
+.ti -1c
+.RI "void \fBUpdateVideos\fP ()"
+.br
+.RI "Updates Videos table for all subscriptions of all accounts\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnConfiguring\fP (DbContextOptionsBuilder optionsBuilder)"
+.br
+.RI "Handles database connection\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "DbSet< \fBAccount\fP > \fBAccounts\fP = null!\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "DbSet< \fBVideo\fP > \fBVideos\fP = null!\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "DbSet< \fBChannel\fP > \fBChannels\fP = null!\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Database context class definition\&. 
+.PP
+Definition at line \fB13\fP of file \fBBYTFContext\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void BetterYouTubeFeed\&.Data\&.BYTFContext\&.AddAccount ()"
+
+.PP
+Adds an account taken from YouTubeDataAPI class account info request\&. 
+.PP
+Definition at line \fB63\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "void BetterYouTubeFeed\&.Data\&.BYTFContext\&.Drop ()"
+
+.PP
+Handles database table cleaning\&. Removes all entries in all tables\&. 
+.PP
+Definition at line \fB47\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "bool BetterYouTubeFeed\&.Data\&.BYTFContext\&.DropAccount (string accountId)"
+
+.PP
+Handles database account table entry drop\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIaccountId\fP Dropped account
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Execution boolean
+.RE
+.PP
+
+.PP
+Definition at line \fB35\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "override void BetterYouTubeFeed\&.Data\&.BYTFContext\&.OnConfiguring (DbContextOptionsBuilder optionsBuilder)\fC [protected]\fP"
+
+.PP
+Handles database connection\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIoptionsBuilder\fP Builder
+.RE
+.PP
+
+.PP
+Definition at line \fB24\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "void BetterYouTubeFeed\&.Data\&.BYTFContext\&.UpdateChannels ()"
+
+.PP
+Updates Channels table with subscription of all accounts\&. 
+.PP
+Definition at line \fB71\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "void BetterYouTubeFeed\&.Data\&.BYTFContext\&.UpdateVideos ()"
+
+.PP
+Updates Videos table for all subscriptions of all accounts\&. 
+.PP
+Definition at line \fB83\fP of file \fBBYTFContext\&.cs\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "DbSet<\fBAccount\fP> BetterYouTubeFeed\&.Data\&.BYTFContext\&.Accounts = null!\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Definition at line \fB15\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "DbSet<\fBChannel\fP> BetterYouTubeFeed\&.Data\&.BYTFContext\&.Channels = null!\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Definition at line \fB18\fP of file \fBBYTFContext\&.cs\fP\&.
+.SS "DbSet<\fBVideo\fP> BetterYouTubeFeed\&.Data\&.BYTFContext\&.Videos = null!\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Definition at line \fB17\fP of file \fBBYTFContext\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BetterYouTubeFeed from the source code\&.

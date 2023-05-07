@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_da07ea390b06ad7cded3a0b7ac982f26" kind="dir">
+    <compoundname>obj/Debug/net6.0-windows/MVVM</compoundname>
+    <innerdir refid="dir_034dbd661dca72e5ea064323d669a4ce">obj/Debug/net6.0-windows/MVVM/View</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net6.0-windows/MVVM/"/>
+  </compounddef>
+</doxygen>

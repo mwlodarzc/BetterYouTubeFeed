@@ -5,6 +5,10 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.YouTube.v3;
 
 namespace BetterYouTubeFeed.Models;
+/// <summary>
+/// Entity Framework table definition
+/// defines Account table class.
+/// </summary>
 public class Account
 {
     [Required]

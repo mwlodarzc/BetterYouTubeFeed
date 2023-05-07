@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_5b75c748dc2a5b05a78ed4ddc30b4a8e" xml:lang="en-US">
+<title>MVVM/View Directory Reference</title>
+<indexterm><primary>MVVM/View Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__channel_list_view_8xaml_8cs">ChannelListView.xaml.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__home_view_8xaml_8cs">HomeView.xaml.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f4e4fc4d92d369bb0ca392c969ba322e" kind="dir">
+    <compoundname>MVVM/ViewModel</compoundname>
+    <innerfile refid="_channel_list_view_model_8cs">ChannelListViewModel.cs</innerfile>
+    <innerfile refid="_home_view_model_8cs">HomeViewModel.cs</innerfile>
+    <innerfile refid="_main_view_model_8cs">MainViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MVVM/ViewModel/"/>
+  </compounddef>
+</doxygen>

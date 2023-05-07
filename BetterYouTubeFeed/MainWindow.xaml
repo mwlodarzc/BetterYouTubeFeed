@@ -49,7 +49,7 @@
 
             <StackPanel Grid.Row="1">
                 <TextBlock Text="Accounts" FontSize="16" Foreground="White" Margin="20,10,0,10" VerticalAlignment="Center"/>
-                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" SelectionChanged="ListBox_SelectionChanged" MouseDoubleClick="Accounts_ListBox_MouseDoubleClick" Background="#0F0F0F" BorderBrush="#0F0F0F">
+                <ListBox x:Name="Accounts_ListBox" Foreground="White" Height="Auto" MouseDoubleClick="Accounts_ListBox_MouseDoubleClick" Background="#0F0F0F" BorderBrush="#0F0F0F">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Margin="10,3,0,3">
@@ -102,8 +102,6 @@
             <ListView Grid.Column="1" Grid.Row="1" x:Name="Videos_List" Background="#0F0F0F" BorderBrush="#0F0F0F" Margin="11,0,11,0" Grid.ColumnSpan="2">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Orientation="Horizontal" Width="702" Background="#0F0F0F" >
-                            <Image Width="200" Source="{Binding ThumbnailLink}"/>
                         <StackPanel Orientation="Horizontal" Width="700" Background="#0F0F0F">
                             <Button Width="200" Click="OpenWebYt_Click" Content="{Binding VideoId}">
                                 <Button.Template>

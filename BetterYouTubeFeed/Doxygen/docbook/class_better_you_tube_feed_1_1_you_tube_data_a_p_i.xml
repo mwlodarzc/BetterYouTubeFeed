@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i" xml:lang="en-US">
+<title>BetterYouTubeFeed.YouTubeDataAPI Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.YouTubeDataAPI</primary></indexterm>
+<para>
+
+<para>Class that abstracts communication with YouTube Data API. </para>
+ 
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static List&lt; string &gt; <link linkend="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac1ebaa0b9edbdadfa87004f1367d2f6d">GetSubsctiptionsID</link> (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account)</para>
+
+<para>Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-commercial mode. </para>
+</listitem>
+            <listitem><para>static <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link> <link linkend="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1abc5134491f99e9f2df0c58fb0f05c0f0">GetChannelInfo</link> (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account, string id)</para>
+
+<para>Handles API channel info request Retrieves information abount a channel from the API. </para>
+</listitem>
+            <listitem><para>static ICollection&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link> &gt; <link linkend="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a5e1e0c000e639de426c49456530c7a41">GetVideos</link> (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account, string id)</para>
+
+<para>Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-commercial mode. </para>
+</listitem>
+            <listitem><para>static <link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> <link linkend="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae45ec28c4813f78089382c26cf6572b8">GetAccountInfo</link> ()</para>
+
+<para>Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account. It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class that abstracts communication with YouTube Data API. </para>
+<para>
+Definition at line <link linkend="__you_tube_data_a_p_i_8cs_source_1l00033">33</link> of file <link linkend="__you_tube_data_a_p_i_8cs_source">YouTubeDataAPI.cs</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae45ec28c4813f78089382c26cf6572b8"/><section>
+    <title>GetAccountInfo()</title>
+<indexterm><primary>GetAccountInfo</primary><secondary>BetterYouTubeFeed.YouTubeDataAPI</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.YouTubeDataAPI</primary><secondary>GetAccountInfo</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> BetterYouTubeFeed.YouTubeDataAPI.GetAccountInfo ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account. It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Account object</para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__you_tube_data_a_p_i_8cs_source_1l00198">198</link> of file <link linkend="__you_tube_data_a_p_i_8cs_source">YouTubeDataAPI.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1abc5134491f99e9f2df0c58fb0f05c0f0"/><section>
+    <title>GetChannelInfo()</title>
+<indexterm><primary>GetChannelInfo</primary><secondary>BetterYouTubeFeed.YouTubeDataAPI</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.YouTubeDataAPI</primary><secondary>GetChannelInfo</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link> BetterYouTubeFeed.YouTubeDataAPI.GetChannelInfo (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account, string id)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Handles API channel info request Retrieves information abount a channel from the API. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>account</entry><entry>
+<para>Account from which the request is made</para>
+</entry>
+                            </row>
+                            <row>
+<entry>id</entry><entry>
+<para>hannel id</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Channel object</para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__you_tube_data_a_p_i_8cs_source_1l00143">143</link> of file <link linkend="__you_tube_data_a_p_i_8cs_source">YouTubeDataAPI.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac1ebaa0b9edbdadfa87004f1367d2f6d"/><section>
+    <title>GetSubsctiptionsID()</title>
+<indexterm><primary>GetSubsctiptionsID</primary><secondary>BetterYouTubeFeed.YouTubeDataAPI</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.YouTubeDataAPI</primary><secondary>GetSubsctiptionsID</secondary></indexterm>
+<para><computeroutput>static List&lt; string &gt; BetterYouTubeFeed.YouTubeDataAPI.GetSubsctiptionsID (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-commercial mode. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>account</entry><entry>
+<para>Account from which the request is made&lt;/param <formalpara><title>Returns</title>
+
+<para>List of subscriptions</para>
+</formalpara>
+</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__you_tube_data_a_p_i_8cs_source_1l00119">119</link> of file <link linkend="__you_tube_data_a_p_i_8cs_source">YouTubeDataAPI.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a5e1e0c000e639de426c49456530c7a41"/><section>
+    <title>GetVideos()</title>
+<indexterm><primary>GetVideos</primary><secondary>BetterYouTubeFeed.YouTubeDataAPI</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.YouTubeDataAPI</primary><secondary>GetVideos</secondary></indexterm>
+<para><computeroutput>static ICollection&lt; <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link> &gt; BetterYouTubeFeed.YouTubeDataAPI.GetVideos (<link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link> account, string id)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-commercial mode. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>account</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>id</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__you_tube_data_a_p_i_8cs_source_1l00167">167</link> of file <link linkend="__you_tube_data_a_p_i_8cs_source">YouTubeDataAPI.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__you_tube_data_a_p_i_8cs">YouTubeDataAPI.cs</link></section>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_c6310732a22f63c0c2fc5595561e68f1" xml:lang="en-US">
+<title>Core Directory Reference</title>
+<indexterm><primary>Core Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__observable_object_8cs">ObservableObject.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__relay_command_8cs">RelayCommand.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,174 @@
+\hypertarget{_you_tube_data_a_p_i_8cs_source}{}\doxysection{You\+Tube\+Data\+API.\+cs}
+\mbox{\hyperlink{_you_tube_data_a_p_i_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }Newtonsoft.Json;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System.Configuration;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }System.Net.Http;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00007}00007\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00008}00008\ \textcolor{keyword}{using\ }System.Text.Json.Serialization;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00009}00009\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00010}00010\ \textcolor{keyword}{using\ }System.Windows.Navigation;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00011}00011\ \textcolor{keyword}{using\ }static\ System.Net.WebRequestMethods;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00012}00012\ \textcolor{keyword}{using\ }System.Threading;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00013}00013\ \textcolor{keyword}{using\ }Microsoft.Identity.Client;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00014}00014\ \textcolor{keyword}{using\ }Google.Apis.Auth.OAuth2;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00015}00015\ \textcolor{keyword}{using\ }Google.Apis.Util;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00016}00016\ \textcolor{keyword}{using\ }Google.Apis.YouTube;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00017}00017\ \textcolor{keyword}{using\ }Google.Apis.YouTube.v3;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00018}00018\ \textcolor{keyword}{using\ }Google.Apis.Services;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00019}00019\ \textcolor{keyword}{using\ }Google.Apis.Auth;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00020}00020\ \textcolor{keyword}{using\ }Microsoft.IdentityModel.Protocols.OpenIdConnect;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00021}00021\ \textcolor{keyword}{using\ }System.IO;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00022}00022\ \textcolor{keyword}{using\ }Microsoft.IdentityModel.Tokens;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00023}00023\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_better_you_tube_feed_1_1_models}{BetterYouTubeFeed.Models}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00024}00024\ \textcolor{keyword}{using\ }System.Runtime.CompilerServices;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00025}00025\ \textcolor{keyword}{using\ }Google.Apis.Oauth2.v2;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00026}00026\ \textcolor{keyword}{using\ }Google.Apis.Util.Store;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00028}00028\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_better_you_tube_feed}{BetterYouTubeFeed}}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00029}00029\ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00033}\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i}{00033}}\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i}{YouTubeDataAPI}}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00034}00034\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{string}\ clientId\ =\ \textcolor{stringliteral}{"{}32650836834-\/tvvdl85dgdo9jdk51q4bg82a8ou6ev3k.apps.googleusercontent.com"{}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{string}\ clientSecret\ =\ \textcolor{stringliteral}{"{}GOCSPX-\/SjTEsgTRkBGE6HVrDTzhVK-\/aC9v3"{}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{string}\ StringKey()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ length\ =\ 7;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ StringBuilder\ str\_build\ =\ \textcolor{keyword}{new}\ StringBuilder();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ Random\ random\ =\ \textcolor{keyword}{new}\ Random();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{char}\ letter;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ length;\ i++)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}\ flt\ =\ random.NextDouble();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ shift\ =\ Convert.ToInt32(Math.Floor(25\ *\ flt));}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ letter\ =\ Convert.ToChar(shift\ +\ 65);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ str\_build.Append(letter);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ str\_build.ToString();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keyword}{static}\ UserCredential\ Authenticate(\textcolor{keywordtype}{string}\ userId)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ UserCredential\ cred;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ clientId\ =\ \textcolor{stringliteral}{"{}893351996823-\/hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com"{}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ clientSecret\ =\ \textcolor{stringliteral}{"{}GOCSPX-\/uVLyaJTCYmJgMpoKFk7jkDliABcR"{}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}[]\ scopes\ =\ \{\ \ YouTubeService.Scope.YoutubeReadonly\ \};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ cred\ =\ GoogleWebAuthorizationBroker.AuthorizeAsync(}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ ClientSecrets}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00079}00079\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ClientId\ =\ clientId,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ClientSecret\ =\ clientSecret,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scopes,\ userId,\ CancellationToken.None,\textcolor{keyword}{new}\ FileDataStore(\textcolor{stringliteral}{"{}YouTubeDataAPI.Auth.Store"{}})).Result;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (cred.Token.IsExpired(SystemClock.Default))}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cred.RefreshTokenAsync(CancellationToken.None).Wait();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ cred;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00095}00095\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keyword}{static}\ (UserCredential,string)\ Authenticate()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00096}00096\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00097}00097\ \ \ \ \ \ \ \ \ \ \ \ \ UserCredential\ cred;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00098}00098\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}[]\ scopes\ =\ \{\ Oauth2Service.Scope.UserinfoEmail,\ Oauth2Service.Scope.UserinfoProfile,\ Oauth2Service.Scope.Openid,\ YouTubeService.Scope.YoutubeReadonly\};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ userId\ =\ StringKey();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ cred\ =\ GoogleWebAuthorizationBroker.AuthorizeAsync(}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00101}00101\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ ClientSecrets}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00102}00102\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00103}00103\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ClientId\ =\ clientId,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00104}00104\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ClientSecret\ =\ clientSecret,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00105}00105\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00106}00106\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scopes,\ userId,\ CancellationToken.None,\ \textcolor{keyword}{new}\ FileDataStore(\textcolor{stringliteral}{"{}YouTubeDataAPI.Auth.Store"{}})).Result;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00107}00107\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (cred.Token.IsExpired(SystemClock.Default))}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00108}00108\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cred.RefreshTokenAsync(CancellationToken.None).Wait();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00109}00109\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ (cred,\ userId);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00110}00110\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00119}\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ac1ebaa0b9edbdadfa87004f1367d2f6d}{00119}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ List<string>\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ac1ebaa0b9edbdadfa87004f1367d2f6d}{GetSubsctiptionsID}}(\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}\ account)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00120}00120\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00121}00121\ \ \ \ \ \ \ \ \ \ \ \ \ UserCredential\ credential\ =\ Authenticate(account.\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_aad1c19e613c38ef78d209c6a5da04f58}{AuthId}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00122}00122\ \ \ \ \ \ \ \ \ \ \ \ \ var\ youtubeService\ =\ \textcolor{keyword}{new}\ YouTubeService(\textcolor{keyword}{new}\ BaseClientService.Initializer()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00123}00123\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00124}00124\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HttpClientInitializer\ =\ credential,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00125}00125\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ApplicationName\ =\ \textcolor{stringliteral}{"{}BYTF"{}},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00126}00126\ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00127}00127\ \ \ \ \ \ \ \ \ \ \ \ \ var\ request\ =\ youtubeService.Subscriptions.List(\textcolor{stringliteral}{"{}snippet"{}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00128}00128\ \ \ \ \ \ \ \ \ \ \ \ \ request.Mine\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00129}00129\ \ \ \ \ \ \ \ \ \ \ \ \ request.MaxResults\ =\ 3;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00130}00130\ \ \ \ \ \ \ \ \ \ \ \ \ var\ response\ =\ request.Execute();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ List<string>\ result\ =\ \textcolor{keyword}{new}\ List<string>();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00132}00132\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ response.Items)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00133}00133\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result.Add(item.Snippet.ResourceId.ChannelId);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00134}00134\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00135}00135\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00143}\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_abc5134491f99e9f2df0c58fb0f05c0f0}{00143}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_abc5134491f99e9f2df0c58fb0f05c0f0}{GetChannelInfo}}(\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}\ account,\ \textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id})}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00144}00144\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00145}00145\ \ \ \ \ \ \ \ \ \ \ \ \ UserCredential\ credential\ =\ Authenticate(account.\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_aad1c19e613c38ef78d209c6a5da04f58}{AuthId}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00146}00146\ \ \ \ \ \ \ \ \ \ \ \ \ var\ youtubeService\ =\ \textcolor{keyword}{new}\ YouTubeService(\textcolor{keyword}{new}\ BaseClientService.Initializer()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00147}00147\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00148}00148\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HttpClientInitializer\ =\ credential,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00149}00149\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ApplicationName\ =\ \textcolor{stringliteral}{"{}BYTF"{}},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00150}00150\ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00151}00151\ \ \ \ \ \ \ \ \ \ \ \ \ var\ request\ =\ youtubeService.Channels.List(\textcolor{stringliteral}{"{}snippet"{}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00152}00152\ \ \ \ \ \ \ \ \ \ \ \ \ request.Id\ =\ id;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00153}00153\ \ \ \ \ \ \ \ \ \ \ \ \ var\ response\ =\ request.Execute();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00154}00154\ \ \ \ \ \ \ \ \ \ \ \ \ var\ data\ =\ response.Items[0];}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00155}00155\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_channel}{Channel}}(data.Id,data.Snippet.Title,data.Snippet.CustomUrl,data.Snippet.Thumbnails.Medium.Url,data.Snippet.Description,account.\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_a716bc1cecbf509a3cc52ef6d73db2286}{AccountId}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00156}00156\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00157}00157\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00167}\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_a5e1e0c000e639de426c49456530c7a41}{00167}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ ICollection<Video>\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_a5e1e0c000e639de426c49456530c7a41}{GetVideos}}(\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}\ account,\ \textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id})}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00168}00168\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00169}00169\ \ \ \ \ \ \ \ \ \ \ \ \ UserCredential\ credential\ =\ Authenticate(account.\mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account_aad1c19e613c38ef78d209c6a5da04f58}{AuthId}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00170}00170\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00171}00171\ \ \ \ \ \ \ \ \ \ \ \ \ var\ youtubeService\ =\ \textcolor{keyword}{new}\ YouTubeService(\textcolor{keyword}{new}\ BaseClientService.Initializer()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00172}00172\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00173}00173\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HttpClientInitializer\ =\ credential,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00174}00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ApplicationName\ =\ \textcolor{stringliteral}{"{}BYTF"{}},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00175}00175\ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00176}00176\ \ \ \ \ \ \ \ \ \ \ \ \ var\ request\ =\ youtubeService.Search.List(\textcolor{stringliteral}{"{}snippet"{}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00177}00177\ \ \ \ \ \ \ \ \ \ \ \ \ request.ChannelId\ =\ id;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00178}00178\ \ \ \ \ \ \ \ \ \ \ \ \ request.Order\ =\ SearchResource.ListRequest.OrderEnum.Date;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00179}00179\ \ \ \ \ \ \ \ \ \ \ \ \ request.Type\ =\ \textcolor{stringliteral}{"{}video"{}};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00180}00180\ \ \ \ \ \ \ \ \ \ \ \ \ request.MaxResults\ =\ 1;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00181}00181\ \ \ \ \ \ \ \ \ \ \ \ \ var\ response\ =\ request.Execute();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00182}00182\ \ \ \ \ \ \ \ \ \ \ \ \ ICollection<Video>\ result\ =\ \textcolor{keyword}{new}\ List<Video>();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00183}00183\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ item\ \textcolor{keywordflow}{in}\ response.Items)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00184}00184\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ result.Add(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_video}{Video}}(item.Id.VideoId,\ item.Snippet.Title,DateTime.Parse(item.Snippet.PublishedAtRaw).ToString(),\ DateTime.Now.ToString(),item.Snippet.Thumbnails.Medium.Url,\textcolor{keywordtype}{id}));}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00185}00185\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00186}00186\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00187}00187\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00188}00188\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00189}00189\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00198}\mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ae45ec28c4813f78089382c26cf6572b8}{00198}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_you_tube_data_a_p_i_ae45ec28c4813f78089382c26cf6572b8}{GetAccountInfo}}()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00199}00199\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00200}00200\ \ \ \ \ \ \ \ \ \ \ \ \ (UserCredential\ credential,\ \textcolor{keywordtype}{string}\ userId)\ =\ Authenticate();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00201}00201\ \ \ \ \ \ \ \ \ \ \ \ \ var\ youtubeService\ =\ \textcolor{keyword}{new}\ YouTubeService(\textcolor{keyword}{new}\ BaseClientService.Initializer()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00202}00202\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00203}00203\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HttpClientInitializer\ =\ credential,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00204}00204\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ApplicationName\ =\ \textcolor{stringliteral}{"{}BYTF"{}},}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00205}00205\ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00206}00206\ \ \ \ \ \ \ \ \ \ \ \ \ var\ yt\_request\ =\ youtubeService.Channels.List(\textcolor{stringliteral}{"{}snippet"{}});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00207}00207\ \ \ \ \ \ \ \ \ \ \ \ \ yt\_request.Mine\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00208}00208\ \ \ \ \ \ \ \ \ \ \ \ \ var\ yt\_response\ =\ yt\_request.Execute();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00209}00209\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (yt\_response.PageInfo.TotalResults\ !=\ 0)}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00210}00210\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00211}00211\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ var\ data\ =\ yt\_response.Items[0];}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00212}00212\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}(data.Id,\textcolor{stringliteral}{"{}channel"{}},userId,data.Snippet.Title,\textcolor{stringliteral}{"{}"{}},\textcolor{stringliteral}{"{}"{}},\textcolor{stringliteral}{"{}"{}},data.Snippet.CustomUrl,data.Snippet.Thumbnails.Medium.Url);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00213}00213\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00214}00214\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00215}00215\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00216}00216\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ var\ OAuthService\ =\ \textcolor{keyword}{new}\ Oauth2Service(\textcolor{keyword}{new}\ BaseClientService.Initializer()}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00217}00217\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00218}00218\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ HttpClientInitializer\ =\ credential,}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00219}00219\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00220}00220\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ var\ acc\_request\ =\ OAuthService.Userinfo.Get();}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00221}00221\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ var\ acc\_response\ =\ acc\_request.ExecuteAsync().Result;}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00222}00222\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_better_you_tube_feed_1_1_models_1_1_account}{Account}}(acc\_response.Id,\textcolor{stringliteral}{"{}account"{}},\ userId,\ acc\_response.Name,\ acc\_response.FamilyName,\ acc\_response.GivenName,\ acc\_response.Email,\ acc\_response.Link,\ acc\_response.Picture);}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00223}00223\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00224}00224\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00225}00225\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00226}00226\ }
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00227}00227\ \}}
+\DoxyCodeLine{\Hypertarget{_you_tube_data_a_p_i_8cs_source_l00228}00228\ }
+
+\end{DoxyCode}

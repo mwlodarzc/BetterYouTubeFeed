@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_core_1_1_observable_object" kind="class" language="C#" prot="package">
+    <compoundname>BetterYouTubeFeed::Core::ObservableObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+    <derivedcompoundref refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model" prot="public" virt="non-virtual">BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model" prot="public" virt="non-virtual">BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a520716074c575f75ae33868f43556e85" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler BetterYouTubeFeed.Core.ObservableObject.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <qualifiedname>BetterYouTubeFeed.Core.ObservableObject.PropertyChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ObservableObject.cs" line="10" column="50" bodyfile="Core/ObservableObject.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a332c7800d93a109b9bb4bd2b92dbb9b0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BetterYouTubeFeed.Core.ObservableObject.OnPropertyChanged</definition>
+        <argsstring>([CallerMemberName] string callMemberName=null)</argsstring>
+        <name>OnPropertyChanged</name>
+        <qualifiedname>BetterYouTubeFeed.Core.ObservableObject.OnPropertyChanged</qualifiedname>
+        <param>
+          <attributes>[CallerMemberName]</attributes>
+          <type>string</type>
+          <declname>callMemberName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Core/ObservableObject.cs" line="12" column="24" bodyfile="Core/ObservableObject.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Core.ObservableObject</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.ChannelListViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>BetterYouTubeFeed.MVVM.ViewModel.MainViewModel</label>
+        <link refid="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BetterYouTubeFeed.Core.ObservableObject</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="Core/ObservableObject.cs" line="7" column="13" bodyfile="Core/ObservableObject.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a332c7800d93a109b9bb4bd2b92dbb9b0" prot="protected" virt="non-virtual"><scope>BetterYouTubeFeed::Core::ObservableObject</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_better_you_tube_feed_1_1_core_1_1_observable_object_1a520716074c575f75ae33868f43556e85" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::Core::ObservableObject</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

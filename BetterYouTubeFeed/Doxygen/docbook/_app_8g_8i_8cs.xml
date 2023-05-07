@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__app_8g_8i_8cs" xml:lang="en-US">
+<title>obj/Debug/net6.0-windows/App.g.i.cs File Reference</title>
+<indexterm><primary>obj/Debug/net6.0-windows/App.g.i.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classbyt_1_1_app">byt.App</link></para>
+
+<para>App. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacebyt">byt</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

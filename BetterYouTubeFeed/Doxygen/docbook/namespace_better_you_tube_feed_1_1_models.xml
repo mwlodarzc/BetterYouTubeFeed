@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_better_you_tube_feed_1_1_models" xml:lang="en-US">
+<title>BetterYouTubeFeed.Models Namespace Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Models</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_models_1_1_account">Account</link></para>
+
+<para>Entity Framework table definition defines Account table class. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_models_1_1_channel">Channel</link></para>
+
+<para>Entity Framework table definition defines Channel table class. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_better_you_tube_feed_1_1_models_1_1_video">Video</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

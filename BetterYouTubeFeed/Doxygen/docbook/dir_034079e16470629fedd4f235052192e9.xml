@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_034079e16470629fedd4f235052192e9" xml:lang="en-US">
+<title>obj/Debug/net6.0-windows Directory Reference</title>
+<indexterm><primary>obj/Debug/net6.0-windows Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_da07ea390b06ad7cded3a0b7ac982f26">MVVM</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__add_video_popup_8g_8i_8cs">AddVideoPopup.g.i.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__app_8g_8cs">App.g.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__app_8g_8i_8cs">App.g.i.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed_8_assembly_info_8cs">BetterYouTubeFeed.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__1adeeh3h__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_1adeeh3h_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__1veurjzm__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_1veurjzm_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__k2ixrlvx__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_k2ixrlvx_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__lx5d1ibp__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_lx5d1ibp_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__scu2c0q4__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_scu2c0q4_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__ttnz0gxq__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_ttnz0gxq_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__better_you_tube_feed__tw1j03lz__wpftmp_8_assembly_info_8cs">BetterYouTubeFeed_tw1j03lz_wpftmp.AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__generated_internal_type_helper_8g_8cs">GeneratedInternalTypeHelper.g.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__generated_internal_type_helper_8g_8i_8cs">GeneratedInternalTypeHelper.g.i.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__main_window_8g_8cs">MainWindow.g.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__main_window_8g_8i_8cs">MainWindow.g.i.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_better_you_tube_feed_1_1_core_1_1_relay_command" xml:lang="en-US">
+<title>BetterYouTubeFeed.Core.RelayCommand Class Reference</title>
+<indexterm><primary>BetterYouTubeFeed.Core.RelayCommand</primary></indexterm>
+<para>Inheritance diagram for BetterYouTubeFeed.Core.RelayCommand:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_better_you_tube_feed_1_1_core_1_1_relay_command.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1af7f7993fb6fa5896de2ee9810666fa9d">RelayCommand</link> (Action&lt; object &gt; execute, Func&lt; object, bool &gt; canExecute=null)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1aa6e1c7abde52e224beb34c28e9afaacf">CanExecute</link> (object parameter)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1ad0c6c02806ea5cf6b47f69b55d5d3778">Execute</link> (object parameter)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>EventHandler <link linkend="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1a5fec81ee121f939c145b0b83c3118ee1">CanExecuteChanged</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__relay_command_8cs_source_1l00006">6</link> of file <link linkend="__relay_command_8cs_source">RelayCommand.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1af7f7993fb6fa5896de2ee9810666fa9d"/><section>
+    <title>RelayCommand()</title>
+<indexterm><primary>RelayCommand</primary><secondary>BetterYouTubeFeed.Core.RelayCommand</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Core.RelayCommand</primary><secondary>RelayCommand</secondary></indexterm>
+<para><computeroutput>BetterYouTubeFeed.Core.RelayCommand.RelayCommand (Action&lt; object &gt; execute, Func&lt; object, bool &gt; canExecute = <computeroutput>null</computeroutput>
+)</computeroutput></para><para>
+Definition at line <link linkend="__relay_command_8cs_source_1l00017">17</link> of file <link linkend="__relay_command_8cs_source">RelayCommand.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1aa6e1c7abde52e224beb34c28e9afaacf"/><section>
+    <title>CanExecute()</title>
+<indexterm><primary>CanExecute</primary><secondary>BetterYouTubeFeed.Core.RelayCommand</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Core.RelayCommand</primary><secondary>CanExecute</secondary></indexterm>
+<para><computeroutput>bool BetterYouTubeFeed.Core.RelayCommand.CanExecute (object parameter)</computeroutput></para><para>
+Definition at line <link linkend="__relay_command_8cs_source_1l00023">23</link> of file <link linkend="__relay_command_8cs_source">RelayCommand.cs</link>.</para>
+</section>
+<anchor xml:id="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1ad0c6c02806ea5cf6b47f69b55d5d3778"/><section>
+    <title>Execute()</title>
+<indexterm><primary>Execute</primary><secondary>BetterYouTubeFeed.Core.RelayCommand</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Core.RelayCommand</primary><secondary>Execute</secondary></indexterm>
+<para><computeroutput>void BetterYouTubeFeed.Core.RelayCommand.Execute (object parameter)</computeroutput></para><para>
+Definition at line <link linkend="__relay_command_8cs_source_1l00028">28</link> of file <link linkend="__relay_command_8cs_source">RelayCommand.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_better_you_tube_feed_1_1_core_1_1_relay_command_1a5fec81ee121f939c145b0b83c3118ee1"/><section>
+    <title>CanExecuteChanged</title>
+<indexterm><primary>CanExecuteChanged</primary><secondary>BetterYouTubeFeed.Core.RelayCommand</secondary></indexterm>
+<indexterm><primary>BetterYouTubeFeed.Core.RelayCommand</primary><secondary>CanExecuteChanged</secondary></indexterm>
+<para><computeroutput>EventHandler BetterYouTubeFeed.Core.RelayCommand.CanExecuteChanged<computeroutput>[add]</computeroutput>, <computeroutput>[remove]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__relay_command_8cs_source_1l00011">11</link> of file <link linkend="__relay_command_8cs_source">RelayCommand.cs</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Core/<link linkend="__relay_command_8cs">RelayCommand.cs</link></section>
+</section>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_better_you_tube_feed" kind="namespace" language="C#">
+    <compoundname>BetterYouTubeFeed</compoundname>
+    <innerclass refid="class_better_you_tube_feed_1_1_app" prot="public">BetterYouTubeFeed::App</innerclass>
+    <innerclass refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i" prot="public">BetterYouTubeFeed::YouTubeDataAPI</innerclass>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_core">BetterYouTubeFeed::Core</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_data">BetterYouTubeFeed::Data</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_migrations">BetterYouTubeFeed::Migrations</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_models">BetterYouTubeFeed::Models</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_m_v_v_m">BetterYouTubeFeed::MVVM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="App.xaml.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

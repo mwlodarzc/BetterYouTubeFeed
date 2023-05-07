@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_a800818f8fd26d20efea62b13b6b8bed" kind="dir">
+    <compoundname>MVVM</compoundname>
+    <innerdir refid="dir_5b75c748dc2a5b05a78ed4ddc30b4a8e">MVVM/View</innerdir>
+    <innerdir refid="dir_f4e4fc4d92d369bb0ca392c969ba322e">MVVM/ViewModel</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MVVM/"/>
+  </compounddef>
+</doxygen>

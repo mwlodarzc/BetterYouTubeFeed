@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_better_you_tube_feed_1_1_m_v_v_m" kind="namespace" language="C#">
+    <compoundname>BetterYouTubeFeed::MVVM</compoundname>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view">BetterYouTubeFeed::MVVM::View</innernamespace>
+    <innernamespace refid="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model">BetterYouTubeFeed::MVVM::ViewModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MVVM/View/ChannelListView.xaml.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

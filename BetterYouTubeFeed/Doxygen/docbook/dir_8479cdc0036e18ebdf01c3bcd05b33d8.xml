@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_8479cdc0036e18ebdf01c3bcd05b33d8" xml:lang="en-US">
+<title>Migrations Directory Reference</title>
+<indexterm><primary>Migrations Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_20230507195553___init_8cs">20230507195553_Init.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_20230507195553___init_8_designer_8cs">20230507195553_Init.Designer.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__b_y_t_f_context_model_snapshot_8cs">BYTFContextModelSnapshot.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

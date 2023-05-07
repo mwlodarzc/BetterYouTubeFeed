@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i" kind="class" language="C#" prot="public">
+    <compoundname>BetterYouTubeFeed::YouTubeDataAPI</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a6efbe0498f3d332691b104aaa69fc5e6" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.YouTubeDataAPI.clientId</definition>
+        <argsstring></argsstring>
+        <name>clientId</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.clientId</qualifiedname>
+        <initializer>= &quot;32650836834-tvvdl85dgdo9jdk51q4bg82a8ou6ev3k.apps.googleusercontent.com&quot;</initializer>
+        <briefdescription>
+<para>ClientId from API. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="38" column="23" bodyfile="YouTubeDataAPI.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae33d14e9933c338ec065d7b8f18b50d1" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string BetterYouTubeFeed.YouTubeDataAPI.clientSecret</definition>
+        <argsstring></argsstring>
+        <name>clientSecret</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.clientSecret</qualifiedname>
+        <initializer>= &quot;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&quot;</initializer>
+        <briefdescription>
+<para>Client secret key from API. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="42" column="23" bodyfile="YouTubeDataAPI.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ab3287db105f69fffc91ca0258f836e3b" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>BetterYouTubeFeed.YouTubeDataAPI.UserCredential</definition>
+        <argsstring></argsstring>
+        <name>UserCredential</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.UserCredential</qualifiedname>
+        <briefdescription>
+<para>Allows Google OAuth 2 authentification Starts browser authentification process Instance of Authenticate function used for establishing new Account connection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>UserCredentials object</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="95" column="24" bodyfile="YouTubeDataAPI.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a390e3d8bcdde0a4bdb806d8fc5b60ec6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BetterYouTubeFeed.YouTubeDataAPI.StringKey</definition>
+        <argsstring>()</argsstring>
+        <name>StringKey</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.StringKey</qualifiedname>
+        <briefdescription>
+<para>Allows aplication keys generation. Keys are used to differenciate accounts and requests sent from them. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Generated string</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="49" column="31" bodyfile="YouTubeDataAPI.cs" bodystart="49" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a232fa1f8b8aaccbc34fccaca7d99acf7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UserCredential</type>
+        <definition>static UserCredential BetterYouTubeFeed.YouTubeDataAPI.Authenticate</definition>
+        <argsstring>(string userId)</argsstring>
+        <name>Authenticate</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.Authenticate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+<para>Allows Google OAuth 2 authentification Starts browser authentification process Instance of Authenticate function used for authentification of alreade established accounts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id of account that is going to be authentificated</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>UserCredentials object</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="71" column="39" bodyfile="YouTubeDataAPI.cs" bodystart="71" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac7aa43dd7833f43cb096369486f7e62a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BetterYouTubeFeed.YouTubeDataAPI.Authenticate</definition>
+        <argsstring>()</argsstring>
+        <name>Authenticate</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.Authenticate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="95" column="45" bodyfile="YouTubeDataAPI.cs" bodystart="95" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac1ebaa0b9edbdadfa87004f1367d2f6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>static List&lt; string &gt; BetterYouTubeFeed.YouTubeDataAPI.GetSubsctiptionsID</definition>
+        <argsstring>(Account account)</argsstring>
+        <name>GetSubsctiptionsID</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.GetSubsctiptionsID</qualifiedname>
+        <param>
+          <type><ref refid="class_better_you_tube_feed_1_1_models_1_1_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+<para>Handles API youtube channel subscription list request Retrieves the list of subscription for specified account WARNING the number of subscription channels has been restricted because API is used in non-commercial mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Account from which the request is made&lt;/param <simplesect kind="return"><para>List of subscriptions</para>
+</simplesect>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="119" column="28" bodyfile="YouTubeDataAPI.cs" bodystart="119" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1abc5134491f99e9f2df0c58fb0f05c0f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_better_you_tube_feed_1_1_models_1_1_channel" kindref="compound">Channel</ref></type>
+        <definition>static Channel BetterYouTubeFeed.YouTubeDataAPI.GetChannelInfo</definition>
+        <argsstring>(Account account, string id)</argsstring>
+        <name>GetChannelInfo</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.GetChannelInfo</qualifiedname>
+        <param>
+          <type><ref refid="class_better_you_tube_feed_1_1_models_1_1_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Handles API channel info request Retrieves information abount a channel from the API. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Account from which the request is made</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>hannel id</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Channel object</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="143" column="31" bodyfile="YouTubeDataAPI.cs" bodystart="143" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a5e1e0c000e639de426c49456530c7a41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ICollection&lt; <ref refid="class_better_you_tube_feed_1_1_models_1_1_video" kindref="compound">Video</ref> &gt;</type>
+        <definition>static ICollection&lt; Video &gt; BetterYouTubeFeed.YouTubeDataAPI.GetVideos</definition>
+        <argsstring>(Account account, string id)</argsstring>
+        <name>GetVideos</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.GetVideos</qualifiedname>
+        <param>
+          <type><ref refid="class_better_you_tube_feed_1_1_models_1_1_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Handles API video list request Retrieves list of videos for specified channel WARNING the number of videos has been restricted because API is used in non-commercial mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="167" column="35" bodyfile="YouTubeDataAPI.cs" bodystart="167" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae45ec28c4813f78089382c26cf6572b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_better_you_tube_feed_1_1_models_1_1_account" kindref="compound">Account</ref></type>
+        <definition>static Account BetterYouTubeFeed.YouTubeDataAPI.GetAccountInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccountInfo</name>
+        <qualifiedname>BetterYouTubeFeed.YouTubeDataAPI.GetAccountInfo</qualifiedname>
+        <briefdescription>
+<para>Handles API account information request This function determines wheater or not the account has a youtube channel Uses two different method because of that First it checks if the youtube account request returns information if it doesnt it tries getting information about the google account. It uses Oauth2Service insted of YouTubeService used elsewhere and executes Userinfo request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Account object</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="YouTubeDataAPI.cs" line="198" column="31" bodyfile="YouTubeDataAPI.cs" bodystart="198" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that abstracts communication with YouTube Data API. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="YouTubeDataAPI.cs" line="33" column="5" bodyfile="YouTubeDataAPI.cs" bodystart="34" bodyend="225"/>
+    <listofallmembers>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a232fa1f8b8aaccbc34fccaca7d99acf7" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>Authenticate</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac7aa43dd7833f43cb096369486f7e62a" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>Authenticate</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a6efbe0498f3d332691b104aaa69fc5e6" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>clientId</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae33d14e9933c338ec065d7b8f18b50d1" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>clientSecret</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ae45ec28c4813f78089382c26cf6572b8" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>GetAccountInfo</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1abc5134491f99e9f2df0c58fb0f05c0f0" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>GetChannelInfo</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ac1ebaa0b9edbdadfa87004f1367d2f6d" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>GetSubsctiptionsID</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a5e1e0c000e639de426c49456530c7a41" prot="public" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>GetVideos</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1a390e3d8bcdde0a4bdb806d8fc5b60ec6" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>StringKey</name></member>
+      <member refid="class_better_you_tube_feed_1_1_you_tube_data_a_p_i_1ab3287db105f69fffc91ca0258f836e3b" prot="private" virt="non-virtual"><scope>BetterYouTubeFeed::YouTubeDataAPI</scope><name>UserCredential</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

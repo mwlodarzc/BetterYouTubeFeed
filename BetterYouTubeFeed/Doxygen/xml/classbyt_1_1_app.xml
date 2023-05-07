@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classbyt_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>byt::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Application</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbyt_1_1_app_1a0237bd5fff1379994e465c1f60638a7d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool byt.App::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>byt.App._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/App.g.cs" line="46" column="22" bodyfile="obj/Debug/net6.0-windows/App.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>byt.App.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/App.g.cs" line="53" column="21" bodyfile="obj/Debug/net6.0-windows/App.g.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void byt.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>byt.App.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/App.g.i.cs" line="53" column="21" bodyfile="obj/Debug/net6.0-windows/App.g.i.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void byt.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>byt.App.Main</qualifiedname>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/App.g.cs" line="79" column="28" bodyfile="obj/Debug/net6.0-windows/App.g.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void byt.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>byt.App.Main</qualifiedname>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net6.0-windows/App.g.i.cs" line="79" column="28" bodyfile="obj/Debug/net6.0-windows/App.g.i.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>App. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="1">
+        <label>byt.App</label>
+        <link refid="classbyt_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="1">
+        <label>byt.App</label>
+        <link refid="classbyt_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net6.0-windows/App.g.cs" line="44" column="19" bodyfile="obj/Debug/net6.0-windows/App.g.cs" bodystart="44" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classbyt_1_1_app_1a0237bd5fff1379994e465c1f60638a7d" prot="private" virt="non-virtual"><scope>byt::App</scope><name>_contentLoaded</name></member>
+      <member refid="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" prot="public" virt="non-virtual"><scope>byt::App</scope><name>InitializeComponent</name></member>
+      <member refid="classbyt_1_1_app_1a87968a12092b9ada10fb9751905a0755" prot="public" virt="non-virtual"><scope>byt::App</scope><name>InitializeComponent</name></member>
+      <member refid="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" prot="public" virt="non-virtual"><scope>byt::App</scope><name>Main</name></member>
+      <member refid="classbyt_1_1_app_1a0b785da3dcd0bb1bcf6147dd29b4860f" prot="public" virt="non-virtual"><scope>byt::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

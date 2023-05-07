@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_034dbd661dca72e5ea064323d669a4ce" kind="dir">
+    <compoundname>obj/Debug/net6.0-windows/MVVM/View</compoundname>
+    <innerfile refid="_channel_list_view_8g_8cs">ChannelListView.g.cs</innerfile>
+    <innerfile refid="_channel_list_view_8g_8i_8cs">ChannelListView.g.i.cs</innerfile>
+    <innerfile refid="_home_view_8g_8cs">HomeView.g.cs</innerfile>
+    <innerfile refid="_home_view_8g_8i_8cs">HomeView.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net6.0-windows/MVVM/View/"/>
+  </compounddef>
+</doxygen>

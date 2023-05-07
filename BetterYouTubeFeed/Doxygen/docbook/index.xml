@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>BetterYouTubeFeed</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_better_you_tube_feed.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_core.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_m_v_v_m.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacebyt.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_xaml_generated_namespace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="class_better_you_tube_feed_1_1_models_1_1_account.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classbyt_1_1_add_video_popup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classbyt_1_1_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_data_1_1_b_y_t_f_context.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_migrations_1_1_b_y_t_f_context_model_snapshot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_models_1_1_channel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_channel_list_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_channel_list_view_model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_xaml_generated_namespace_1_1_generated_internal_type_helper.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_1_1_home_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_home_view_model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_migrations_1_1_init.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_m_v_v_m_1_1_view_model_1_1_main_view_model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classbyt_1_1_main_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_core_1_1_relay_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_models_1_1_video.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_better_you_tube_feed_1_1_you_tube_data_a_p_i.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_app_8xaml_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_observable_object_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_observable_object_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_relay_command_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_relay_command_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_b_y_t_f_context_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_b_y_t_f_context_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8xaml_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="20230507195553___init_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="20230507195553___init_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="20230507195553___init_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="20230507195553___init_8_designer_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_b_y_t_f_context_model_snapshot_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_b_y_t_f_context_model_snapshot_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_account_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_account_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_video_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_video_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8xaml_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8xaml_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_model_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_model_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_model_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_model_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_view_model_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_view_model_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_add_video_popup_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_add_video_popup_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__1adeeh3h__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__1adeeh3h__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__1veurjzm__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__1veurjzm__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__k2ixrlvx__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__k2ixrlvx__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__lx5d1ibp__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__lx5d1ibp__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__scu2c0q4__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__scu2c0q4__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__ttnz0gxq__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__ttnz0gxq__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__tw1j03lz__wpftmp_8_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_better_you_tube_feed__tw1j03lz__wpftmp_8_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_generated_internal_type_helper_8g_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_generated_internal_type_helper_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_generated_internal_type_helper_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_generated_internal_type_helper_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8g_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_channel_list_view_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8g_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8g_8i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_home_view_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_you_tube_data_a_p_i_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_you_tube_data_a_p_i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

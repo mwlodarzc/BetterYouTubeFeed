@@ -8,21 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\play-button_32.png" />
-    <None Remove="Images\play-button_64.png" />
-    <None Remove="Images\play-button_r.png" />
-    <None Remove="Images\play-button_w.png" />
+    <None Remove="Images\icons8-add-cropped.png" />
+    <None Remove="Images\icons8-close-60.png" />
+    <None Remove="Images\icons8-remove-50.png" />
+    <None Remove="Images\icons8-subtract-64.png" />
+    <None Remove="Images\icons8-sync-64.png" />
+    <None Remove="Images\play-button_64_R.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\play-button_r.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Images\play-button.png" />
-    <Resource Include="Images\play-button_w.png" />
-    <Resource Include="Images\play-button_32.png" />
-    <Resource Include="Images\play-button_64.png" />
+    <Resource Include="Images\icons8-add-cropped.png" />
+    <Resource Include="Images\icons8-close-60.png" />
+    <Resource Include="Images\icons8-remove-50.png" />
+    <Resource Include="Images\icons8-subtract-64.png" />
+    <Resource Include="Images\icons8-sync-64.png" />
+    <Resource Include="Images\play-button_64_R.png" />
   </ItemGroup>
 
   <ItemGroup>

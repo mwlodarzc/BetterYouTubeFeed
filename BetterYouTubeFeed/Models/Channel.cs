@@ -16,7 +16,7 @@ public class Channel
     [Required]
     public string ImageUrl { get; set;}
     public string? Description { get; set; }
-    public string? YouTubeAccountId { get; set;}
+    public string? AccountId { get; set;}
     public ICollection<Video>? Videos { get; set; }
     public Channel()
     { }
@@ -27,6 +27,6 @@ public class Channel
         this.CustomUrl = customUrl;
         this.ImageUrl = imageUrl;
         this.Description = description;
-        this.YouTubeAccountId = ytaccountId;
+        this.AccountId = ytaccountId;
     }
 }

@@ -51,18 +51,20 @@ public class BYTFContext : DbContext
     {
         foreach (var account in Accounts)
             foreach (var id in YouTubeDataAPI.GetSubsctiptionsID(account))
-                if (this.Channels.Where(s => s.ChannelId.Equals(id)).IsNullOrEmpty())
+                if (!this.Channels.Any(s => s.ChannelId == id))
                     this.Channels.Add(YouTubeDataAPI.GetChannelInfo(account, id));
         this.SaveChanges();
     }
     public void UpdateVideos()
     {
-        foreach (var account in Accounts)
+        if (!this.Accounts.IsNullOrEmpty())
+        {
+            Account tmp = this.Accounts.First();
             foreach (var channel in this.Channels)
-                foreach (var video in YouTubeDataAPI.GetVideos(account, channel.ChannelId))
-                    if (this.Videos.Select(v => v.VideoId.Equals(video.VideoId)).IsNullOrEmpty())
+                foreach (var video in YouTubeDataAPI.GetVideos(tmp, channel.ChannelId))
+                    if (!this.Videos.Any(v => v.VideoId == video.VideoId))
                         this.Videos.Add(video);
-        this.SaveChanges();
-
+            this.SaveChanges();
+        }
     }
 }   

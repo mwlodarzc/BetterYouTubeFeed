@@ -29,6 +29,8 @@ namespace BetterYouTubeFeed
 {
     class YouTubeDataAPI
     {
+        static string clientId = "32650836834-tvvdl85dgdo9jdk51q4bg82a8ou6ev3k.apps.googleusercontent.com";
+        static string clientSecret = "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";
         private static string StringKey()
         {
             int length = 7;
@@ -46,7 +48,6 @@ namespace BetterYouTubeFeed
         }
         private static UserCredential Authenticate(string userId)
         {
-           // GoogleCredential cred = GoogleCredential.FromFile(new StreamReader("betteryoutubefeed-service-key.json").ReadToEnd());
             UserCredential cred;
             string clientId = "893351996823-hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com";
             string clientSecret = "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";
@@ -67,9 +68,7 @@ namespace BetterYouTubeFeed
         private static (UserCredential,string) Authenticate()
         {
             UserCredential cred;
-            string clientId = "893351996823-hq7k4bv0daea7egff9cc6ruru5pajqsj.apps.googleusercontent.com";
-            string clientSecret = "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";
-            string[] scopes = { Oauth2Service.ScopeConstants.UserinfoEmail, Oauth2Service.ScopeConstants.UserinfoProfile, Oauth2Service.ScopeConstants.Openid, Oauth2Service.Scope.UserinfoEmail, Oauth2Service.Scope.UserinfoProfile, Oauth2Service.Scope.Openid, YouTubeService.Scope.YoutubeReadonly};
+            string[] scopes = { Oauth2Service.Scope.UserinfoEmail, Oauth2Service.Scope.UserinfoProfile, Oauth2Service.Scope.Openid, YouTubeService.Scope.YoutubeReadonly};
             string userId = StringKey();
             cred = GoogleWebAuthorizationBroker.AuthorizeAsync(
                 new ClientSecrets
@@ -89,7 +88,7 @@ namespace BetterYouTubeFeed
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "BetterYouTubeFeed",
+                ApplicationName = "BYTF",
             });
             var request = youtubeService.Subscriptions.List("snippet");
             request.Mine = true;
@@ -107,7 +106,7 @@ namespace BetterYouTubeFeed
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "BetterYouTubeFeed",
+                ApplicationName = "BYTF",
             });
             var request = youtubeService.Channels.List("snippet");
             request.Id = id;
@@ -124,7 +123,7 @@ namespace BetterYouTubeFeed
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "BetterYouTubeFeed",
+                ApplicationName = "BYTF",
             });
             var request = youtubeService.Search.List("snippet");
             request.ChannelId = id;
@@ -147,7 +146,7 @@ namespace BetterYouTubeFeed
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
-                ApplicationName = "BetterYouTubeFeed",
+                ApplicationName = "BYTF",
             });
             var yt_request = youtubeService.Channels.List("snippet");
             yt_request.Mine = true;
@@ -155,7 +154,7 @@ namespace BetterYouTubeFeed
             if (yt_response.PageInfo.TotalResults != 0)
             {
                 var data = yt_response.Items[0];
-                return new Account(data.Id,userId,data.Snippet.Title,"","","",data.Snippet.CustomUrl,data.Snippet.Thumbnails.Medium.Url);
+                return new Account(data.Id,"channel",userId,data.Snippet.Title,"","","",data.Snippet.CustomUrl,data.Snippet.Thumbnails.Medium.Url);
             }
             else
             {
@@ -165,7 +164,7 @@ namespace BetterYouTubeFeed
                 });
                 var acc_request = OAuthService.Userinfo.Get();
                 var acc_response = acc_request.ExecuteAsync().Result;
-                return new Account(acc_response.Id, userId, acc_response.Name, acc_response.FamilyName, acc_response.GivenName, acc_response.Email, acc_response.Link, acc_response.Picture);
+                return new Account(acc_response.Id,"account", userId, acc_response.Name, acc_response.FamilyName, acc_response.GivenName, acc_response.Email, acc_response.Link, acc_response.Picture);
             }
         }
     }
